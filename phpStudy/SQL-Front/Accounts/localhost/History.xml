@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history version="1.0"><sql type="query"><database>zdian2</database><datetime>42241.4459861574</datetime><sql>select a from ciindex where length(a)=9</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>kx</database><datetime>42241.452025544</datetime><sql>select a from ciindex where length(a)=9</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.4520741551</datetime><sql>select a from ciindex where length(a)=9</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>kx</database><datetime>42241.4523130324</datetime><sql>select a from hydcd where length(a)=9</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>kx</database><datetime>42241.4544389236</datetime><sql>select a from hydcd where length(a)=9 and id&gt;577044</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.7931559491</datetime><sql>select id,ucode from ziindex where id&gt;27996 order by id asc limit 4010</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.8401016204</datetime><sql>select id,ucode from ziindex where id=58793</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.8402186227</datetime><sql>select * from ziindex where id=58793</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.8410951042</datetime><sql>select * from sbgy where zi='𧤞'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42241.8437206713</datetime><sql>select * from sbgy group by zi</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5324977778</datetime><sql>select * from py where py like '%v%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5326965741</datetime><sql>select * from py where py like '%v%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5327095718</datetime><sql>select * from py where py like '%v%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5331387153</datetime><sql>select * from py where py like '%ü%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5334496296</datetime><sql>select * from py where py like '%ü%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5336041898</datetime><sql>select * from py where py like '%v%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42246.5336648495</datetime><sql>select * from py where py like '%ü%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42253.9667295833</datetime><sql>select * from shufa where zi='箸'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>abv</database><datetime>42255.441324375</datetime><sql>
+--drop table 事件人物联合表
+--drop table 事件条目表
+--drop table 事件表
+--drop table 人物表
+--drop table 图片表
+
+create table 地名表
+(
+ID int identity(1,1) primary key,
+古地名  nvarchar(100),
+今地名  nvarchar(200),
+繁体 nvarchar(100),
+拼音  nvarchar(100),
+类别 nvarchar(50),
+所属州 nvarchar(50),
+所属郡 nvarchar(50),
+人口 nvarchar(50),
+户数 nvarchar(50),
+领地数 nvarchar(50),
+规模  nvarchar(500),
+官吏  nvarchar(1000),
+名人  nvarchar(1000),
+领地  nvarchar(1000),
+简介 nvarchar(max),
+备注  nvarchar(4000),
+updatetime datetime,
+createtime datetime,
+)
+go
+
+
+
+create table 事件表
+(
+ID int identity(1,1)  primary key,--事件编号
+事件名称 nvarchar(50),--事件名称
+事件类别编号 nvarchar(50),--事件类别编号
+事件发生时间 nvarchar(50),--事件发生时间
+年份 nvarchar(50),--公元纪年
+事件发生地编号 int,--暂空
+事件概述 nvarchar(4000),--事件概述
+事件评论 nvarchar(max),--事件评论 5000字
+条目编号 nvarchar(50),--暂空
+备注 nvarchar(4000),--备注
+照片 nvarchar(50),--暂空
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+FOREIGN KEY (事件发生地编号) REFERENCES 地名表(ID),
+)
+go
+
+
+
+CREATE TABLE 事件条目表
+(
+	ID int IDENTITY(1,1)  primary key,
+	事件ID int NULL,
+	事件原文 nvarchar(max) NULL,
+	事件译文 nvarchar(max) NULL,
+	事件出处 int,
+	备注 [nvarchar](4000) NULL,
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+FOREIGN KEY (事件出处) REFERENCES 书卷表(ID),
+)
+go
+
+create table 人物表
+(
+ID int identity(1,1) primary key,
+人物姓名 nvarchar(50),
+繁体姓名 nvarchar(50),
+拼音 nvarchar(50),--人物拼音
+字 nvarchar(50),--人物字
+人物容貌 nvarchar(500),
+是否为史实人物 nvarchar(50),
+人物头像 varbinary(MAX),
+历任  nvarchar(1000),--历任曾担任过的官爵
+传记出处 nvarchar(50),
+人物性别 nvarchar(50),
+主效 nvarchar(100),
+籍贯 nvarchar(100),--人物籍贯出生地
+出生年份 nvarchar(50),--人物出生年份
+死亡年份 nvarchar(50),--人物死亡年份
+人际关系 nvarchar(4000),
+演义简介 nvarchar(max),--演义简介野史简介
+历史简介 nvarchar(max),
+历史评价 nvarchar(max),--历史评价他人点评
+人物历史年表 nvarchar(max),
+人物传记 nvarchar(max),
+备注 nvarchar(4000),
+寿命 int,       --
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+)
+go
+
+ create table 事件人物联合表
+(
+ID int identity(1,1) ,--编号
+事件ID int,--事件ID
+人物ID int,--人物ID
+官职  nvarchar(200),  --
+效力对象  nvarchar(100),  --
+岁数  nvarchar(100),  --
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+FOREIGN KEY (人物ID) REFERENCES 人物表(ID),
+FOREIGN KEY (事件ID) REFERENCES 事件表(ID),
+primary key (事件ID,人物ID),
+)
+go
+
+create table 事件地名联合表
+(
+ID int identity(1,1) ,--编号
+事件ID int,--事件ID
+地名ID int,--地名ID
+官吏  nvarchar(500),  --
+事件地名备注  nvarchar(2000),  --
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+FOREIGN KEY (地名ID) REFERENCES 地名表(ID),
+FOREIGN KEY (事件ID) REFERENCES 事件表(ID),
+primary key (事件ID,地名ID),
+)
+go
+
+
+create table 图片表
+(
+ID int identity(1,1) primary key,
+图片名 nvarchar(100),
+图片类型  nvarchar(50),
+图片简介   nvarchar(MAX),
+图片image varbinary(MAX),
+备注 nvarchar(4000),
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+)
+go
+
+
+create table 事件图片联合表
+(
+ID int identity(1,1),--编号
+事件ID int,--事件ID
+图片ID int,--人物ID
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+FOREIGN KEY (图片ID) REFERENCES 图片表(ID),
+FOREIGN KEY (事件ID) REFERENCES 事件表(ID),
+primary key (事件ID,图片ID),
+)
+go
+
+
+CREATE TABLE 书卷表
+(
+	ID int IDENTITY(1,1)  primary key,
+	人物ID int NULL,
+	书卷名 nvarchar(100) NULL,
+	史书名 nvarchar(100) NULL,
+	具体位置 nvarchar(200) NULL,
+	备注 nvarchar(4000) NULL,
+        updatetime   nvarchar(100),--更新时间
+        createtime   nvarchar(100),--创建时间
+)
+go
+
+
+CREATE TABLE 段落表
+(
+	ID int IDENTITY(1,1)  primary key,
+	书卷ID int NULL,
+	段落序号 nvarchar(50) NULL,
+	原文 nvarchar(4000) NULL,
+	注释 nvarchar(max) NULL,
+	译文 nvarchar(max) NULL,
+	评论 nvarchar(max) NULL,
+	备注 nvarchar(4000) NULL,
+        updatetime   nvarchar(100),--更新时间
+        createtime   nvarchar(100),--创建时间
+)
+go
+
+
+create table 词条解释表
+(
+ID int identity(1,1) primary key,
+名词 nvarchar(50),
+繁体 nvarchar(50),
+拼音 nvarchar(50),
+类别 nvarchar(100),
+简介 nvarchar(MAX),
+图片 varbinary(MAX),
+备注 nvarchar(4000),
+updatetime   nvarchar(100),--更新时间
+createtime   nvarchar(100),--创建时间
+)
+go
+
+CREATE TABLE 年号表
+(
+	ID int IDENTITY(1,1)  primary key,
+	公元纪年 nvarchar(50) NULL,
+	汉纪 nvarchar(50) NULL,
+        魏纪 nvarchar(50) NULL,
+        蜀纪 nvarchar(50) NULL,
+        吴纪 nvarchar(50) NULL,
+        晋纪 nvarchar(50) NULL,
+        大事梗概 nvarchar(4000) NULL,
+        史料原文 nvarchar(max) NULL,
+        史料译文 nvarchar(max) NULL,
+        史料评论 nvarchar(max) NULL,
+	备注 nvarchar(4000) NULL,
+        updatetime   nvarchar(100),--更新时间
+        createtime   nvarchar(100),--创建时间
+)
+go
+
+
+--drop view 事件人物视图
+--drop view 事件人物关联信息表
+--drop view 事件视图
+
+ create view   事件人物视图
+as
+SELECT 事件表.ID,人物表.ID as 人物ID,人物表.PID,事件人物联合表.ID as 事件联合ID,事件人物联合表.岁数,事件人物联合表.官职,事件人物联合表.效力对象,事件人物联合表.updatetime,事件人物联合表.createtime,事件表.事件名称,人物表.人物姓名,事件表.事件类别编号,事件表.事件发生时间,事件表.年份,事件表.事件发生地编号,事件表.事件概述,事件表.事件评论,事件表.条目编号,事件表.备注 FROM 事件表 left join 事件人物联合表 
+ on 事件表.ID=事件人物联合表.事件ID
+ left join 人物表 
+ on 事件人物联合表.人物ID=人物表.ID       
+go
+
+ create view   事件地名视图
+as
+SELECT TOP 100 PERCENT 事件表.ID,地名表.ID as 地名ID,地名表.PID,事件地名联合表.ID as 事件地名联合ID,事件地名联合表.官吏,事件地名联合表.事件地名备注,事件地名联合表.updatetime,事件地名联合表.createtime,事件表.事件名称,地名表.古地名,事件表.事件类别编号,事件表.事件发生时间,事件表.年份,事件表.事件发生地编号,事件表.事件概述,事件表.事件评论,事件表.条目编号,事件表.备注 FROM 事件表 
+ left join 事件地名联合表 
+ on 事件表.ID=事件地名联合表.事件ID
+ left join 地名表 
+ on 事件地名联合表.地名ID=地名表.ID
+go
+
+
+
+ create view   事件视图
+as
+SELECT 事件表.ID,事件表.事件名称,事件表.事件类别编号,事件表.事件发生时间,事件表.年份,事件表.事件发生地编号,事件表.事件概述,事件表.事件评论,事件表.条目编号,事件表.备注,事件表.updatetime,事件表.createtime,isnull(temp.num,0) 事件条目数量,isnull(temp2.num,0) 图片数量,isnull(temp3.num,0) 人物数量,isnull(temp4.num,0) 地名数量 FROM 事件表
+left join
+  ((select COUNT(1) as num,事件条目表.事件ID from 事件条目表   group by 事件条目表.事件ID)) as temp
+  on 
+  temp.事件ID=事件表.ID 
+  
+left join
+  ((select COUNT(1) as num,事件图片联合表.事件ID from 事件图片联合表   group by 事件图片联合表.事件ID)) as temp2
+  on 
+  temp2.事件ID=事件表.ID  
+left join
+  ((select COUNT(1) as num,事件人物联合表.事件ID from 事件人物联合表   group by 事件人物联合表.事件ID)) as temp3 on temp3.事件ID=事件表.ID
+left join
+  ((select COUNT(1) as num,事件地名联合表.事件ID from 事件地名联合表   group by 事件地名联合表.事件ID)) as temp4 on temp4.事件ID=事件表.ID
+go
+
+
+
+
+
+		      
+    create view 事件人物关联信息表
+    as  
+     SELECT ID,
+  (
+ select STUFF((
+ SELECT ','+t.人物姓名    FROM 事件人物视图 AS t
+where t.ID=t2.ID order by ID,PID
+         FOR XML PATH('')     
+ ) ,1,1,space(0)) as Colstring              
+  ) as 人物姓名,
+(
+ select STUFF((
+ SELECT ','+t.人物姓名 + '.' + t.效力对象+'.' + t.官职 + '.' + t.岁数   FROM 事件人物视图 AS t
+where t.ID=t2.ID order by ID,PID
+         FOR XML PATH('')     
+ ) ,1,1,space(0)) as Colstring              
+  ) as 人物信息 
+  from  事件人物视图 as  t2
+  group by t2.ID
+  go
+  
+
+   create view 事件地名关联信息表
+    as  
+      SELECT ID,
+  (
+ select STUFF((
+ SELECT ','+t.古地名  FROM 事件地名视图 AS t
+where t.ID=t2.ID order by ID,PID
+         FOR XML PATH('')     
+ ) ,1,1,space(0)) as Colstring              
+  ) as 地名,
+(
+ select STUFF((
+ SELECT ','+t.古地名 + '.' + t.官吏+'.' + t.事件地名备注    FROM 事件地名视图 AS t
+where t.ID=t2.ID order by ID,PID
+         FOR XML PATH('')     
+ ) ,1,1,space(0)) as Colstring              
+  ) as 地名信息 
+  from  事件地名视图 as  t2
+  group by t2.ID
+  go
+
+  create view   人物视图
+as
+SELECT 
+人物表.id,人物表.PID,人物表.人物姓名,人物表.繁体姓名,人物表.拼音,人物表.字,人物表.人物容貌,人物表.是否为史实人物 ,人物表.人物头像,人物表.历任,人物表.传记出处,人物表.人物性别,人物表.主效,人物表.籍贯,人物表.出生年份,人物表.死亡年份,人物表.人际关系,人物表.演义简介,人物表.历史简介,人物表.历史评价,人物表.人物历史年表,人物表.人物传记,人物表.备注,人物表.寿命,人物表.createtime,人物表.updatetime,isnull(temp.num,0) 书卷数量,isnull(temp1.num,0) 事件数量 FROM 人物表
+  left join
+  ((select COUNT(1) as num,书卷表.人物ID from 书卷表   group by 书卷表.人物ID)) as temp
+  on 
+  temp.人物ID=人物表.ID
+  left join
+  ((select COUNT(1) as num,事件人物联合表.人物ID from 事件人物联合表   group by 事件人物联合表.人物ID)) as temp1
+  on 
+  temp1.人物ID=人物表.ID 
+
+
+  create view   书卷视图
+as
+SELECT 
+书卷表.id,书卷表.书卷名,书卷表.具体位置,书卷表.备注,书卷表.人物ID,书卷表.史书名,书卷表.updatetime,书卷表.createtime,isnull(temp.num,0) 段落数量 FROM 书卷表
+  left join
+  ((select COUNT(1) as num,段落表.书卷ID from 段落表   group by 段落表.书卷ID)) as temp
+  on 
+  temp.书卷ID=书卷表.ID 
+
+
+  create view   地名视图
+as
+SELECT 
+地名表.ID,地名表.古地名,地名表.今地名,地名表.繁体,地名表.拼音,地名表.类别,地名表.所属州,地名表.所属郡,地名表.人口,地名表.户数,地名表.领地数,地名表.规模,地名表.官吏,地名表.名人,地名表.领地,地名表.简介,地名表.备注,地名表.PID,地名表.updatetime,地名表.createtime,isnull(temp.num,0) 事件数量 FROM 地名表
+  left join
+  ((select COUNT(1) as num,事件地名联合表.地名ID from 事件地名联合表  group by 事件地名联合表.地名ID)) as temp
+  on 
+  temp.地名ID =地名表.ID
+  
+  
+  </sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42268.4235586921</datetime><rows_affected>39333</rows_affected><sql>update gujishu set shu2=''</sql><info>--&gt; Rows matched: 183185  Changed: 39333  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4255821296</datetime><sql>select * from gujishu where shu like '%资治通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4270894676</datetime><sql>select * from gujishu where shu2 like '%资治通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4287841898</datetime><sql>select * from gujishu where shu like '%资治通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4289102199</datetime><sql>select * from gujishu where shu like '%资治通鑒%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4289903356</datetime><sql>select * from gujishu where shu2 like '%资治通鑒%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4291508912</datetime><sql>select * from gujishu where shu like '%资治通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4293136111</datetime><sql>select * from gujishu where shu like '%資治通鑒%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42268.4300698727</datetime><sql>select * from gujishu where shu2 like '%資治通鑒%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42268.4318109491</datetime><rows_affected>18</rows_affected><sql>update gujishu set shu2=replace(shu2,'資治通鑒','資治通鑑')</sql><info>--&gt; Rows matched: 183185  Changed: 18  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6773359028</datetime><sql>select * from zc where length(ci)=4</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6775996065</datetime><sql>select * from zc where length(ci)=4</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6778942708</datetime><sql>select ci,py from zc where length(ci)=4</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6782851505</datetime><sql>select ci,py from zc where length(ci)=4 and py&lt;&gt;''</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zd</database><datetime>42275.6866665741</datetime><sql>select ci,py from avv group by b</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6868213773</datetime><sql>select * from avv group by b</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zd</database><datetime>42275.6873195023</datetime><rows_affected>79796</rows_affected><sql>create table avv2 select * from avv group by b</sql><info>--&gt; Records: 79796  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>zd</database><datetime>42275.6877894213</datetime><sql>select * from avv2 where length(b)&lt;8</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6624459606</datetime><sql>select * from gujishu2 order by cnt asc,shu asc</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42286.6630642361</datetime><rows_affected>4737</rows_affected><sql>create table gujishu3 select * from gujishu2 order by cnt asc,shu asc</sql><info>--&gt; Records: 4737  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42286.6637332523</datetime><rows_affected>4737</rows_affected><sql>update  gujishu3 set id=id+260000</sql><info>--&gt; Rows matched: 4737  Changed: 4737  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6665188889</datetime><sql> select * from gujishu3 where shu2 like '%资治通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6667410185</datetime><sql> select * from gujishu3 where shu2 like '%通鉴%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6672634491</datetime><sql> select * from gujishu3 where shu like '%資治通鑑%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6676618403</datetime><sql> select * from gujishu3 where shu like '%资治通监%'
+
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42286.6677221412</datetime><sql> select * from gujishu3 where shu2 like '%资治通监%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42286.6692526157</datetime><rows_affected>101</rows_affected><sql>update gujishu3 set shu2=replace(shu2,'资治通监','资治通鉴') where shu2 like '%资治通监%'
+</sql><info>--&gt; Rows matched: 101  Changed: 101  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42286.6702390857</datetime><rows_affected>5</rows_affected><sql>update gujishu3 set shu2=replace(shu2,'通监','通鉴') where shu2 like '%通监%'</sql><info>--&gt; Rows matched: 5  Changed: 5  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42286.6885564699</datetime><rows_affected>4737</rows_affected><sql>update gujishu3 set zmf =(select zmf from chengyu where chengyu.id+220000=gujishu3.id limit 1)</sql><info>--&gt; Rows matched: 4737  Changed: 4737  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zd</database><datetime>42286.7038851736</datetime><rows_affected>4526</rows_affected><sql>update gujishu3 set zmf =(select zmf from sici where sici.id=gujishu3.id limit 1)</sql><info>--&gt; Rows matched: 4737  Changed: 4526  Warnings: 14</info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42312.5195049537</datetime><sql>select * from ytz2 group by zi,nr order by id asc</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.5213295023</datetime><rows_affected>37713</rows_affected><sql>create table ytz select * from ytz2 group by zi,nr order by id asc</sql><info>--&gt; Records: 37713  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.6008456944</datetime><rows_affected>37713</rows_affected><sql>insert into ytz (zi,nr) select nr,zi from ytz </sql><info>--&gt; Records: 37713  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>37714</insert_id></sql><sql type="statement"><database>zdian2</database><datetime>42312.6010149537</datetime><rows_affected>73597</rows_affected><sql>create table ytz3 select * from ytz group by zi,nr order by id asc</sql><info>--&gt; Records: 73597  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42312.6046531829</datetime><sql>select * from ytz3 where zi=nr
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42312.8655034606</datetime><sql>select * from ytz2 where zi='一'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8660731713</datetime><rows_affected>29219</rows_affected><sql>insert into ytz2 (zi,nr) select nr,zi from ytz2 where id&lt;29283</sql><info>--&gt; Records: 29219  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>54027</insert_id></sql><sql type="statement"><database>zdian2</database><datetime>42312.866301412</datetime><rows_affected>13681</rows_affected><sql>insert into ytz2 (zi,nr) select zi,nr from ytz
+</sql><info>--&gt; Records: 13681  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>83246</insert_id></sql><sql type="statement"><database>zdian2</database><datetime>42312.8679701389</datetime><rows_affected>418</rows_affected><sql>delete from ytz2 where nr like '%⿱%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8680998032</datetime><rows_affected>1739</rows_affected><sql>delete from ytz2 where nr like '%⿰%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.868258287</datetime><rows_affected>8</rows_affected><sql>delete from ytz2 where nr like '%⿲%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8683843403</datetime><rows_affected>9</rows_affected><sql>delete from ytz2 where nr like '%⿳%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8684749884</datetime><rows_affected>3</rows_affected><sql>delete from ytz2 where nr like '%⿴%'
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8686006944</datetime><rows_affected>54</rows_affected><sql>delete from ytz2 where nr like '%⿵%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8687387847</datetime><rows_affected>56</rows_affected><sql>delete from ytz2 where nr like '%⿸%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8688446644</datetime><rows_affected>73</rows_affected><sql>delete from ytz2 where nr like '%⿺%'
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8699401736</datetime><rows_affected>71488</rows_affected><sql>create table ytz5 select zi,nr from ytz2 group by zi,nr order by id asc</sql><info>--&gt; Records: 71488  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42312.8750829282</datetime><rows_affected>73584</rows_affected><sql>insert into ytz5(zi,nr) select zi,nr from ytz3 </sql><info>--&gt; Records: 73584  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>71489</insert_id></sql><sql type="statement"><database>zdian2</database><datetime>42312.8758865625</datetime><rows_affected>79380</rows_affected><sql>insert into ytz5(zi,nr) select zi,nr from ytz5 group by zi,nr order by id asc</sql><info>--&gt; Records: 79380  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>145073</insert_id></sql><sql type="statement"><database>zdian2</database><datetime>42312.8761064236</datetime><rows_affected>79380</rows_affected><sql>insert into ytz6(zi,nr) select zi,nr from ytz5 group by zi,nr order by id asc</sql><info>--&gt; Records: 79380  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time><insert_id>1</insert_id></sql><sql type="query"><database>zdian2</database><datetime>42312.8768392593</datetime><sql>select * from ytz6 where zi='发'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42344.8531309606</datetime><rows_affected>10283</rows_affected><sql>update gujishu4 set zmf=(select zmf from chengyu where chengyu.id=gujishu4.id-250000 limit 1)</sql><info>--&gt; Rows matched: 11151  Changed: 10283  Warnings: 1</info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42344.8537724537</datetime><sql>--create table ytz6 select zi,nr from ytz5 group by zi,nr order by id asc
+update gujishu4 set zmf=(select zmf from gujishu where gujishu.id=gujishu4.id-170000 limit 1) 
+
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42344.8541643518</datetime><rows_affected>10707</rows_affected><sql>update gujishu4 set zmf=(select zmf from gujishu where gujishu.id=gujishu4.id-170000 limit 1) </sql><info>--&gt; Rows matched: 11151  Changed: 10707  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42344.854838669</datetime><rows_affected>11151</rows_affected><sql>update gujishu4 set cnt=401</sql><info>--&gt; Rows matched: 11151  Changed: 11151  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42345.5390915162</datetime><sql>select shu from gujishu4 order by id asc
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42348.4674753819</datetime><sql>select * from gujishu where id&gt;80000 and shu2 like '%史记%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42348.4783224653</datetime><sql>select * from gujishu where id&gt;80000 and shu2 like '%史记%'
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42348.4786662384</datetime><sql>--create table ytz6 select zi,nr from ytz5 group by zi,nr order by id asc
+select * from gujishu where id&gt;80000 and shu2 like '%三国%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42348.4787275</datetime><sql>select * from gujishu where id&gt;80000 and shu2 like '%三国%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.7755794213</datetime><sql>select * from gujishu6 where  shu like '%中国方志集成%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42350.7909047454</datetime><rows_affected>35</rows_affected><sql>update gujishu6 set shu =replace(shu,'中国方志集成','中国地方志集成') where  shu like '%中国方志集成%'</sql><info>--&gt; Rows matched: 35  Changed: 35  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.7921267477</datetime><sql>select * from gujishu4 where  shu like '%djvu%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>guji</database><datetime>42350.852285625</datetime><sql>--create table ytz6 select zi,nr from ytz5 group by zi,nr order by id asc
+select right(shu,3) from gujishu6 
+
+</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.8524788542</datetime><sql>select right(shu,3) from gujishu6 </sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.8526685301</datetime><sql>select right(shu,3) as ttt  from gujishu6 group by ttt</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.8537405671</datetime><sql>select right(shu,4) as ttt  from gujishu6 group by ttt</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.9001592245</datetime><sql>select *  from gujishu6 where shu like '%+%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.9004034722</datetime><sql>select *  from gujishu where shu like '%+%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.900496331</datetime><sql>select *  from gujishu6 where shu like '%+%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>guji</database><datetime>42350.9020524306</datetime><sql>select *  from gujishu6 where shu like '%+%'</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42352.8498893056</datetime><sql>select *  from jwg group by zi</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42352.84998125</datetime><sql>select *  from jgw group by zi</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42352.9651094213</datetime><rows_affected>1307</rows_affected><sql>update jwb set zi=replace(zi,'.jpg','')</sql><info>--&gt; Rows matched: 1307  Changed: 1307  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42352.9730850926</datetime><rows_affected>1307</rows_affected><sql>update jwb set zi=replace(zi,'.jpg','')</sql><info>--&gt; Rows matched: 1307  Changed: 1307  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42354.3891812384</datetime><rows_affected>16101</rows_affected><sql>update yitizi set ucode=(select ucode from ziindex where ziindex.zi=yitizi.zi limit 1)</sql><info>--&gt; Rows matched: 16101  Changed: 16101  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="query"><database>zdian2</database><datetime>42359.4439129398</datetime><sql>select * from yitizi group by zi,u order by id asc</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42359.4451263194</datetime><sql>creat table yiti2 select * from yitizi group by zi,u order by id asc</sql><info>--&gt; </info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42359.4452405208</datetime><rows_affected>15485</rows_affected><sql>create table yiti2 select * from yitizi group by zi,u order by id asc</sql><info>--&gt; Records: 15485  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>zdian2</database><datetime>42359.4461813542</datetime><rows_affected>15131</rows_affected><sql>create table yiti2 select * from yitizi group by zi order by id asc</sql><info>--&gt; Records: 15131  Duplicates: 0  Warnings: 0</info><execution_time>0</execution_time></sql><sql type="statement"><database>ssz</database><datetime>43048.7728866435</datetime><rows_affected>1</rows_affected><sql>INSERT INTO `hall` (`id`,`info`,`info1`,`info2`,`broadcast`,`isIOS`,`isA`,`vIOS`,`vA`,`aUrl`,`iosUrl`) VALUES (2,'客服微信：大众十三水','《游戏用户协议》\n1、释义\n本协议系由用户与浙江趣游网络科技股份有限公司（以下统称趣游网络）就趣游网络所属的所有游戏产品所订立的相关权利义务规范。因此，请于注册成为趣游游游戏用户前，确实详细阅读本协议条款的所有内容，当您点击同意键或用户实际接受了趣游网络的产品和服务即视为同意接受本协议条款的所有规范并愿受其拘束。这些条款可由趣游网络随时更新，本服务条款一旦发生变动， 趣游网络将会在相关的页面上提示修改内容。修改后的用户协议一旦在页面上公布即有效代替原来的用户协议。\n用户在进入游戏之前，应仔细阅读本协议条款，如用户不同意本协议条款及 / 或随时对其的修改，用户可以主动取消趣游网络依据本条款提供的服务。 但在取消之前已注册使用的部分仍受本协议约束。\n本协议所指线上游戏是指用户需要通过计算机等电子设备与服务器联机和手机客户端才可以执行的，由趣游网络所全权服务运营的游戏产品（包括但不限于：一个单独的计算机程序，其名称或标题为：中文名 趣游网络旗下所有游戏产品以及相关的书面文档、图片文件、影片、用户手册（载明应用方法）以及与趣游网络旗下所有游戏产品相关的说明书、商标、标识以及任何其他的美术品；以下统称为趣游网络旗下所有游戏产品） 。\n用户是指通过趣游网络提供注册方式依据并同意《游戏用户服务条款》而获得许可（账号和密码）执行线上游戏的个人。\n2. 著作权声明：\n趣游网络旗下所有游戏产品的所有相关著作权、专利权、商标、商业秘密及其它任何所有权或权利，均属猫游记或其原始授权人所有。非经趣游网络或原始授权人的同意，任何人或用户均不得擅自下载、复制、传输、改作、编辑于任何为线上游戏目的以外的使用或任何以获利为目的的使用，否则应负所有法律责任。 趣游网络旗下所有游戏产品运营过程中产生并储存于趣游网络 数据库的任何数据信息（包括但不限于帐号数据信息、角色数据信息、等级物品数据信息等，但用户的姓名、身份证号、电话号码等个人身份数据信息除外）的所有权均属于趣游网络，用户在按照本协议正常使用《趣游网络》无端网络游戏的过程中对属于其用户帐号的数据信息享有有限使用权。\n3. 用户使用线上游戏的限制\n3.1 用户使用 趣游网络 的线上游戏，除应遵守法律、本协议条款的规范外，并应遵守 《游戏用户服务条款》 ，否则趣游网络有权随时按照该守则处分或终止用户使用线上游戏，由此造成的任何损失趣游网络不付任何责任。\n3.2 用户不得利用上线游戏的机会做与游戏无关的行为，包括妨害他人名誉或隐私权；或使用自己、匿名或冒用他人或趣游网络名义散播诽谤、不实、威胁、不雅、猥亵、不法、攻击性或侵害他人权利的消息或文字，传播色情或其它违反社会公德的言论；传输或散布计算机病毒；从事广告或贩卖商品；从事不法交易或张贴虚假不实或引人犯罪的信息；或任何违反中华人民共和国法律或其它法令的行为，亦不得利用线上游戏的机会，与其它用户或他人进行非法的交涉或对话。\n3.3 用户对趣游网络游戏管理人员所进行的询问应据实澄清，否则趣游网络有权随时终止用户使用线上游戏；趣游网络发现不法或可疑的行为者，趣游网络有权随时通报司法或有权机关处理，并有权同时向该机关呈报用户的基本资料及行为概述以便司法机关调查取证。用户就因此所产生的不便或困扰，不得向趣游网络请求任何损害补偿。\n3.4 用户应就其在线上游戏的行为或活动自负责任，趣游网络仅提供线上游戏用户自行执行或与其它用户依照游戏设定的方式进行竞赛或游戏。趣游网络就用户在线上游戏的行为或活动或交易不负任何责任。\n4. 服务的停止和更改\n4.1 发生下列情形之一时， 趣游网络有权停止或中断线上游戏：\n4.1.1 对于趣游网络的网络设备进行必要的保养及施工；\n4.1.2 发生突发性的网络设备故障时；\n4.1.3 由于趣游网络所用的网络通信设备由于不明原因停止，无法提供服务时；\n4.1.4 由于不可抗力因素致使趣游网络无法提供线上游戏服务时。\n4.2 趣游网络有权针对不活跃帐户，采取如下部分或全部措施：\n4.2.1 封闭或暂停该用户帐号；\n4.2.2 取消该用户在趣游网络网站各个游戏平台的玩家资格；\n4.2.3 冻结该帐户内的剩余资金。\n所谓“不活跃帐户”指：帐号连续180天不曾使用，即没有以Web方式登录趣游游游戏帐号，且没有用游戏客户端登录趣游网络所全权服务运营的游戏产品。\n4.3 不活跃帐户的重新开通。趣游网络在下列情形全部具备的情况下，可以为不活跃用户重新开通帐户：\n4.3.1 用户向趣游网络提出书面申请，要求重新开通帐户；?\n4.3.2 用户提供的身份证明及其他个人信息证明与其注册信息相符；?\n4.3.3 用户能够按照趣游网络要求提供其他证明文件或信息。?\n4.4 除此之外， 趣游网络有权停止或更改各项服务内容或终止任一用户帐户，但需在 趣游网络旗下所有游戏产品 官','ddddd','尊敬的玩家：您好！欢迎您参与大众十三水游戏，游戏仅供娱乐，严禁进行赌博行为，如果发现赌博行为，即封停账号，并交相关部门处理！',0,0,'1.0.3','1.0.4','http://fir.im/5tne','http://fir.im/5tne');</sql><info>--&gt; </info><execution_time>0</execution_time><insert_id>2</insert_id></sql></history>

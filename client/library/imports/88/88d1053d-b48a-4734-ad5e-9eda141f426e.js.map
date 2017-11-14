@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE,EACX;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;AAED,aAAS,EAAE,mBAAU,GAAG,EAAE;AACxB,YAAI,CAAC,SAAS,EAAE,CAAC,MAAM,GAAG,GAAG,CAAC;KAC/B;;AAED,aAAS,EAAE,qBAAY;AACrB,eAAO,IAAI,CAAC,IAAI,CAAC,YAAY,CAAC,aAAa,CAAC,CAAC;KAC9C;;AAED,YAAQ,EAAC,kBAAS,OAAO,EAAC;AACtB,YAAI,CAAC,YAAY,EAAE,CAAC,OAAO,GAAG,OAAO,CAAC;KACzC;AACD,gBAAY,EAAC,wBAAU;AACnB,eAAO,IAAI,CAAC,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,CAAC;KAC9C;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    setString: function (str) {\n      this._richText().string = str;\n    },\n\n    _richText: function () {\n      return this.node.getComponent('cc.RichText');\n    },\n    \n    setEmoji:function(spraite){\n        this._spriteFrame().Spraite = spraite;\n    },\n    _spriteFrame:function(){\n        return this.node.getComponent('cc.Sprite');\n    },\n});\n"
+  ]
+}

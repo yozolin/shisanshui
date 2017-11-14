@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "public-pic-card-poker-1_20",
+    "texture": "0f5811fa-a7f4-4e0c-9a20-3a30e39230a1",
+    "atlas": "4429b439-85df-4a1d-a952-e44ebc60a022",
+    "rect": [
+      2,
+      2,
+      140,
+      194
+    ],
+    "offset": [
+      0,
+      3
+    ],
+    "originalSize": [
+      146,
+      202
+    ]
+  }
+}

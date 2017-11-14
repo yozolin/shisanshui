@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,cAAM,EAAC,EAAE,CAAC,IAAI;AACd,oBAAY,EAAC,EAAE,CAAC,IAAI;AACpB,WAAG,EAAC,EAAE,CAAC,IAAI;KACd;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,YAAI,CAAC,QAAQ,GAAG,IAAI,CAAC;;KAExB;;AAED,eAAW,EAAC,uBAAW;AACnB,YAAI,CAAC,QAAQ,GAAG,CAAC,IAAI,CAAC,QAAQ,CAAC;AAC/B,YAAI,CAAC,YAAY,CAAC,MAAM,GAAG,IAAI,CAAC,QAAQ,CAAC;KAE5C;;AAED,eAAW,EAAC,qBAAS,QAAQ,EAAE;AAC3B,YAAI,CAAC,QAAQ,GAAG,QAAQ,CAAC;AACzB,YAAI,CAAC,YAAY,CAAC,MAAM,GAAG,IAAI,CAAC,QAAQ,CAAC;KAC5C;;AAED,oBAAgB,EAAC,4BAAW;AACxB,YAAI,CAAC,QAAQ,GAAG,CAAC,IAAI,CAAC,QAAQ,CAAC;AAC/B,YAAI,CAAC,YAAY,CAAC,MAAM,GAAG,IAAI,CAAC,QAAQ,CAAC;AACzC,UAAE,CAAC,IAAI,CAAC,OAAO,GAAG,IAAI,CAAC,QAAQ,CAAC;AAChC,YAAI,QAAQ,GAAG,IAAI,CAAC,GAAG,CAAC,YAAY,CAAC,EAAE,CAAC,MAAM,CAAC,CAAC;AAChD,YAAG,IAAI,CAAC,YAAY,CAAC,MAAM,KAAK,KAAK,EAAC;AAClC,oBAAQ,CAAC,YAAY,GAAG,KAAK,CAAC;SACjC,MAAI;AACD,oBAAQ,CAAC,YAAY,GAAG,IAAI,CAAC;SAChC;KACJ;;CAOJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        bgNode:cc.Node,   //选择框\n        selectedNode:cc.Node,  //对号\n        pai:cc.Node,\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        //console.log(this.node);\n        this.selected = true;\n        //console.log(cc.set);\n    },\n    \n    clickAction:function() {\n        this.selected = !this.selected;\n        this.selectedNode.active = this.selected;\n      \n    },\n    \n    setSelected:function(selected) {\n        this.selected = selected;\n        this.selectedNode.active = this.selected;\n    },\n    /*#####*/\n    clickSelectKuang:function() {\n        this.selected = !this.selected;\n        this.selectedNode.active = this.selected;\n        cc.from.isUseMa = this.selected;\n        var mapaiCom = this.pai.getComponent(cc.Button);\n        if(this.selectedNode.active === false){\n            mapaiCom.interactable = false;\n        }else{\n            mapaiCom.interactable = true;\n        }\n    },\n\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

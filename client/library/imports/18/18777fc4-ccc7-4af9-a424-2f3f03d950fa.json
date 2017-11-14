@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_fangjian",
+    "texture": "df815801-1f7d-4f6d-8c23-7fae9b13c8c5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      22,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      22,
+      21
+    ]
+  }
+}

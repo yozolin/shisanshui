@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "UI资源-cj_00007",
+    "texture": "d672aa65-9870-4c7f-aab4-07bfc5622e00",
+    "atlas": "2a8bc413-3782-4e99-b34c-f0a3793f70c2",
+    "rect": [
+      1146,
+      0,
+      380,
+      210
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      380,
+      210
+    ]
+  }
+}

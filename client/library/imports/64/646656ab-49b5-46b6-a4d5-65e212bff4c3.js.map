@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEC,IAAI,sBAAsB,GAAG,SAAzB,sBAAsB,CAAa,KAAK,EAAE;AAC3C,QAAI,CAAC,WAAW,GAAG,EAAE,CAAC;AACtB,SAAI,IAAI,CAAC,IAAI,KAAK,EAAC;AACf,YAAI,CAAC,CAAC;AACN,YAAG,OAAO,KAAK,CAAC,CAAC,CAAC,CAAC,MAAM,AAAC,IAAI,WAAW,EAAC;AACtC,aAAC,GAAG,KAAK,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC;SACtB,MAAI;AACD,aAAC,GAAG,KAAK,CAAC,CAAC,CAAC,CAAC,MAAM,CAAC;SACvB;AACD,YAAG,IAAI,CAAC,WAAW,CAAC,CAAC,CAAC,EAAC;AACnB,gBAAI,CAAC,WAAW,CAAC,CAAC,CAAC,EAAG,CAAC;SAC1B,MAAI;AACD,gBAAI,CAAC,WAAW,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC;SAC3B;;;;;KAKJ;AACD,WAAO,IAAI,CAAC,WAAW,CAAC;CAC3B,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,sBAAsB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "/*#####*/\r\n//��������һ���������ڵ���ͬ�������Ƶ�����\r\n var GetCardPointsSameCount = function (cards) {\r\n    this.cardNumbers = {};\r\n    for(var i in cards){\r\n        var s;\r\n        if(typeof(cards[i].number) == 'undefined'){\r\n            s = cards[i].point;\r\n        }else{\r\n            s = cards[i].number;\r\n        }\r\n        if(this.cardNumbers[s]){\r\n            this.cardNumbers[s] ++;\r\n        }else{\r\n            this.cardNumbers[s] = 1;\r\n        }\r\n        //cc.log(this.cardNumbers[cards[i].number])\r\n        //cc.log(cards)\r\n        //cc.log(cards[i].number)\r\n        //cc.log('---7')\r\n    }\r\n    return this.cardNumbers;\r\n};\r\n\r\nmodule.exports = GetCardPointsSameCount;\r\n"
+  ]
+}

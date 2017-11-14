@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,MAAM,GAAG;AACX,qBAAmB,EAAE,6BAAU,QAAQ,EAAE,QAAQ,EAAE;AACjD,QAAI,CAAC,cAAc,CAAC,QAAQ,EAAE,QAAQ,CAAC,CAAC;GACzC;;AAED,oBAAkB,EAAE,4BAAU,MAAM,EAAE,QAAQ,EAAE;AAC9C,QAAI,CAAC,mBAAmB,CAAC,QAAQ,EAAE,UAAU,WAAW,EAAE;AACxD,YAAM,CAAC,WAAW,GAAG,WAAW,CAAC;KAClC,CAAC,CAAC;GACJ;;AAED,eAAa,EAAE,uBAAU,aAAa,EAAE;AACtC,QAAI,QAAQ,GAAG,aAAa,CAAC;AAC7B,QAAI,CAAC,QAAQ,CAAC,UAAU,CAAC,uBAAuB,CAAC,EAAE;AACjD,cAAQ,GAAG,wBAAwB,GAAG,QAAQ,CAAC;KAChD;;AAED,WAAO,QAAQ,CAAC;GACjB;;AAED,gBAAc,EAAE,wBAAU,QAAQ,EAAE,QAAQ,EAAE;AAC5C,MAAE,CAAC,MAAM,CAAC,QAAQ,CAAC,CAAC;;AAEpB,MAAE,CAAC,MAAM,CAAC,OAAO,CAAC,+BAA+B,EAAE,EAAE,CAAC,WAAW,EAAE,CAAA,UAAU,GAAG,EAAE,KAAK,EAAE;AACvF,UAAI,GAAG,EAAE;AACP,gBAAQ,CAAC,IAAI,EAAE,GAAG,CAAC,CAAA;AACnB,eAAO;OACR;;AAED,cAAQ,GAAG,IAAI,CAAC,aAAa,CAAC,QAAQ,CAAC,CAAC;AACxC,UAAI,KAAK,GAAG,KAAK,CAAC,cAAc,CAAC,QAAQ,CAAC,CAAC;AAC3C,cAAQ,CAAC,KAAK,CAAC,CAAC;KACjB,CAAA,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;GACf;CACF,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,MAAM,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "let Helper = {\n  loadCardSpriteFrame: function (cardName, callback) {\n    this._loadCardFrame(cardName, callback);\n  },\n\n  setCardSpriteFrame: function (sprite, cardName) {\n    this.loadCardSpriteFrame(cardName, function (spriteFrame) {\n      sprite.spriteFrame = spriteFrame;\n    });\n  },\n\n  _cardFullName: function (cardShortName) {\n    var cardName = cardShortName;\n    if (!cardName.startsWith(\"public-pic-card-poker\")) {\n      cardName = \"public-pic-card-poker-\" + cardName;\n    }\n\n    return cardName;\n  },\n\n  _loadCardFrame: function (cardName, callback) {\n    cc.assert(callback);\n\n    cc.loader.loadRes(\"play/CardTypeCombine/pockList\", cc.SpriteAtlas, function (err, atlas) {\n      if (err) {\n        callback(null, err)\n        return;\n      }\n\n      cardName = this._cardFullName(cardName);\n      var frame = atlas.getSpriteFrame(cardName);\n      callback(frame);\n    }.bind(this));\n  },\n};\n\nmodule.exports = Helper;\n"
+  ]
+}

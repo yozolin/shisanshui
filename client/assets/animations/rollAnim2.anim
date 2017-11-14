@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rollAnim2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 2,
+          "value": -360
+        },
+        {
+          "frame": 3,
+          "value": -360
+        }
+      ],
+      "x": [
+        {
+          "frame": 1,
+          "value": 79.2
+        },
+        {
+          "frame": 2,
+          "value": -35
+        },
+        {
+          "frame": 3,
+          "value": -35
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 1
+        },
+        {
+          "frame": 2,
+          "value": 0
+        },
+        {
+          "frame": 3,
+          "value": 0
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 1
+        },
+        {
+          "frame": 2,
+          "value": 0
+        },
+        {
+          "frame": 3,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

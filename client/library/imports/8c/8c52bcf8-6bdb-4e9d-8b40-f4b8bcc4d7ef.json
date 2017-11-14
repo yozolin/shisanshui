@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fenxiangpengyouquantishi",
+    "texture": "f22fd6cf-40c0-46b7-b17b-1f98d15199bf",
+    "atlas": "",
+    "rect": [
+      9,
+      3,
+      332,
+      178
+    ],
+    "offset": [
+      -0.5,
+      2
+    ],
+    "originalSize": [
+      351,
+      188
+    ]
+  }
+}

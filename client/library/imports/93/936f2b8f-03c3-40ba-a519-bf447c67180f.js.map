@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,YAAY,GAAG;AACjB,aAAW,EAAE,qBAAU,MAAM,EAAE,GAAG,EAAE;AAClC,QAAI,GAAG,CAAC,QAAQ,CAAC,KAAK,CAAC,IAAI,GAAG,CAAC,QAAQ,CAAC,KAAK,CAAC,IAAI,GAAG,CAAC,QAAQ,CAAC,KAAK,CAAC,EAAE,EAEtE,MAAM;;KAEN;;AAED,MAAE,CAAC,MAAM,CAAC,IAAI,CAAC,EAAC,GAAG,EAAC,GAAG,EAAC,IAAI,EAAC,KAAK,EAAC,EAAE,UAAU,GAAG,EAAE,IAAI,EAAE;AACxD,UAAI,GAAG,EAAE;AACP,eAAO;OACR;;AAED,UAAI,KAAK,GAAG,IAAI,EAAE,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC;AACrC,YAAM,CAAC,WAAW,GAAG,KAAK,CAAC;KAC5B,CAAC,CAAC;GACJ;CACF,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,YAAY,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "let SpriteHelper = {\n  setImageUrl: function (sprite, url) {\n    if (url.endsWith(\"png\") || url.endsWith(\"jpg\") || url.endsWith(\"gif\")) {\n\n    } else {\n      //url = url + \".png\";\n    }\n\n    cc.loader.load({url:url,type:\"jpg\"}, function (err, data) {\n      if (err) {\n        return;\n      }\n\n      var frame = new cc.SpriteFrame(data);\n      sprite.spriteFrame = frame;\n    });\n  },\n};\n\nmodule.exports = SpriteHelper;\n"
+  ]
+}

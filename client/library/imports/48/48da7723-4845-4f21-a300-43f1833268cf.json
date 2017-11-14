@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wx_login",
+    "texture": "01c15ed6-f186-4634-aa02-e30bf076b5d4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      431,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      431,
+      94
+    ]
+  }
+}

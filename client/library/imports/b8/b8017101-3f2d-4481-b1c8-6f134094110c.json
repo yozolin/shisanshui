@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "create.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "4ren": {
+      "__uuid__": "56f7bf78-8599-4116-931b-c239c7f6f22a"
+    },
+    "5ren": {
+      "__uuid__": "f9dd2c6c-0d9f-4789-aa28-958995b8475f"
+    },
+    "6ren": {
+      "__uuid__": "1f341453-0b2c-4348-922e-0ec39186c79a"
+    },
+    "7ren": {
+      "__uuid__": "94697bee-ec74-4eb2-9436-43d95f982ce2"
+    },
+    "change": {
+      "__uuid__": "582211ce-4deb-4b0f-a2ac-7f72508f944f"
+    },
+    "check_box": {
+      "__uuid__": "91c197f2-14f0-4d5f-88ae-8bebea55937d"
+    },
+    "checked": {
+      "__uuid__": "aebeffec-09de-4fe1-a023-1345b46fa508"
+    },
+    "createRoom": {
+      "__uuid__": "d8642b3a-b4a1-4ec7-a881-a04fe796368b"
+    },
+    "create_b": {
+      "__uuid__": "dc5cf843-6dcf-4e60-ae40-6460822a15d9"
+    },
+    "exit": {
+      "__uuid__": "f0bbe61d-3b22-442e-bed0-c1113912f55b"
+    },
+    "leaf": {
+      "__uuid__": "682c2b34-a2db-4fea-b410-366a9ea81eff"
+    },
+    "renshu_btn": {
+      "__uuid__": "4e1c5044-49aa-4b09-b0a5-fbf6cfbb1af9"
+    },
+    "rs_btn": {
+      "__uuid__": "81577dcd-df4a-4488-8786-eea695bcbf41"
+    },
+    "select": {
+      "__uuid__": "91ca5df7-4079-47d8-aba9-72515787ff72"
+    },
+    "select_box": {
+      "__uuid__": "a75b96f0-3d48-45ba-8403-f985f40009d9"
+    },
+    "title": {
+      "__uuid__": "711e748b-4fd7-4854-9335-b419809a5157"
+    },
+    "useCard": {
+      "__uuid__": "0ce2b3c3-3e77-4648-965a-d9c158de85a2"
+    }
+  }
+}

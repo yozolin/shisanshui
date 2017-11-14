@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "desk_time_bar",
+    "texture": "0e7678d9-a3e5-4bbe-a91e-3a1dd1d8a7e0",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      86,
+      172
+    ],
+    "offset": [
+      -43,
+      0
+    ],
+    "originalSize": [
+      180,
+      180
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fenxiangtishi",
+    "texture": "e5af0571-e97a-4be4-828d-9fe63112c590",
+    "atlas": "",
+    "rect": [
+      9,
+      2,
+      332,
+      178
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      351,
+      184
+    ]
+  }
+}

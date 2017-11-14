@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "banner",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.8,
+  "sample": 5,
+  "speed": 0.1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 1600
+        },
+        {
+          "frame": 2.8,
+          "value": -1600
+        }
+      ]
+    }
+  },
+  "events": []
+}

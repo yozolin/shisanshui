@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEA,EAAE,CAAC,KAAK,CAAC;AACL,aAAS,EAAE,CAAC,SAAS;;AAErB,YAAU,EAAE;AACR,mBAAe,EAAE,EAAE,CAAC,MAAM;AAC1B,iBAAa,EAAE,CAAC,EAAE,CAAC,MAAM,CAAC;GAC7B;;;AAGD,QAAM,EAAE,kBAAY,EAEnB;;;AAGD,mBAAiB,EAAE,6BAAY;AAC7B,QAAI,CAAC,aAAa,EAAE,CAAC;AACrB,QAAI,CAAC,eAAe,CAAC,IAAI,CAAC,MAAM,GAAG,IAAI,CAAC;;AAExC,QAAI,QAAQ,GAAG,IAAI,CAAC;AACpB,QAAI,SAAS,GAAG,CAAC,CAAC;AAClB,QAAI,CAAC,aAAa,CAAC,OAAO,CAAC,CAAA,UAAS,QAAQ,EAAC;AAC3C,UAAI,CAAC,YAAY,CAAC,YAAW;AAC3B,gBAAQ,CAAC,IAAI,CAAC,MAAM,GAAG,IAAI,CAAC;OAC7B,EAAE,SAAS,CAAC,CAAC;AACd,eAAS,GAAG,SAAS,GAAG,QAAQ,CAAC;KAClC,CAAA,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;GACf;;;AAGD,eAAa,EAAE,yBAAY;AACzB,QAAI,CAAC,eAAe,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;AACzC,QAAI,CAAC,aAAa,CAAC,OAAO,CAAC,UAAS,QAAQ,EAAC;AAC3C,cAAQ,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;KAC9B,CAAC,CAAC;GACJ;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "// 牌背影列表 component\n// 可以显示、隐藏牌背影列表\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        cardsBackLayout: cc.Layout,\n        cardsBackList: [cc.Sprite],\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    // 以动画的方式显示牌背影\n    showPlayCardBacks: function () {\n      this.hideCardBacks();\n      this.cardsBackLayout.node.active = true;\n\n      let interval = 0.05;\n      var startTime = 0;\n      this.cardsBackList.forEach(function(cardBack){\n        this.scheduleOnce(function() {\n          cardBack.node.active = true;\n        }, startTime);\n        startTime = startTime + interval;\n      }.bind(this));\n    },\n\n    // 隐藏显示牌背影\n    hideCardBacks: function () {\n      this.cardsBackLayout.node.active = false;\n      this.cardsBackList.forEach(function(cardBack){\n        cardBack.node.active = false;\n      });\n    },\n});\n"
+  ]
+}

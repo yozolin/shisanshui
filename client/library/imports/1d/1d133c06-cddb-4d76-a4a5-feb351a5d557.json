@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_leave",
+    "texture": "23ac29c7-01f1-4463-8070-9f405c9c0e93",
+    "atlas": "",
+    "rect": [
+      1,
+      3,
+      94,
+      56
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      97,
+      61
+    ]
+  }
+}

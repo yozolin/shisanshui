@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,mBAAW,EAAC,CAAC,EAAE,CAAC,WAAW,CAAC;AAC5B,kBAAU,EAAC,EAAE,CAAC,MAAM;AACpB,iBAAS,EAAC,EAAE,CAAC,IAAI;KACpB;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;CAGJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        maPaiSprite:[cc.SpriteFrame],\r\n        spriteNode:cc.Sprite,\r\n        labelNode:cc.Node\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        \r\n    },\r\n\r\n    \r\n});\r\n"
+  ]
+}

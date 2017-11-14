@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_gongzhonghao",
+    "texture": "f886f343-1d43-4a21-8587-2c2adf72a5b4",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      167,
+      36
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      170,
+      39
+    ]
+  }
+}

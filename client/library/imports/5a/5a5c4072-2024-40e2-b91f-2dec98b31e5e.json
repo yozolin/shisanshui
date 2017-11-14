@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tidy_bg",
+    "texture": "e276cb43-c90c-44d9-9fcd-ebc5181606f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      574,
+      467
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      574,
+      468
+    ]
+  }
+}

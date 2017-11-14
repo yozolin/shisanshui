@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_jiesanfangjian",
+    "texture": "a270aadd-9f8e-4d3f-8909-0af565f7c45b",
+    "atlas": "",
+    "rect": [
+      8,
+      4,
+      260,
+      28
+    ],
+    "offset": [
+      -4,
+      1.5
+    ],
+    "originalSize": [
+      284,
+      39
+    ]
+  }
+}

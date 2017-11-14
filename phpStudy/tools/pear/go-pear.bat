@@ -1,0 +1,1 @@
+php.exe ..\tools\pear\go-pear.phar

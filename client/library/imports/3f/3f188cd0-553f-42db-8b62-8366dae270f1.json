@@ -1,0 +1,92 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_txt.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "game_add": {
+      "__uuid__": "35dd17ca-6c47-4f37-8d44-29277707566d"
+    },
+    "game_poker_type01": {
+      "__uuid__": "eef214a4-e3aa-4577-b0ef-7a63cd4c1a0c"
+    },
+    "game_poker_type02": {
+      "__uuid__": "feb796a6-cf7a-48e6-927d-f9b1f8cd9c98"
+    },
+    "game_poker_type03": {
+      "__uuid__": "8048f2be-512e-4476-b2c0-96d1f04d484c"
+    },
+    "game_poker_type04": {
+      "__uuid__": "b8ab9b3c-087e-43e1-b9a0-5893dc264118"
+    },
+    "game_poker_type05": {
+      "__uuid__": "7885441a-853c-46e4-8cfe-854c2f43627d"
+    },
+    "game_poker_type06": {
+      "__uuid__": "6004c150-470d-455a-863a-a021b8ef7ebc"
+    },
+    "game_poker_type07": {
+      "__uuid__": "b229ce94-2256-44b1-a3aa-0858513e8fde"
+    },
+    "game_poker_type08": {
+      "__uuid__": "61b856c9-3cf1-4d2d-90f3-0919e41e21d5"
+    },
+    "game_poker_type09": {
+      "__uuid__": "c0ae7a13-7350-42e0-bed9-56be85eaf3df"
+    },
+    "game_poker_type10": {
+      "__uuid__": "b049b9c8-a5ec-4afb-8883-18069ea8ff8d"
+    },
+    "game_poker_type11": {
+      "__uuid__": "0bbe6147-44e7-476d-9e72-69873846185b"
+    },
+    "game_poker_type22": {
+      "__uuid__": "b7a6f814-255e-4154-8bcf-306227ab0648"
+    },
+    "game_reduce": {
+      "__uuid__": "2b358e79-03f5-400a-8ec4-48590d0311b1"
+    },
+    "game_right_specia1": {
+      "__uuid__": "b1b05a5f-44a7-4b6a-b5f0-885cbcb369c1"
+    },
+    "game_right_specia14": {
+      "__uuid__": "2d6f6c0a-3670-4195-ac81-3ff69da7d966"
+    },
+    "game_right_specia15": {
+      "__uuid__": "f70f5dd6-06c0-4797-89c0-649defb21bf9"
+    },
+    "game_right_specia16": {
+      "__uuid__": "20d19075-f0ec-4e53-ab52-ce36698072a7"
+    },
+    "game_right_specia17": {
+      "__uuid__": "9bcfff8f-a263-4e41-b18d-e0272419de81"
+    },
+    "game_right_specia18": {
+      "__uuid__": "cb624f06-da8e-4569-a75a-8a9c115c529c"
+    },
+    "game_right_specia19": {
+      "__uuid__": "35f262e1-534f-40f0-b2b1-ee244eccbf7d"
+    },
+    "game_right_specia20": {
+      "__uuid__": "db3a0802-e7ef-4c90-88c1-47d33ee4c42e"
+    },
+    "game_right_specia21": {
+      "__uuid__": "2284cb12-525c-4419-b5ff-cf969201f0c9"
+    },
+    "game_right_specia22": {
+      "__uuid__": "2311abf0-9ed9-4fde-a345-73db7cd00463"
+    },
+    "game_right_specia23": {
+      "__uuid__": "592dd9a3-f033-40a9-9476-e5f58ce8029a"
+    },
+    "game_right_specia24": {
+      "__uuid__": "d54bf43d-99ca-49c2-89e9-75b4a125e3ec"
+    },
+    "game_right_specia25": {
+      "__uuid__": "2d1e2cfc-8ed0-44a2-adee-92a04874c899"
+    },
+    "game_right_specia26": {
+      "__uuid__": "2a6f7be8-9974-45c3-a967-117437b37c46"
+    }
+  }
+}

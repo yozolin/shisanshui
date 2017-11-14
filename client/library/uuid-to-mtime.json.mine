@@ -1,0 +1,2882 @@
+{
+  "49e27de4-d3db-42e2-afb1-e73d3e0ccbc8": {
+    "asset": 1503050213084,
+    "meta": 1503051429383,
+    "relativePath": "animations"
+  },
+  "203cca61-f086-4f52-82d1-76658fc7f3f8": {
+    "asset": 1503050214581,
+    "meta": 1503051429414,
+    "relativePath": "images"
+  },
+  "89bcd6a7-b76e-4c9f-998e-e39b15f21fe4": {
+    "asset": 1503050213146,
+    "meta": 1503051429414,
+    "relativePath": "images\\login"
+  },
+  "dae1fba3-b444-42f7-8403-aa1d534dfd2a": {
+    "asset": 1503050213146,
+    "meta": 1503051429461,
+    "relativePath": "images\\login\\agree.png"
+  },
+  "331cb575-8e8e-432c-8317-c74e5ce82385": {
+    "asset": 1503050213146,
+    "meta": 1503051429492,
+    "relativePath": "images\\login\\border.png"
+  },
+  "c6c1ad82-ee5f-42a5-a6fc-5c586f9eb603": {
+    "asset": 1503050213146,
+    "meta": 1503051429508,
+    "relativePath": "images\\login\\Selected.png"
+  },
+  "bb940958-4f7c-471a-93b0-6c7122c7a30c": {
+    "asset": 1503050214191,
+    "meta": 1503051430444,
+    "relativePath": "images\\room"
+  },
+  "964d7369-d052-4331-9218-67b4ee2c0faf": {
+    "asset": 1503050214534,
+    "meta": 1503051430756,
+    "relativePath": "images\\shop_alert"
+  },
+  "37628cc7-2b31-49d1-a53e-a95dd314bdd6": {
+    "asset": 1503050214503,
+    "meta": 1503051430803,
+    "relativePath": "images\\shop_alert\\black_alpha.png"
+  },
+  "a6a851e3-bf06-4845-8d3a-13f17798f350": {
+    "asset": 1503050214503,
+    "meta": 1503051430771,
+    "relativePath": "images\\shop_alert\\alert_bg.png"
+  },
+  "b1ec5b18-1d69-47ce-bec5-414e57f49425": {
+    "asset": 1503050214519,
+    "meta": 1503051430787,
+    "relativePath": "images\\shop_alert\\game_2.png"
+  },
+  "d3c220ef-ff9b-46d9-b4c8-71bf820eb882": {
+    "asset": 1503050214503,
+    "meta": 1503051430787,
+    "relativePath": "images\\shop_alert\\game_1.png"
+  },
+  "fe4ba633-0440-466c-b095-b60058204079": {
+    "asset": 1503050214519,
+    "meta": 1503051430818,
+    "relativePath": "images\\shop_alert\\game_4.png"
+  },
+  "f824c420-5911-4f3f-9a07-b51e2ccd507f": {
+    "asset": 1503050214519,
+    "meta": 1503051430803,
+    "relativePath": "images\\shop_alert\\game_3.png"
+  },
+  "0bfeeef6-4d78-4159-96cf-8982f6e3eb83": {
+    "asset": 1503050214519,
+    "meta": 1503051430818,
+    "relativePath": "images\\shop_alert\\game_5.png"
+  },
+  "ff105abc-062e-4df4-a0c4-5bdff09c410c": {
+    "asset": 1503050214519,
+    "meta": 1503051430834,
+    "relativePath": "images\\shop_alert\\game_6.png"
+  },
+  "747f32cc-d289-48b4-8242-0087717e74a9": {
+    "asset": 1503050214534,
+    "meta": 1503051430849,
+    "relativePath": "images\\shop_alert\\purchase.png"
+  },
+  "e262bc97-fc58-46ef-98d8-b3433a6f29ad": {
+    "asset": 1503050214519,
+    "meta": 1503051430834,
+    "relativePath": "images\\shop_alert\\game_bg.png"
+  },
+  "1a46e49f-d51a-4334-a53e-39fe7c799450": {
+    "asset": 1503050214534,
+    "meta": 1503051430865,
+    "relativePath": "images\\shop_alert\\sure.png"
+  },
+  "398be1f1-511a-4611-9977-00163cc69faa": {
+    "asset": 1503050214534,
+    "meta": 1503051430849,
+    "relativePath": "images\\shop_alert\\shop_bg1.png"
+  },
+  "5759e9bf-5b26-404b-a61b-3c6d7e0c9aa2": {
+    "asset": 1503050214534,
+    "meta": 1503051430896,
+    "relativePath": "images\\shop_alert\\system.png"
+  },
+  "7c5c5815-e1bf-43e1-807b-051adcbafd39": {
+    "asset": 1503050214534,
+    "meta": 1503051430896,
+    "relativePath": "images\\shop_alert\\text1.png"
+  },
+  "ced964e4-0b43-4159-bf2f-2df2ab8ba922": {
+    "asset": 1503050214160,
+    "meta": 1503051430475,
+    "relativePath": "images\\room\\add_shop.png"
+  },
+  "931092d9-cf8f-4557-a06d-886f933ff6e1": {
+    "asset": 1503050214160,
+    "meta": 1503051430491,
+    "relativePath": "images\\room\\bottom.jpg"
+  },
+  "4eafa056-cf69-4396-a49b-187a1811a71f": {
+    "asset": 1503050214160,
+    "meta": 1503051430506,
+    "relativePath": "images\\room\\cancellation.png"
+  },
+  "0be3b1a0-7b51-4f28-800e-7d7b1b98a9ac": {
+    "asset": 1503050214176,
+    "meta": 1503051430506,
+    "relativePath": "images\\room\\diamonds.png"
+  },
+  "2d1c1532-1a9a-4187-b84a-d139b4398083": {
+    "asset": 1503050214176,
+    "meta": 1503051430522,
+    "relativePath": "images\\room\\feedback.png"
+  },
+  "801c1409-5978-4f65-99be-9e573d16352f": {
+    "asset": 1503050214160,
+    "meta": 1503051430569,
+    "relativePath": "images\\room\\Notice_bg2.png"
+  },
+  "85215e82-ae94-4376-b54a-12cdcba6a30a": {
+    "asset": 1503050214176,
+    "meta": 1503051430569,
+    "relativePath": "images\\room\\pic_test.png"
+  },
+  "a0002f22-ff59-40ab-8545-aacc5a722187": {
+    "asset": 1503050214191,
+    "meta": 1503051430615,
+    "relativePath": "images\\room\\random.png"
+  },
+  "8cf72776-179a-4ea3-9c64-7980400c6922": {
+    "asset": 1503050214722,
+    "meta": 1503051430896,
+    "relativePath": "prefabs"
+  },
+  "dddcb129-bc04-4572-a08c-b98b74ceb70a": {
+    "asset": 1503115408625,
+    "meta": 1503122612388,
+    "relativePath": "scripts"
+  },
+  "0efb29e0-1e09-43b4-ad80-f96e1d99fced": {
+    "asset": 1503050222740,
+    "meta": 1503051438306,
+    "relativePath": "scripts\\launch.js"
+  },
+  "49874df3-979f-4941-b6e7-859b5490b0c6": {
+    "asset": 1503050222912,
+    "meta": 1503051439929,
+    "relativePath": "sences"
+  },
+  "3e74b7ef-5f32-4ce6-b3ee-e3f015d8551f": {
+    "asset": 1503050222896,
+    "meta": 1503051439944,
+    "relativePath": "sences\\launch.fire"
+  },
+  "e751066b-98aa-48ca-aeb1-9a8763657f23": {
+    "asset": 1503050214363,
+    "meta": 1503051430678,
+    "relativePath": "images\\share"
+  },
+  "e7c13010-9d76-4b2d-92c2-3cad635e64bd": {
+    "asset": 1503050214363,
+    "meta": 1503051430693,
+    "relativePath": "images\\share\\share_text.png"
+  },
+  "f2f7cf27-d087-4d93-8db6-c5ebbcd17017": {
+    "asset": 1503050214363,
+    "meta": 1503051430725,
+    "relativePath": "images\\share\\suer_b.png"
+  },
+  "9de1df8d-fec1-46f7-a667-84cbd65c8468": {
+    "asset": 1503050214363,
+    "meta": 1503051430756,
+    "relativePath": "images\\share\\wx1.png"
+  },
+  "3d738410-1c82-4f34-97a9-183b62f52c16": {
+    "asset": 1503050214363,
+    "meta": 1503051430725,
+    "relativePath": "images\\share\\wx.png"
+  },
+  "a9ad2702-d817-4489-a152-a95e17096415": {
+    "asset": 1503050222740,
+    "meta": 1503051439445,
+    "relativePath": "scripts\\product.js"
+  },
+  "71725bee-516a-430b-ada0-aa7d197619c3": {
+    "asset": 1503050213879,
+    "meta": 1503051430288,
+    "relativePath": "images\\rand_room"
+  },
+  "55ad7ed5-16c9-4cd7-b1e2-27abcf661fbc": {
+    "asset": 1503050213864,
+    "meta": 1503051430350,
+    "relativePath": "images\\rand_room\\play.png"
+  },
+  "f9eb30b4-ecb1-4c80-a608-227d72a6e98d": {
+    "asset": 1503050213864,
+    "meta": 1503051430350,
+    "relativePath": "images\\rand_room\\rand_logo.png"
+  },
+  "c376807e-329a-49e6-8b24-9e9637daa8e3": {
+    "asset": 1503050213879,
+    "meta": 1503051430366,
+    "relativePath": "images\\rand_room\\rand_title.png"
+  },
+  "6cb6f933-9e13-454f-abef-df9242abd0ba": {
+    "asset": 1503050213879,
+    "meta": 1503051430397,
+    "relativePath": "images\\rand_room\\text_bg.png"
+  },
+  "fc4ff4bd-a9f9-4d5c-86f5-9ea9b7bae173": {
+    "asset": 1503050213879,
+    "meta": 1503051430397,
+    "relativePath": "images\\rand_room\\wait_bg.png"
+  },
+  "1aa07ba7-abea-4f22-b96d-e98d70f65a92": {
+    "asset": 1503050213879,
+    "meta": 1503051430397,
+    "relativePath": "images\\rand_room\\wait.png"
+  },
+  "f18ddad2-b020-41b0-97d0-018f919c42b5": {
+    "asset": 1503050222912,
+    "meta": 1503051440256,
+    "relativePath": "sences\\rule.fire"
+  },
+  "92f6e36c-ed17-4344-9211-2c2667cae949": {
+    "asset": 1503050222756,
+    "meta": 1503051439523,
+    "relativePath": "scripts\\rule.js"
+  },
+  "f054d559-5e68-48e1-8856-d7aaadf17879": {
+    "asset": 1503050214706,
+    "meta": 1503051430959,
+    "relativePath": "prefabs\\foldCardNode.prefab"
+  },
+  "c0712057-d6ff-46ef-8e0d-b92a283719a3": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\banner.anim"
+  },
+  "e5128dea-80a3-4a2f-8fea-466869ed8b13": {
+    "asset": 1503050222896,
+    "meta": 1503051440116,
+    "relativePath": "sences\\randRoom.fire"
+  },
+  "3d5a6c95-9a49-4704-ab0b-d65f7b23a657": {
+    "asset": 1503050213396,
+    "meta": 1503051429508,
+    "relativePath": "images\\play\\cardTypeCombine"
+  },
+  "d7750c7c-f830-4e62-b07d-024c7cbf90b4": {
+    "asset": 1503050221695,
+    "meta": 1503051430990,
+    "relativePath": "resources"
+  },
+  "a8cea386-64f8-4553-b250-24c3eb55db54": {
+    "asset": 1503050216750,
+    "meta": 1503051432363,
+    "relativePath": "resources\\images"
+  },
+  "9a3866a4-5b60-4702-8810-bcae0b09bd96": {
+    "asset": 1503050216750,
+    "meta": 1503051432363,
+    "relativePath": "resources\\images\\pokerList"
+  },
+  "8c2dc745-e559-40d6-9c4c-38708155a1e7": {
+    "asset": 1503050213801,
+    "meta": 1503051429492,
+    "relativePath": "images\\play"
+  },
+  "2ba0cd24-2a25-4fcd-ae4f-01595bfc0eef": {
+    "asset": 1503050213957,
+    "meta": 1503051430397,
+    "relativePath": "images\\record"
+  },
+  "10d003ca-1021-4d08-bca1-d7b82ab7bf30": {
+    "asset": 1503050213942,
+    "meta": 1503051430413,
+    "relativePath": "images\\record\\cell_bg.png"
+  },
+  "c78dbb23-4d70-4047-ae53-569d9e370092": {
+    "asset": 1503050213942,
+    "meta": 1503051430413,
+    "relativePath": "images\\record\\cell_bg1.png"
+  },
+  "3fe9691c-4e33-4503-a58a-93795ae89d0a": {
+    "asset": 1503050214269,
+    "meta": 1503051430647,
+    "relativePath": "images\\set"
+  },
+  "977e2937-0cfe-43a9-854c-c2b340bef61e": {
+    "asset": 1503050214254,
+    "meta": 1503051430662,
+    "relativePath": "images\\set\\indicator.png"
+  },
+  "41011f3c-ee5b-40f2-bc45-ef7ad83764de": {
+    "asset": 1503050214254,
+    "meta": 1503051430662,
+    "relativePath": "images\\set\\sound_bar.png"
+  },
+  "1b58eedf-0a82-4879-9737-6ef2bcb536fd": {
+    "asset": 1503050213942,
+    "meta": 1503051430475,
+    "relativePath": "images\\record\\record_bg.png"
+  },
+  "73e263b4-291b-46de-80e3-324e54cd9df2": {
+    "asset": 1503050214254,
+    "meta": 1503051430662,
+    "relativePath": "images\\set\\sound_bg.png"
+  },
+  "01c6b126-dde7-4a0b-a3e3-164f118b703c": {
+    "asset": 1503050214254,
+    "meta": 1503051430662,
+    "relativePath": "images\\set\\switch.png"
+  },
+  "00e85716-d774-4f25-8e4e-84af71647e50": {
+    "asset": 1503050214254,
+    "meta": 1503051430678,
+    "relativePath": "images\\set\\text.png"
+  },
+  "bafaa03e-1d89-4b89-8ae7-de038fc19c51": {
+    "asset": 1503050214254,
+    "meta": 1503051430678,
+    "relativePath": "images\\set\\text1.png"
+  },
+  "41b070ff-ad7d-4c18-8ee7-f3a832b172d7": {
+    "asset": 1503050214269,
+    "meta": 1503051430678,
+    "relativePath": "images\\set\\text2.png"
+  },
+  "0fcbcb7f-4c1c-42ef-8dac-68a2ee16f890": {
+    "asset": 1503050222709,
+    "meta": 1503051435561,
+    "relativePath": "scripts\\cards.js"
+  },
+  "1c921c3b-6c41-4a50-874d-c08b4e5f7a06": {
+    "asset": 1503050222771,
+    "meta": 1503051439788,
+    "relativePath": "scripts\\slider.js"
+  },
+  "c2c2736f-73b0-4c35-a8e0-666581a924c8": {
+    "asset": 1503050214690,
+    "meta": 1503051430912,
+    "relativePath": "prefabs\\cards.prefab"
+  },
+  "797ac575-d5ac-45b3-aa41-e196123f0acf": {
+    "asset": 1503050213505,
+    "meta": 1503051429757,
+    "relativePath": "images\\play\\chat"
+  },
+  "513eb0e3-94bc-4d62-9dd2-521324aa208e": {
+    "asset": 1503050213489,
+    "meta": 1503051429804,
+    "relativePath": "images\\play\\chat\\bq_text1.png"
+  },
+  "73798e2a-ca94-40f0-ba5a-b2e07c26f3e9": {
+    "asset": 1503050213489,
+    "meta": 1503051429835,
+    "relativePath": "images\\play\\chat\\bq_text2.png"
+  },
+  "ebe062f2-9ccb-4b59-a1c7-982a3d09b026": {
+    "asset": 1503050213489,
+    "meta": 1503051429867,
+    "relativePath": "images\\play\\chat\\cell_bg.png"
+  },
+  "314f6664-c137-4c0a-9e71-8a8760784b0a": {
+    "asset": 1503050213489,
+    "meta": 1503051429913,
+    "relativePath": "images\\play\\chat\\chart_text1.png"
+  },
+  "bcb0abd4-5350-4fc7-b786-f1a8d08565a2": {
+    "asset": 1503050213489,
+    "meta": 1503051429945,
+    "relativePath": "images\\play\\chat\\chart_text2.png"
+  },
+  "4c584865-78d0-4109-9f2a-57b5954405a4": {
+    "asset": 1503050213505,
+    "meta": 1503051429976,
+    "relativePath": "images\\play\\chat\\language1.png"
+  },
+  "d726b143-2439-4a2c-8131-80a19cfef347": {
+    "asset": 1503050213505,
+    "meta": 1503051429960,
+    "relativePath": "images\\play\\chat\\language2.png"
+  },
+  "6eab78ba-016d-4e96-9b1e-29e167461da5": {
+    "asset": 1503050213505,
+    "meta": 1503051429945,
+    "relativePath": "images\\play\\chat\\chat_bg.png"
+  },
+  "2a42ac24-06a8-4a0d-ba63-7cca530459af": {
+    "asset": 1503050213505,
+    "meta": 1503051430007,
+    "relativePath": "images\\play\\chat\\set.png"
+  },
+  "7360756d-b832-42e3-94d0-8e80ee98e7d4": {
+    "asset": 1503050213505,
+    "meta": 1503051429991,
+    "relativePath": "images\\play\\chat\\set_bg.png"
+  },
+  "b1febd6c-4b79-4017-808f-3ee98e247f70": {
+    "asset": 1503050214706,
+    "meta": 1503051430927,
+    "relativePath": "prefabs\\cell_msg.prefab"
+  },
+  "292a2916-6261-4e50-a389-2bcd1bbec080": {
+    "asset": 1503050214706,
+    "meta": 1503051431005,
+    "relativePath": "prefabs\\waiting.prefab"
+  },
+  "96476574-3864-4107-a119-95176abfd6ec": {
+    "asset": 1503050214675,
+    "meta": 1503051430927,
+    "relativePath": "prefabs\\CardTypeSprite.prefab"
+  },
+  "ede89a00-59ab-44cb-8560-f2cbc0ee0701": {
+    "asset": 1503050214675,
+    "meta": 1503051430912,
+    "relativePath": "prefabs\\CardPrefab.prefab"
+  },
+  "94cdbadb-3dcf-4a46-ac7e-d6c1ee996237": {
+    "asset": 1503050222662,
+    "meta": 1503051435530,
+    "relativePath": "scripts\\CardPrefab.js"
+  },
+  "61ae7219-2c26-4ac0-98e4-72712832b82d": {
+    "asset": 1503050221913,
+    "meta": 1503051437090,
+    "relativePath": "scripts\\KQCard"
+  },
+  "cf1de290-4383-4c31-8555-fbbc44afd25f": {
+    "asset": 1503050221882,
+    "meta": 1503051437963,
+    "relativePath": "scripts\\KQCard\\KQCardColorsHelper.js"
+  },
+  "e1cdab1e-45dd-4b1d-9fdb-202b1e278f50": {
+    "asset": 1503050221820,
+    "meta": 1503051436512,
+    "relativePath": "scripts\\Extensions"
+  },
+  "7b106790-fc8e-45d4-9f39-84cc45048970": {
+    "asset": 1503050221820,
+    "meta": 1503051436746,
+    "relativePath": "scripts\\Extensions\\StringExtension.js"
+  },
+  "02f29bf1-b519-4a2c-bfe7-476f3a2eb1f4": {
+    "asset": 1503050221773,
+    "meta": 1503051436388,
+    "relativePath": "scripts\\Event"
+  },
+  "2dbe94f4-f201-4736-a46a-580424094714": {
+    "asset": 1503050221773,
+    "meta": 1503051436200,
+    "relativePath": "scripts\\Chat"
+  },
+  "eea340ae-4afc-4b0b-94e5-219621345436": {
+    "asset": 1503050222366,
+    "meta": 1503051439601,
+    "relativePath": "scripts\\Setting"
+  },
+  "014a0a07-e72f-4bac-a611-780283c89081": {
+    "asset": 1503050214690,
+    "meta": 1503051430990,
+    "relativePath": "prefabs\\SettingPrefab.prefab"
+  },
+  "62e839dd-7b48-45ae-9480-4029b30bd785": {
+    "asset": 1503050221742,
+    "meta": 1503051435249,
+    "relativePath": "scripts\\Audio"
+  },
+  "9898622c-5c87-478a-a2c6-115206d8258f": {
+    "asset": 1503050222709,
+    "meta": 1503051436122,
+    "relativePath": "scripts\\cardsBack.js"
+  },
+  "e614cd05-3277-40b6-b38c-732f3f3dc670": {
+    "asset": 1503050222678,
+    "meta": 1503051436200,
+    "relativePath": "scripts\\CardTypeSprite.js"
+  },
+  "d5a6b9f3-20dd-4510-af79-00dfdb4b43bd": {
+    "asset": 1503050213786,
+    "meta": 1503051440350,
+    "relativePath": "images\\play\\shoot.plist"
+  },
+  "926bc1a5-7a67-409c-9388-2f33345865a8": {
+    "asset": 1503050213786,
+    "meta": 1503051430350,
+    "relativePath": "images\\play\\shoot.png"
+  },
+  "91579223-8e97-43e7-91d0-5e57e257c860": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\shoot.anim"
+  },
+  "2994c747-6b38-400c-b11c-4c9b04162063": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\bulletHole.anim"
+  },
+  "babf39da-f21a-4a72-9f82-1eb271a64473": {
+    "asset": 1503050221960,
+    "meta": 1503051438369,
+    "relativePath": "scripts\\Pefabs"
+  },
+  "95675616-b9fd-45a9-bf00-3a47e8d2ec70": {
+    "asset": 1503050214690,
+    "meta": 1503051430943,
+    "relativePath": "prefabs\\CompareCards.prefab"
+  },
+  "163fe825-565c-4350-a04c-cadd29b48b8f": {
+    "asset": 1503050213770,
+    "meta": 1503051440350,
+    "relativePath": "images\\play\\player.plist"
+  },
+  "6a456f1f-0b7c-498e-96f5-b16eb614c0db": {
+    "asset": 1503050213786,
+    "meta": 1503051430210,
+    "relativePath": "images\\play\\player.png"
+  },
+  "9a4500d3-4423-4cf2-b45e-9acc59876eaa": {
+    "asset": 1503050222178,
+    "meta": 1503051439149,
+    "relativePath": "scripts\\Play"
+  },
+  "be420bed-59a2-4e1e-8c50-719c0fdb1376": {
+    "asset": 1503050221898,
+    "meta": 1503051438150,
+    "relativePath": "scripts\\KQCard\\KQCardResHelper.js"
+  },
+  "936f2b8f-03c3-40ba-a519-bf447c67180f": {
+    "asset": 1503050221820,
+    "meta": 1503051436731,
+    "relativePath": "scripts\\Extensions\\SpriteHelper.js"
+  },
+  "9c9fddce-c563-44a7-8ae2-8df8c9bf4e6d": {
+    "asset": 1503050222709,
+    "meta": 1503051436232,
+    "relativePath": "scripts\\cellText.js"
+  },
+  "7c204d3d-d0b9-4a13-9313-291579ac01ea": {
+    "asset": 1503050214690,
+    "meta": 1503051430943,
+    "relativePath": "prefabs\\ChatTextRecord.prefab"
+  },
+  "88d1053d-b48a-4734-ad5e-9eda141f426e": {
+    "asset": 1503050221944,
+    "meta": 1503051438462,
+    "relativePath": "scripts\\Pefabs\\ChatTextRecord.js"
+  },
+  "dc898d17-d995-4d2a-b1fd-06c22c484e03": {
+    "asset": 1503050221757,
+    "meta": 1503051436310,
+    "relativePath": "scripts\\Chat\\ChatMessage.js"
+  },
+  "78d6789b-2e14-47a3-a5a7-5af2e03dbe7d": {
+    "asset": 1503050214503,
+    "meta": 1503051430771,
+    "relativePath": "images\\shop_alert\\agree.png"
+  },
+  "70ade6fd-920b-4af6-a4fb-37946e334544": {
+    "asset": 1503050219589,
+    "meta": 1503051432831,
+    "relativePath": "resources\\sounds"
+  },
+  "fc82c747-aee5-4aad-be4e-1487e9185911": {
+    "asset": 1503050216890,
+    "meta": 1503051432831,
+    "relativePath": "resources\\sounds\\bg"
+  },
+  "ade45fc3-f4cf-4c25-ad3b-6f4c850fbc5a": {
+    "asset": 1503050217686,
+    "meta": 1503051432831,
+    "relativePath": "resources\\sounds\\chat"
+  },
+  "fb2f7688-3a78-4994-872e-6db0f9fc0b65": {
+    "asset": 1503050217608,
+    "meta": 1503050217608,
+    "relativePath": "resources\\sounds\\chat\\1000.wav"
+  },
+  "e57fda33-406a-4dde-a694-ba1dd97eb5f1": {
+    "asset": 1503050217608,
+    "meta": 1503050217608,
+    "relativePath": "resources\\sounds\\chat\\1001.wav"
+  },
+  "023a9b03-d0d5-4bf2-bf65-79372964e68a": {
+    "asset": 1503050217608,
+    "meta": 1503050217608,
+    "relativePath": "resources\\sounds\\chat\\1002.wav"
+  },
+  "3f320807-8cb0-4420-ac0e-ca3bcf75467c": {
+    "asset": 1503050217623,
+    "meta": 1503050217623,
+    "relativePath": "resources\\sounds\\chat\\1003.wav"
+  },
+  "41e1f7d6-4057-42c7-97e1-cec2eea49990": {
+    "asset": 1503050217623,
+    "meta": 1503050217623,
+    "relativePath": "resources\\sounds\\chat\\1004.wav"
+  },
+  "c971af69-b8fa-49d3-bec6-ef5872c581dd": {
+    "asset": 1503050217623,
+    "meta": 1503050217623,
+    "relativePath": "resources\\sounds\\chat\\1005.wav"
+  },
+  "51bd4fa0-98ed-40b6-b914-bd2e5f4a933d": {
+    "asset": 1503050217623,
+    "meta": 1503050217623,
+    "relativePath": "resources\\sounds\\chat\\1006.wav"
+  },
+  "667e4da3-c274-49e1-8b6c-67f42033630d": {
+    "asset": 1503050217623,
+    "meta": 1503050217623,
+    "relativePath": "resources\\sounds\\chat\\1007.wav"
+  },
+  "046740f8-e186-42b6-838f-d55f76121f70": {
+    "asset": 1503050217639,
+    "meta": 1503050217639,
+    "relativePath": "resources\\sounds\\chat\\1008.wav"
+  },
+  "d51edb75-143d-4150-81c9-aaea759fc14d": {
+    "asset": 1503050217639,
+    "meta": 1503050217639,
+    "relativePath": "resources\\sounds\\chat\\1009.wav"
+  },
+  "5890b538-db32-4452-896e-ec70ed907bd5": {
+    "asset": 1503050217639,
+    "meta": 1503050217639,
+    "relativePath": "resources\\sounds\\chat\\1010.wav"
+  },
+  "a07e6d81-b1f8-46c0-a18e-9c0f48af4464": {
+    "asset": 1503050217639,
+    "meta": 1503050217639,
+    "relativePath": "resources\\sounds\\chat\\1011.wav"
+  },
+  "7ce5f595-5d7d-4f8c-9345-04e1bac61726": {
+    "asset": 1503050217639,
+    "meta": 1503050217654,
+    "relativePath": "resources\\sounds\\chat\\2000.wav"
+  },
+  "dda001e0-dbb9-43a5-9506-d7bb0c063f3b": {
+    "asset": 1503050217654,
+    "meta": 1503050217654,
+    "relativePath": "resources\\sounds\\chat\\2001.wav"
+  },
+  "48e3eec6-e7a0-4ee9-932c-86fdbbf12977": {
+    "asset": 1503050217654,
+    "meta": 1503050217654,
+    "relativePath": "resources\\sounds\\chat\\2002.wav"
+  },
+  "d018feac-2530-44a7-83b1-f30b2cf7b68d": {
+    "asset": 1503050217654,
+    "meta": 1503050217654,
+    "relativePath": "resources\\sounds\\chat\\2003.wav"
+  },
+  "50ff7df7-dc8d-4cc7-b469-51272f3b75cb": {
+    "asset": 1503050217654,
+    "meta": 1503050217654,
+    "relativePath": "resources\\sounds\\chat\\2004.wav"
+  },
+  "435324d6-1a49-473d-8d05-d4193133b085": {
+    "asset": 1503050217654,
+    "meta": 1503050217670,
+    "relativePath": "resources\\sounds\\chat\\2005.wav"
+  },
+  "86faecf5-d0a1-4f52-bb7c-0a8924854bd3": {
+    "asset": 1503050217670,
+    "meta": 1503050217670,
+    "relativePath": "resources\\sounds\\chat\\2006.wav"
+  },
+  "1eb9d5b6-f77b-47d1-ba67-7b1f9d3fad76": {
+    "asset": 1503050217670,
+    "meta": 1503050217670,
+    "relativePath": "resources\\sounds\\chat\\2007.wav"
+  },
+  "72dccb2f-d50e-459e-9bf1-dfcc527768c3": {
+    "asset": 1503050217670,
+    "meta": 1503050217670,
+    "relativePath": "resources\\sounds\\chat\\2008.wav"
+  },
+  "00f15c4f-d674-4b3b-92bf-e01764993ada": {
+    "asset": 1503050217670,
+    "meta": 1503050217670,
+    "relativePath": "resources\\sounds\\chat\\2009.wav"
+  },
+  "638df336-433c-4279-a657-996dc5cae5ac": {
+    "asset": 1503050217670,
+    "meta": 1503050217686,
+    "relativePath": "resources\\sounds\\chat\\2010.wav"
+  },
+  "a086e5be-0548-4dea-adca-6c3e354221ce": {
+    "asset": 1503050217686,
+    "meta": 1503050217686,
+    "relativePath": "resources\\sounds\\chat\\2011.wav"
+  },
+  "b7619bef-d26c-4be8-aa6f-0b1c6fa610a8": {
+    "asset": 1503050218076,
+    "meta": 1503051432862,
+    "relativePath": "resources\\sounds\\man"
+  },
+  "bc0267dd-07a1-450b-932a-394ffa6400ad": {
+    "asset": 1503050218793,
+    "meta": 1503051432877,
+    "relativePath": "resources\\sounds\\openface"
+  },
+  "2c134ac4-5ac5-4867-8e43-5ea5167bede9": {
+    "asset": 1503050218762,
+    "meta": 1503050218762,
+    "relativePath": "resources\\sounds\\openface\\award.mp3"
+  },
+  "4c3c331f-32f4-48f5-a8dd-b494015cbac9": {
+    "asset": 1503050218762,
+    "meta": 1503050218762,
+    "relativePath": "resources\\sounds\\openface\\come_out.mp3"
+  },
+  "ccfd1f6f-863b-4e52-b353-330d9b20e90c": {
+    "asset": 1503050218762,
+    "meta": 1503050218762,
+    "relativePath": "resources\\sounds\\openface\\fantasy.mp3"
+  },
+  "42a6f682-3d42-407e-bf8b-d683d50dd703": {
+    "asset": 1503050218778,
+    "meta": 1503050218778,
+    "relativePath": "resources\\sounds\\openface\\no_award.mp3"
+  },
+  "a1731089-954d-42e9-9b7f-6a3ca6e0d044": {
+    "asset": 1503050218778,
+    "meta": 1503050218793,
+    "relativePath": "resources\\sounds\\openface\\score_100.mp3"
+  },
+  "dd873bcf-883b-4b9c-89cb-6e95e8550007": {
+    "asset": 1503050218778,
+    "meta": 1503050218778,
+    "relativePath": "resources\\sounds\\openface\\score.mp3"
+  },
+  "bf157810-493f-492d-b5a4-6aec78d57cb9": {
+    "asset": 1503050218793,
+    "meta": 1503050218793,
+    "relativePath": "resources\\sounds\\openface\\select.mp3"
+  },
+  "42a3885a-d60e-4131-9aa6-8e4b5b6f1f65": {
+    "asset": 1503050218793,
+    "meta": 1503050218793,
+    "relativePath": "resources\\sounds\\openface\\xianggong.mp3"
+  },
+  "f729519f-67df-4d93-b50d-d1bec49a8953": {
+    "asset": 1503050219261,
+    "meta": 1503051432877,
+    "relativePath": "resources\\sounds\\public"
+  },
+  "35427ddb-2a7e-49bc-8c6d-e147feb26471": {
+    "asset": 1503050219199,
+    "meta": 1503050219199,
+    "relativePath": "resources\\sounds\\public\\btn_close.mp3"
+  },
+  "f9bcdfd4-740f-4a96-8e07-c10abfd1d8af": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\coin_income.mp3"
+  },
+  "67457a8c-2baa-43d0-bb51-3a30120f344c": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\coin_show.mp3"
+  },
+  "7f01a534-e549-4649-914c-3f7c3a2c632f": {
+    "asset": 1503050218965,
+    "meta": 1503051432893,
+    "relativePath": "resources\\sounds\\public\\compare"
+  },
+  "c9930f5c-c635-4756-9f5c-a6f527c519c8": {
+    "asset": 1503050218934,
+    "meta": 1503050218934,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_back.mp3"
+  },
+  "9320cb99-7e64-4f3e-aa1f-b44b16139123": {
+    "asset": 1503050218934,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_bet.mp3"
+  },
+  "0ec8649e-8217-4a7a-b428-a597de359c73": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_click_sound.mp3"
+  },
+  "4d5a046a-c34e-40c9-a8db-d689caff4e73": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_flop.mp3"
+  },
+  "f12e5554-adae-4d68-9d08-fc3c5f039cae": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_fly_coin.mp3"
+  },
+  "9aba2b80-3996-42cc-b6bc-25333400f79c": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_poker.mp3"
+  },
+  "486833a6-cd9f-4e49-ad14-4ba6851be843": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\compare_special.mp3"
+  },
+  "3a1c94fe-3f6e-4a8f-b5fe-80c12c02edfb": {
+    "asset": 1503050218965,
+    "meta": 1503050218965,
+    "relativePath": "resources\\sounds\\public\\compare\\voice_ready.mp3"
+  },
+  "91b6ffed-900a-40fb-a9fb-d26d0867e9c0": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\drawer_back.mp3"
+  },
+  "c8c32c41-18d9-4aaa-9190-99ab44132014": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\drawer_close.mp3"
+  },
+  "37b55fb8-b68b-4eb1-8aae-5182ff7aeefc": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\drawer_open_1.mp3"
+  },
+  "1a1b2fe8-dc86-4fad-a03b-8a589a57f2b4": {
+    "asset": 1503050219214,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\drawer_open_2.mp3"
+  },
+  "f3a36edb-2603-4009-9b88-c8b26fb5c160": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\poker_compare.mp3"
+  },
+  "77f76657-f75a-4636-b24d-1a7683df199b": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\poker_deal.mp3"
+  },
+  "6c10fc43-8252-4dd5-8fa6-bb4337ef96e1": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\poker_ready.mp3"
+  },
+  "5b8e0942-1a0a-4a1c-8f8e-c75d0afd9066": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\poker_special.mp3"
+  },
+  "9b0c96f8-3985-4126-ad97-77392ed53d4c": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\question_mark.mp3"
+  },
+  "330a37a4-5343-4db3-b54c-52d3c042870d": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_dingding.mp3"
+  },
+  "9f5c9d6f-e177-41e7-bec2-e05ec96721e3": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_enter.mp3"
+  },
+  "75bf1149-630f-4036-a025-880b27318ab2": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_list_switching.mp3"
+  },
+  "2cd4a672-455f-4398-9273-1a50a7cbccfd": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_out.mp3"
+  },
+  "92a509a9-2d62-46b8-b084-d6ca4fdbf593": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_start_compare.mp3"
+  },
+  "9e44d265-058b-4138-b213-c019764d8b56": {
+    "asset": 1503050219246,
+    "meta": 1503050219246,
+    "relativePath": "resources\\sounds\\public\\room_timer.mp3"
+  },
+  "a1e4c60a-ec5a-4c8f-acc1-e4e39979e65a": {
+    "asset": 1503050219261,
+    "meta": 1503050219261,
+    "relativePath": "resources\\sounds\\public\\rule_switching.mp3"
+  },
+  "7edaabc0-ba09-4390-839a-3a30de9fea81": {
+    "asset": 1503050219261,
+    "meta": 1503050219261,
+    "relativePath": "resources\\sounds\\public\\special_poker_type_anim.mp3"
+  },
+  "10aba8e4-ef53-453b-8a3d-2a074abed1d3": {
+    "asset": 1503050219261,
+    "meta": 1503050219261,
+    "relativePath": "resources\\sounds\\public\\special_poker_type.mp3"
+  },
+  "387e2e34-abb8-4d7d-9819-2622ffc68268": {
+    "asset": 1503050219558,
+    "meta": 1503051432924,
+    "relativePath": "resources\\sounds\\woman"
+  },
+  "336626e9-a3b0-4837-a94a-84f4503f2c9c": {
+    "asset": 1503050213879,
+    "meta": 1503051430381,
+    "relativePath": "images\\rand_room\\refuse.png"
+  },
+  "f162594d-a44c-4bbc-bc66-7c3a95f470cb": {
+    "asset": 1503050222397,
+    "meta": 1503051439835,
+    "relativePath": "scripts\\Utils"
+  },
+  "cccd047a-348c-43e2-acaa-8452736fcaf7": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\recordVoice.anim"
+  },
+  "040ea3e9-58b8-4520-9d33-9734b48df250": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\poker_click.wav"
+  },
+  "6f59acf4-3e36-4642-840e-5cee60ee087e": {
+    "asset": 1503050218044,
+    "meta": 1503050218044,
+    "relativePath": "resources\\sounds\\man\\daqiang1.wav"
+  },
+  "dd24276c-63e8-411b-92e9-2fb645eca9fa": {
+    "asset": 1503050221757,
+    "meta": 1503051436325,
+    "relativePath": "scripts\\Chat\\MsgControl.js"
+  },
+  "c75c2607-6c02-4ecc-a47d-c532817db978": {
+    "asset": 1503050217966,
+    "meta": 1503050217982,
+    "relativePath": "resources\\sounds\\man\\common1.wav"
+  },
+  "7b329bac-6d29-4d83-a050-a6521cce117c": {
+    "asset": 1503050217982,
+    "meta": 1503050217998,
+    "relativePath": "resources\\sounds\\man\\common3.wav"
+  },
+  "6b0c47a1-656c-4ea5-8691-1dcd665c5e06": {
+    "asset": 1503050217982,
+    "meta": 1503050217982,
+    "relativePath": "resources\\sounds\\man\\common2.wav"
+  },
+  "86a57d5f-89c9-4817-86cf-60f5745d43c5": {
+    "asset": 1503050217998,
+    "meta": 1503050217998,
+    "relativePath": "resources\\sounds\\man\\common4.wav"
+  },
+  "b5ba74a7-8ae6-4428-a188-2d3ba24fc56c": {
+    "asset": 1503050217998,
+    "meta": 1503050217998,
+    "relativePath": "resources\\sounds\\man\\common5.wav"
+  },
+  "7811d2c2-b578-4bdd-899c-999cec838305": {
+    "asset": 1503050218013,
+    "meta": 1503050218013,
+    "relativePath": "resources\\sounds\\man\\common6.wav"
+  },
+  "c3bbf83c-01fe-46ca-b136-b782842254cf": {
+    "asset": 1503050218013,
+    "meta": 1503050218013,
+    "relativePath": "resources\\sounds\\man\\common7.wav"
+  },
+  "ba09a404-5f90-455a-b83d-895c6d9d352c": {
+    "asset": 1503050218029,
+    "meta": 1503050218029,
+    "relativePath": "resources\\sounds\\man\\common8.wav"
+  },
+  "4a08f90d-4564-49d6-ad84-bc07bdb77c5d": {
+    "asset": 1503050217982,
+    "meta": 1503050217982,
+    "relativePath": "resources\\sounds\\man\\common10.wav"
+  },
+  "2858862c-a4ac-4757-9c69-b6c1f12b7a61": {
+    "asset": 1503050218029,
+    "meta": 1503050218029,
+    "relativePath": "resources\\sounds\\man\\common9.wav"
+  },
+  "a70bc747-146c-4713-af53-a6808ba710b8": {
+    "asset": 1503050218044,
+    "meta": 1503050218044,
+    "relativePath": "resources\\sounds\\man\\special1.wav"
+  },
+  "b980cb27-3120-43e3-a7ec-2e6d87fddc84": {
+    "asset": 1503050218044,
+    "meta": 1503050218060,
+    "relativePath": "resources\\sounds\\man\\start_compare.wav"
+  },
+  "0970ae2f-ae58-4ea5-a65b-34e2ac4a0407": {
+    "asset": 1503050218060,
+    "meta": 1503050218076,
+    "relativePath": "resources\\sounds\\man\\start_poker.wav"
+  },
+  "3d3a924e-bbbf-4699-981a-c82e7b27a28b": {
+    "asset": 1503050219542,
+    "meta": 1503050219558,
+    "relativePath": "resources\\sounds\\woman\\daqiang1.wav"
+  },
+  "a807069b-5961-4645-9b8f-ce9e2c7856ce": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\common1.wav"
+  },
+  "5995b8fe-1b70-4420-984f-18def6b36dc4": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\common2.wav"
+  },
+  "c48b5417-25cf-49b7-bc00-7b4e6288d3f2": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\common3.wav"
+  },
+  "254f60af-b498-4d21-8972-f8c9dc3c5fcf": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common4.wav"
+  },
+  "5515e767-2512-4c47-96a4-15eac37e7b77": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common5.wav"
+  },
+  "9e27c775-849d-416f-8e5c-f3c1b42163d1": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common6.wav"
+  },
+  "5e7d3ca3-f091-4dbb-808b-63965a08ba4d": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common7.wav"
+  },
+  "3a2b35c5-d033-4741-956a-37ecbd6532e8": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common8.wav"
+  },
+  "3931c58b-a8c4-4f69-8427-071df46bff7a": {
+    "asset": 1503050219542,
+    "meta": 1503050219542,
+    "relativePath": "resources\\sounds\\woman\\common9.wav"
+  },
+  "1b51e3d8-55ad-4706-ab28-59bcd3284eec": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\common10.wav"
+  },
+  "f12b4a71-328f-43e4-873e-35a9a3fe54c9": {
+    "asset": 1503050219558,
+    "meta": 1503050219558,
+    "relativePath": "resources\\sounds\\woman\\special1.wav"
+  },
+  "42f3f68c-996b-4510-9903-feb11e0d1b34": {
+    "asset": 1503050219558,
+    "meta": 1503050219558,
+    "relativePath": "resources\\sounds\\woman\\start_compare.wav"
+  },
+  "e91163ab-78c9-4253-ad2c-66f35877b17f": {
+    "asset": 1503050219558,
+    "meta": 1503050219558,
+    "relativePath": "resources\\sounds\\woman\\start_poker.wav"
+  },
+  "e15452bb-0647-4d9f-ac83-d6a9e4cd7c13": {
+    "asset": 1503050213770,
+    "meta": 1503051440334,
+    "relativePath": "images\\play\\play_items.plist"
+  },
+  "e38b5fca-cb09-43b7-b649-725d13c0b579": {
+    "asset": 1503050213770,
+    "meta": 1503051430101,
+    "relativePath": "images\\play\\play_items.png"
+  },
+  "3fb37641-e851-4d0d-b06d-751978bfdfef": {
+    "asset": 1503050213786,
+    "meta": 1503051440366,
+    "relativePath": "images\\play\\voice_animation.plist"
+  },
+  "4172927c-bdd3-42f5-83f6-57789f5c5287": {
+    "asset": 1503050213801,
+    "meta": 1503051430288,
+    "relativePath": "images\\play\\voice_animation.png"
+  },
+  "c690b163-dc43-421e-a012-61d5eb4fe62c": {
+    "asset": 1503050221913,
+    "meta": 1503051438322,
+    "relativePath": "scripts\\ModelUtils"
+  },
+  "98854692-71aa-45e6-8427-1cac49b2f985": {
+    "asset": 1503050221913,
+    "meta": 1503051438353,
+    "relativePath": "scripts\\ModelUtils\\UserModelHelper.js"
+  },
+  "ef21c857-1018-4a8d-b3f2-f63bd3e2f386": {
+    "asset": 1503050213770,
+    "meta": 1503051440334,
+    "relativePath": "images\\play\\play_result.plist"
+  },
+  "d719e4dd-43b2-4c95-9971-fb2333034cbe": {
+    "asset": 1503050213770,
+    "meta": 1503051430101,
+    "relativePath": "images\\play\\play_result.png"
+  },
+  "7660ac70-e12a-4def-b753-379e3497e9ed": {
+    "asset": 1503050214690,
+    "meta": 1503051430990,
+    "relativePath": "prefabs\\TotalGameResultItem.prefab"
+  },
+  "27935c2f-864f-4a73-8ae1-6d8cbe19a396": {
+    "asset": 1503050214534,
+    "meta": 1503051430865,
+    "relativePath": "images\\shop_alert\\shop_exit.png"
+  },
+  "e9c34c30-820a-45aa-9bd5-4c891030eb7e": {
+    "asset": 1503050214690,
+    "meta": 1503051430896,
+    "relativePath": "prefabs\\alert.prefab"
+  },
+  "3a9f7034-2204-463e-b019-bf2d69f6ce22": {
+    "asset": 1503050222163,
+    "meta": 1503051439352,
+    "relativePath": "scripts\\Play\\UserSampleInfo.js"
+  },
+  "452f4ac5-52a4-4b15-8946-1094b99045ac": {
+    "asset": 1503050222740,
+    "meta": 1503051439492,
+    "relativePath": "scripts\\record.js"
+  },
+  "31093e2a-d584-4425-8590-2caab2b81ea6": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\pop_dismiss.anim"
+  },
+  "5d256993-a6f3-4f27-8e3e-e754e15d8fbe": {
+    "asset": 1503050222225,
+    "meta": 1503051439383,
+    "relativePath": "scripts\\Playback"
+  },
+  "4f9dc907-c09a-4bcb-b3e6-215409bc6133": {
+    "asset": 1503050216890,
+    "meta": 1503050216890,
+    "relativePath": "resources\\sounds\\bg\\game_bg1.mp3"
+  },
+  "1a2c3a1a-fdd3-417a-8db8-6510ef766c89": {
+    "asset": 1503050216874,
+    "meta": 1503050216874,
+    "relativePath": "resources\\sounds\\bg\\compare_bg.mp3"
+  },
+  "413e9a30-4346-4a1b-8d38-dd7edab3858a": {
+    "asset": 1503050219589,
+    "meta": 1503050219589,
+    "relativePath": "resources\\sounds\\daqiang3.wav"
+  },
+  "80e21819-4693-4ce2-9222-0a967eeecf26": {
+    "asset": 1503050221820,
+    "meta": 1503051436684,
+    "relativePath": "scripts\\Extensions\\NumberExtension.js"
+  },
+  "4fd85352-b052-4b77-8a87-ac7d148c7ce5": {
+    "asset": 1503050221804,
+    "meta": 1503051436653,
+    "relativePath": "scripts\\Extensions\\ArrayExtension.js"
+  },
+  "c99d3e52-cba8-433d-baed-7bd9d5733c4f": {
+    "asset": 1503050222693,
+    "meta": 1503051438353,
+    "relativePath": "scripts\\NetworkError.js"
+  },
+  "0d309e5d-9c15-45a3-90f5-8440c36b9290": {
+    "asset": 1503050222225,
+    "meta": 1503051439398,
+    "relativePath": "scripts\\Playback\\Playback.js"
+  },
+  "4581137a-d631-4503-a52b-ca04256b9fb1": {
+    "asset": 1503050222724,
+    "meta": 1503051436965,
+    "relativePath": "scripts\\game.js"
+  },
+  "046fda9a-877a-43f5-9ae2-8976819edc4b": {
+    "asset": 1503050218762,
+    "meta": 1503050218778,
+    "relativePath": "resources\\sounds\\openface\\fapai.wav"
+  },
+  "77154c8c-fe43-48a6-a28a-3b05ec642e66": {
+    "asset": 1503050213942,
+    "meta": 1503051430428,
+    "relativePath": "images\\record\\playback.png"
+  },
+  "463e0959-e9c9-462c-83cd-0182d4c7a6d6": {
+    "asset": 1503050213957,
+    "meta": 1503051430444,
+    "relativePath": "images\\record\\watch.png"
+  },
+  "287c4a4e-f5cc-4ef1-9efc-4829beaaff0b": {
+    "asset": 1503050214706,
+    "meta": 1503051430943,
+    "relativePath": "prefabs\\cell.prefab"
+  },
+  "e145781d-bdde-48e5-a10d-8cabc24e409d": {
+    "asset": 1503050222756,
+    "meta": 1503051439508,
+    "relativePath": "scripts\\recordInfo.js"
+  },
+  "e5170efb-974c-4c6a-b07d-b90b171b3be4": {
+    "asset": 1503050221820,
+    "meta": 1503051436668,
+    "relativePath": "scripts\\Extensions\\fecha.js"
+  },
+  "daa76f83-5486-4ea1-94e0-260eccf7e786": {
+    "asset": 1503050213786,
+    "meta": 1503051430179,
+    "relativePath": "images\\play\\result_draw.png"
+  },
+  "f3ad698d-9380-4c05-9ce2-a46403365af8": {
+    "asset": 1503050222366,
+    "meta": 1503051439617,
+    "relativePath": "scripts\\Setting\\Setting.js"
+  },
+  "a8bc7d87-159b-4622-a9ba-3591f129b348": {
+    "asset": 1503050213474,
+    "meta": 1503051440319,
+    "relativePath": "images\\play\\chat\\bq.plist"
+  },
+  "da45d593-6e26-48d8-a76b-7adeb13ce929": {
+    "asset": 1503050213489,
+    "meta": 1503051429913,
+    "relativePath": "images\\play\\chat\\bq.png"
+  },
+  "47cb5aca-23b0-4b6f-9fb4-8b97ab4aa7ef": {
+    "asset": 1503050222381,
+    "meta": 1503051439648,
+    "relativePath": "scripts\\Socket"
+  },
+  "428c8b64-d315-4272-a3aa-a55f46b9cf6d": {
+    "asset": 1503050213754,
+    "meta": 1503051429523,
+    "relativePath": "images\\play\\banker.png"
+  },
+  "e1c6ff77-6b50-4e9e-84a2-5fa909d047e7": {
+    "asset": 1503050222163,
+    "meta": 1503051439352,
+    "relativePath": "scripts\\Play\\TotalGameResultItem.js"
+  },
+  "b206b85d-2a91-47a4-9c47-c200d82e37ce": {
+    "asset": 1503050214706,
+    "meta": 1503051430990,
+    "relativePath": "prefabs\\time.prefab"
+  },
+  "6406dc81-93cb-4a56-b949-d7e9a0edc2ed": {
+    "asset": 1503050221960,
+    "meta": 1503051438494,
+    "relativePath": "scripts\\Pefabs\\Countdown.js"
+  },
+  "babeadc2-5a3f-46d6-958c-f409176a8d27": {
+    "asset": 1503050222381,
+    "meta": 1503051439835,
+    "relativePath": "scripts\\Socket\\KQGlabolSocketEventHander.js"
+  },
+  "d90d63ab-8205-445d-adbd-7df03ebd9634": {
+    "asset": 1503050221773,
+    "meta": 1503051436388,
+    "relativePath": "scripts\\Event\\KQGlobalEvent.js"
+  },
+  "de024d3d-19a1-447b-be53-ab8eabc1b567": {
+    "asset": 1503050221679,
+    "meta": 1503051432940,
+    "relativePath": "resources\\textures"
+  },
+  "ce9ca43a-e471-4e2d-85d5-9a028e0db2b4": {
+    "asset": 1503050219729,
+    "meta": 1503051432971,
+    "relativePath": "resources\\textures\\buy_masonry"
+  },
+  "8451efe0-26b3-4212-aeea-ba9227e360db": {
+    "asset": 1503050219729,
+    "meta": 1503051440600,
+    "relativePath": "resources\\textures\\buy_masonry\\buy_masonry.plist"
+  },
+  "ddc60455-1343-439a-8685-fed51fef3961": {
+    "asset": 1503050219729,
+    "meta": 1503051433065,
+    "relativePath": "resources\\textures\\buy_masonry\\buy_masonry.png"
+  },
+  "0bb044f2-4bc0-40dc-adf2-f4d4bb3156c8": {
+    "asset": 1503050219776,
+    "meta": 1503051433049,
+    "relativePath": "resources\\textures\\chat"
+  },
+  "dd25136a-746c-460b-860b-e1c75b700ade": {
+    "asset": 1503050219776,
+    "meta": 1503051440600,
+    "relativePath": "resources\\textures\\chat\\chat.plist"
+  },
+  "e3e7fac9-428e-4fb5-bdd2-dd0aa24c826f": {
+    "asset": 1503050219776,
+    "meta": 1503051433111,
+    "relativePath": "resources\\textures\\chat\\chat.png"
+  },
+  "3683b33c-6ee7-4884-adc6-4d2f1c325d71": {
+    "asset": 1503050219916,
+    "meta": 1503051433065,
+    "relativePath": "resources\\textures\\click_btn"
+  },
+  "00a72143-b56f-43ff-94a0-1430e97e1020": {
+    "asset": 1503050219901,
+    "meta": 1503051440615,
+    "relativePath": "resources\\textures\\click_btn\\click_btn.plist"
+  },
+  "e865a3af-1a2d-4fbc-8dfb-0bad20f9ae35": {
+    "asset": 1503050219963,
+    "meta": 1503051433158,
+    "relativePath": "resources\\textures\\create_room"
+  },
+  "f701f323-a08f-4c7e-af9e-965f53f3c833": {
+    "asset": 1503050219963,
+    "meta": 1503051440631,
+    "relativePath": "resources\\textures\\create_room\\create_room.plist"
+  },
+  "e10598da-84c6-4a31-b4be-0b00f7f4eecf": {
+    "asset": 1503050219963,
+    "meta": 1503051433205,
+    "relativePath": "resources\\textures\\create_room\\create_room.png"
+  },
+  "50fd7cd1-4e96-4852-8e1f-8e7a25844fe6": {
+    "asset": 1503050219901,
+    "meta": 1503051433143,
+    "relativePath": "resources\\textures\\click_btn\\click_btn.png"
+  },
+  "e443f255-3507-44f9-a5cf-2ee211325132": {
+    "asset": 1503050220197,
+    "meta": 1503051433189,
+    "relativePath": "resources\\textures\\days_smoke_award"
+  },
+  "b7ff902c-de5b-4562-ad2e-4bec0237126c": {
+    "asset": 1503050220150,
+    "meta": 1503051440646,
+    "relativePath": "resources\\textures\\days_smoke_award\\days_smoke_award.plist"
+  },
+  "542eeb90-763e-44d0-bba7-f8aac610e310": {
+    "asset": 1503050220587,
+    "meta": 1503051433236,
+    "relativePath": "resources\\textures\\game_pattern"
+  },
+  "97adc242-33a9-40e4-aa48-f6c69f30be20": {
+    "asset": 1503050220494,
+    "meta": 1503051440646,
+    "relativePath": "resources\\textures\\game_pattern\\game_pattern.plist"
+  },
+  "7b33e334-fd4f-44b5-ba4b-14567dc746f7": {
+    "asset": 1503050220197,
+    "meta": 1503051433252,
+    "relativePath": "resources\\textures\\days_smoke_award\\days_smoke_award.png"
+  },
+  "5f909809-3063-4e2c-ba8f-b7d72b5e74c5": {
+    "asset": 1503050220728,
+    "meta": 1503051433283,
+    "relativePath": "resources\\textures\\game_record"
+  },
+  "ce7c968e-0ce7-4906-96af-052d50ea694d": {
+    "asset": 1503050220728,
+    "meta": 1503051440646,
+    "relativePath": "resources\\textures\\game_record\\game_record.plist"
+  },
+  "c2d668d8-2826-4c4b-b6f1-fc9e4ac7e0a4": {
+    "asset": 1503050220728,
+    "meta": 1503051433299,
+    "relativePath": "resources\\textures\\game_record\\game_record.png"
+  },
+  "76e94a9e-c0a5-471b-a19a-694d61529659": {
+    "asset": 1503050220977,
+    "meta": 1503051433314,
+    "relativePath": "resources\\textures\\hall"
+  },
+  "4be3a4b7-4f05-428c-ae9e-e99ebb1c2395": {
+    "asset": 1503050220540,
+    "meta": 1503051433267,
+    "relativePath": "resources\\textures\\game_pattern\\game_pattern.png"
+  },
+  "5a353f43-893e-4893-92c1-7b8c81f05382": {
+    "asset": 1503050221008,
+    "meta": 1503051433501,
+    "relativePath": "resources\\textures\\help"
+  },
+  "d337e635-6ec9-4767-946f-4f92a5f94125": {
+    "asset": 1503050221008,
+    "meta": 1503051440662,
+    "relativePath": "resources\\textures\\help\\help.plist"
+  },
+  "f1d42492-047b-47d5-a4a3-f7f90b78c4d4": {
+    "asset": 1503050221008,
+    "meta": 1503051433579,
+    "relativePath": "resources\\textures\\help\\help.png"
+  },
+  "d4385255-1f2f-499c-857b-596dc9207918": {
+    "asset": 1503050221055,
+    "meta": 1503051433517,
+    "relativePath": "resources\\textures\\icon"
+  },
+  "aededcf3-e75e-444a-8330-929ec023ad7f": {
+    "asset": 1503050221040,
+    "meta": 1503051440678,
+    "relativePath": "resources\\textures\\icon\\icon.plist"
+  },
+  "ea03d776-299b-4520-aa6c-cb3405b4e39e": {
+    "asset": 1503050221040,
+    "meta": 1503051433579,
+    "relativePath": "resources\\textures\\icon\\icon.png"
+  },
+  "1931e139-de57-4a53-aa2d-03683ce27cc3": {
+    "asset": 1503050221320,
+    "meta": 1503051433579,
+    "relativePath": "resources\\textures\\in_the_game"
+  },
+  "4e3367a9-1845-4f86-97ed-8051e2293f0f": {
+    "asset": 1503050221118,
+    "meta": 1503051433626,
+    "relativePath": "resources\\textures\\in_the_game\\in_the_game_pai"
+  },
+  "67bf41dd-0974-451b-bd02-32027c0870cd": {
+    "asset": 1503050221102,
+    "meta": 1503051440693,
+    "relativePath": "resources\\textures\\in_the_game\\in_the_game_pai\\in_the_game_pai.plist"
+  },
+  "848e3249-cbf1-4b73-868c-5812fa952293": {
+    "asset": 1503050221289,
+    "meta": 1503051440709,
+    "relativePath": "resources\\textures\\in_the_game\\in_the_game.plist"
+  },
+  "4bf703e1-328a-4226-bab8-2964a993452a": {
+    "asset": 1503050221118,
+    "meta": 1503051433767,
+    "relativePath": "resources\\textures\\in_the_game\\in_the_game_pai\\in_the_game_pai.png"
+  },
+  "bf452b70-71c4-4629-b669-0fa29834f99a": {
+    "asset": 1503050221289,
+    "meta": 1503051433720,
+    "relativePath": "resources\\textures\\in_the_game\\in_the_game.png"
+  },
+  "3335e26d-13b6-4e60-b56d-a0036523ff53": {
+    "asset": 1503050221352,
+    "meta": 1503051433985,
+    "relativePath": "resources\\textures\\input_roomId"
+  },
+  "8b32eeeb-d79e-4bdb-9e0a-e772c44711d1": {
+    "asset": 1503050221352,
+    "meta": 1503051440724,
+    "relativePath": "resources\\textures\\input_roomId\\input_roomId.plist"
+  },
+  "c875fab0-f176-49e3-8fd3-cf86fcd3bd11": {
+    "asset": 1503050221367,
+    "meta": 1503051434016,
+    "relativePath": "resources\\textures\\member_info"
+  },
+  "24dcecf5-f396-45e3-85b1-d50f05f4bf5a": {
+    "asset": 1503050221367,
+    "meta": 1503051440724,
+    "relativePath": "resources\\textures\\member_info\\member_info.plist"
+  },
+  "5ac095af-197b-42fa-b38a-1b7b7e52d31a": {
+    "asset": 1503050221352,
+    "meta": 1503051434141,
+    "relativePath": "resources\\textures\\input_roomId\\input_roomId.png"
+  },
+  "08c40f94-c5c6-4b11-ad9d-752c8f2d6971": {
+    "asset": 1503050221492,
+    "meta": 1503051434141,
+    "relativePath": "resources\\textures\\room_game_account"
+  },
+  "88709d19-c2fc-402a-a916-06f977d9ca85": {
+    "asset": 1503050221476,
+    "meta": 1503051440740,
+    "relativePath": "resources\\textures\\room_game_account\\room_game_account.plist"
+  },
+  "a1e534b3-1e89-40f4-8984-021fb2f54dfb": {
+    "asset": 1503050221367,
+    "meta": 1503051434157,
+    "relativePath": "resources\\textures\\member_info\\member_info.png"
+  },
+  "2c6d1eeb-c3d1-47c4-a180-1d563cede7b6": {
+    "asset": 1503050221508,
+    "meta": 1503051434375,
+    "relativePath": "resources\\textures\\select_mapai"
+  },
+  "cd1bd55d-a33d-429e-8bc9-35d78a10a5be": {
+    "asset": 1503050221508,
+    "meta": 1503051440740,
+    "relativePath": "resources\\textures\\select_mapai\\select_mapai.plist"
+  },
+  "b6214f52-ddc8-4df2-a97f-9c976f563dee": {
+    "asset": 1503050221476,
+    "meta": 1503051434375,
+    "relativePath": "resources\\textures\\room_game_account\\room_game_account.png"
+  },
+  "b1036a81-552f-4474-a6e8-1197c6569db9": {
+    "asset": 1503050221523,
+    "meta": 1503051434375,
+    "relativePath": "resources\\textures\\setting"
+  },
+  "635b2dce-94ff-4512-907e-f10125ea3856": {
+    "asset": 1503050221508,
+    "meta": 1503051434391,
+    "relativePath": "resources\\textures\\select_mapai\\select_mapai.png"
+  },
+  "2c65adc2-b032-43cf-822d-5bb2223b8e69": {
+    "asset": 1503050221523,
+    "meta": 1503051440756,
+    "relativePath": "resources\\textures\\setting\\setting.plist"
+  },
+  "dddfeee1-1dbb-4cb7-9b26-6a030168a886": {
+    "asset": 1503050221570,
+    "meta": 1503051434391,
+    "relativePath": "resources\\textures\\special_words"
+  },
+  "fb264c5e-2913-41bc-a7ee-7a011023c17d": {
+    "asset": 1503050221554,
+    "meta": 1503051440756,
+    "relativePath": "resources\\textures\\special_words\\special_words.plist"
+  },
+  "bb3af468-923f-4029-8c56-adcaec58367a": {
+    "asset": 1503050221523,
+    "meta": 1503051434406,
+    "relativePath": "resources\\textures\\setting\\setting.png"
+  },
+  "0f887352-36b0-4784-bf88-4c3ad0c83f85": {
+    "asset": 1503050221586,
+    "meta": 1503051434422,
+    "relativePath": "resources\\textures\\wx_login"
+  },
+  "2036e303-0f26-4af7-b2f0-602e8da54ba1": {
+    "asset": 1503050221554,
+    "meta": 1503051434422,
+    "relativePath": "resources\\textures\\special_words\\special_words.png"
+  },
+  "edd4ee44-92bb-40fe-abb7-7df428ceeecd": {
+    "asset": 1503050215829,
+    "meta": 1503051430990,
+    "relativePath": "resources\\image_bg"
+  },
+  "e19826b1-c14d-46fe-a95d-48aeab342626": {
+    "asset": 1503050215720,
+    "meta": 1503051431099,
+    "relativePath": "resources\\image_bg\\11_caozuo_content.png"
+  },
+  "25c16b52-1cbf-4b09-a6c0-a935980efa58": {
+    "asset": 1503050215720,
+    "meta": 1503051431099,
+    "relativePath": "resources\\image_bg\\12_input_chongzhi_code_bg.png"
+  },
+  "84cab78e-6a56-4c65-a439-d35e07f29a9d": {
+    "asset": 1503050215736,
+    "meta": 1503051431146,
+    "relativePath": "resources\\image_bg\\14_setting_bg.png"
+  },
+  "fa387583-5770-41a6-87a6-7ba4f74010a4": {
+    "asset": 1503050215736,
+    "meta": 1503051431208,
+    "relativePath": "resources\\image_bg\\13_game_record_bg.png"
+  },
+  "4ae68545-6130-46b6-9eb6-7350a9a321be": {
+    "asset": 1503050215736,
+    "meta": 1503051431208,
+    "relativePath": "resources\\image_bg\\15_chat_bg.png"
+  },
+  "5bdc2b73-e3c4-410b-8ceb-80cb2d23a787": {
+    "asset": 1503050215736,
+    "meta": 1503051431271,
+    "relativePath": "resources\\image_bg\\17_notice_bg.png"
+  },
+  "1c52526c-1136-4e68-8f3c-132c3901296b": {
+    "asset": 1503050215751,
+    "meta": 1503051431317,
+    "relativePath": "resources\\image_bg\\19_room_game_account_warn_bg.png"
+  },
+  "ac1218ab-b0e1-401c-95f6-536067c90a64": {
+    "asset": 1503050215751,
+    "meta": 1503051431380,
+    "relativePath": "resources\\image_bg\\20_failed_bg.png"
+  },
+  "f211a7fa-84c9-41b5-b2b3-fad7d5a6f0fc": {
+    "asset": 1503050215782,
+    "meta": 1503051431458,
+    "relativePath": "resources\\image_bg\\2_hall_bg.png"
+  },
+  "906fac68-2227-4015-a807-4b7c9736c316": {
+    "asset": 1503050215751,
+    "meta": 1503051431473,
+    "relativePath": "resources\\image_bg\\21_success_bg.png"
+  },
+  "00248cd4-3b54-434e-8da9-48e77b5edb29": {
+    "asset": 1503050215767,
+    "meta": 1503051431505,
+    "relativePath": "resources\\image_bg\\23_user_info_bg.png"
+  },
+  "0ceaff28-49fb-4800-aff1-704425528fe9": {
+    "asset": 1503050215767,
+    "meta": 1503051431520,
+    "relativePath": "resources\\image_bg\\27_pai_kuang_bg.png"
+  },
+  "c86adc68-edf6-48b3-ba14-8353943b0474": {
+    "asset": 1503050215767,
+    "meta": 1503051431567,
+    "relativePath": "resources\\image_bg\\29_select_mapai_bg.png"
+  },
+  "0d06ea92-52bb-4f41-bd66-5dd695cbb5bf": {
+    "asset": 1503050215782,
+    "meta": 1503051431598,
+    "relativePath": "resources\\image_bg\\33_warn_out_bg.png"
+  },
+  "90386bd9-847a-433b-9802-2e55c7e2bb62": {
+    "asset": 1503050215782,
+    "meta": 1503051431614,
+    "relativePath": "resources\\image_bg\\34_buy_masonry_bg.png"
+  },
+  "4f561c0a-73e7-4d3c-9db4-1e7d6c902033": {
+    "asset": 1503050215782,
+    "meta": 1503051431645,
+    "relativePath": "resources\\image_bg\\35_user_agree_bg.png"
+  },
+  "8439664f-3914-4e68-924a-02cdc77be680": {
+    "asset": 1503050215782,
+    "meta": 1503051431661,
+    "relativePath": "resources\\image_bg\\36_out_bg.png"
+  },
+  "bb167ae6-efc8-436a-9fb7-e77feae6fb4c": {
+    "asset": 1503050215798,
+    "meta": 1503051431801,
+    "relativePath": "resources\\image_bg\\4_create_room_bg.png"
+  },
+  "873b7e9d-edd0-4c71-ac12-257aca4d9bdb": {
+    "asset": 1503050215798,
+    "meta": 1503051431801,
+    "relativePath": "resources\\image_bg\\37_icon.png"
+  },
+  "fef07796-9239-4e98-b4cd-b3fc028bb8b6": {
+    "asset": 1503050215798,
+    "meta": 1503051431848,
+    "relativePath": "resources\\image_bg\\5_input_roomId_bg.png"
+  },
+  "43625791-b13b-4a0f-a79b-fdc957015eae": {
+    "asset": 1503050215798,
+    "meta": 1503051431941,
+    "relativePath": "resources\\image_bg\\6_member_info_bg.png"
+  },
+  "c9044c3c-ef7e-48e5-a490-503a3ee41a3e": {
+    "asset": 1503050215814,
+    "meta": 1503051431957,
+    "relativePath": "resources\\image_bg\\7_days_smoke_award_bg.png"
+  },
+  "e4bf395b-4453-465e-8a36-658f95665827": {
+    "asset": 1503050215814,
+    "meta": 1503051431957,
+    "relativePath": "resources\\image_bg\\8_smoke_warn_bg.png"
+  },
+  "67727084-6757-4854-bb63-a434a74ba4ab": {
+    "asset": 1503050215814,
+    "meta": 1503051432035,
+    "relativePath": "resources\\image_bg\\9_help_bg.png"
+  },
+  "c4e239b0-108b-4f18-bdb0-8d509ff340d2": {
+    "asset": 1503050220946,
+    "meta": 1503051433330,
+    "relativePath": "resources\\textures\\hall\\2_head_bg.png"
+  },
+  "099810b0-34c6-4e23-80c7-520f2ef64723": {
+    "asset": 1503050222724,
+    "meta": 1503051437043,
+    "relativePath": "scripts\\help.js"
+  },
+  "7d7cf05f-acd4-49cb-a556-37b54b4093b9": {
+    "asset": 1503050214706,
+    "meta": 1503051430943,
+    "relativePath": "prefabs\\exit.prefab"
+  },
+  "8ee8c47c-585d-4de6-bdf0-994cb571c756": {
+    "asset": 1503050219901,
+    "meta": 1503051433096,
+    "relativePath": "resources\\textures\\click_btn\\change_count.png"
+  },
+  "9ebf173f-3b4d-4d58-ad55-2b18957c9363": {
+    "asset": 1503050219729,
+    "meta": 1503051433018,
+    "relativePath": "resources\\textures\\buy_masonry\\3zhuangshi.png"
+  },
+  "e6425fbb-bcd0-4b49-880e-6badc4a95f84": {
+    "asset": 1503050219729,
+    "meta": 1503051433049,
+    "relativePath": "resources\\textures\\buy_masonry\\9zhuangshi.png"
+  },
+  "430f6df1-54cb-4bb9-ad87-e974b45170bc": {
+    "asset": 1503050219729,
+    "meta": 1503051433018,
+    "relativePath": "resources\\textures\\buy_masonry\\15zhuangshi.png"
+  },
+  "4969bd16-a763-4042-9e6b-29861a22ddc3": {
+    "asset": 1503050219729,
+    "meta": 1503051433018,
+    "relativePath": "resources\\textures\\buy_masonry\\30zhuangshi.png"
+  },
+  "8a26aebe-987c-4cd9-bfdc-1a3e3f3d9a71": {
+    "asset": 1503050219729,
+    "meta": 1503051433049,
+    "relativePath": "resources\\textures\\buy_masonry\\69zhuangshi.png"
+  },
+  "92461da9-5ee8-42a0-80ad-1a073f60f5b2": {
+    "asset": 1503050219714,
+    "meta": 1503051433002,
+    "relativePath": "resources\\textures\\buy_masonry\\159zhuangshi.png"
+  },
+  "2ba5eb00-f1f5-4ab2-a6d7-ba5f34dceefb": {
+    "asset": 1503050221476,
+    "meta": 1503051434344,
+    "relativePath": "resources\\textures\\room_game_account\\touxiang_bg.png"
+  },
+  "cf42417c-3315-4258-864c-58bdf43e27df": {
+    "asset": 1503050221476,
+    "meta": 1503051434375,
+    "relativePath": "resources\\textures\\room_game_account\\touxiang_bg2.png"
+  },
+  "27794d88-d22e-460d-a4e6-178383d96b18": {
+    "asset": 1503050214706,
+    "meta": 1503051430990,
+    "relativePath": "prefabs\\userInfo.prefab"
+  },
+  "e377e95e-6b20-43cd-82d8-fe9f1b5e7758": {
+    "asset": 1503050219916,
+    "meta": 1503051433143,
+    "relativePath": "resources\\textures\\click_btn\\refuse.png"
+  },
+  "6806f06d-b458-4f73-bbb9-58a216400d37": {
+    "asset": 1503050219901,
+    "meta": 1503051433127,
+    "relativePath": "resources\\textures\\click_btn\\force_exit.png"
+  },
+  "fd72ac53-cdf7-45ef-a3a6-69ed54572847": {
+    "asset": 1503050219916,
+    "meta": 1503051433158,
+    "relativePath": "resources\\textures\\click_btn\\stay.png"
+  },
+  "ba414a30-c971-4c73-8e81-bb3c1ed860c6": {
+    "asset": 1503050219916,
+    "meta": 1503051433158,
+    "relativePath": "resources\\textures\\click_btn\\share.png"
+  },
+  "16a99522-3ebb-40e2-8406-4bf534e70f4c": {
+    "asset": 1503050221476,
+    "meta": 1503051434328,
+    "relativePath": "resources\\textures\\room_game_account\\result_win.png"
+  },
+  "4ba72e70-db3b-4378-8ea1-4b9754e870fc": {
+    "asset": 1503050221476,
+    "meta": 1503051434313,
+    "relativePath": "resources\\textures\\room_game_account\\result_lose.png"
+  },
+  "ad0c27d4-5f07-48dc-b4c9-03e36daecd98": {
+    "asset": 1503050220728,
+    "meta": 1503051433299,
+    "relativePath": "resources\\textures\\game_record\\cell_bg.png"
+  },
+  "2b2f8a41-8615-43c5-ab99-b9d3873395b9": {
+    "asset": 1503050220728,
+    "meta": 1503051433299,
+    "relativePath": "resources\\textures\\game_record\\playback.png"
+  },
+  "fa110f55-b23e-4d25-b6d1-bfef60245028": {
+    "asset": 1503050220728,
+    "meta": 1503051433314,
+    "relativePath": "resources\\textures\\game_record\\watch.png"
+  },
+  "47c989d8-e1ed-456b-9dec-8e8fa1a16cf0": {
+    "asset": 1503050221476,
+    "meta": 1503051434313,
+    "relativePath": "resources\\textures\\room_game_account\\result_draw.png"
+  },
+  "f64e0c21-2e13-4b99-b387-b4fa4af78086": {
+    "asset": 1503050222709,
+    "meta": 1503051436356,
+    "relativePath": "scripts\\choujiang.js"
+  },
+  "5b11e8c9-fbfa-4c17-ab72-7cceadd88a09": {
+    "asset": 1503050219963,
+    "meta": 1503051433189,
+    "relativePath": "resources\\textures\\create_room\\createroom.png"
+  },
+  "f5530602-f4fc-48b8-88c5-6e5fa8b1d1f4": {
+    "asset": 1503050215814,
+    "meta": 1503051432051,
+    "relativePath": "resources\\image_bg\\create_room_bg.png"
+  },
+  "4654f86a-ca44-4d06-b9b7-54ad8db72ce7": {
+    "asset": 1503050215814,
+    "meta": 1503051432160,
+    "relativePath": "resources\\image_bg\\game_pattern_bg.png"
+  },
+  "0d5c64a4-2a77-419e-a073-75f251fc4f06": {
+    "asset": 1503050220447,
+    "meta": 1503051433267,
+    "relativePath": "resources\\textures\\game_pattern\\gamePattern.png"
+  },
+  "63ab3d51-575e-4a20-92bc-9bd6408ad286": {
+    "asset": 1503050220104,
+    "meta": 1503051433221,
+    "relativePath": "resources\\textures\\days_smoke_award\\18zhuan.png"
+  },
+  "f0bc424a-0898-43f9-82b0-39582057ca3d": {
+    "asset": 1503050220104,
+    "meta": 1503051433221,
+    "relativePath": "resources\\textures\\days_smoke_award\\48zhuan.png"
+  },
+  "9514f52d-3681-48a6-99e0-ee3e9d715d00": {
+    "asset": 1503050220150,
+    "meta": 1503051433236,
+    "relativePath": "resources\\textures\\days_smoke_award\\58zhuan.png"
+  },
+  "b6effad7-ed99-47e8-84bb-552510dd75b6": {
+    "asset": 1503050221461,
+    "meta": 1503051434266,
+    "relativePath": "resources\\textures\\room_game_account\\gongxini.png"
+  },
+  "8e7e5de4-25c2-4af6-bc0c-4b19e5a2a239": {
+    "asset": 1503050222756,
+    "meta": 1503051439539,
+    "relativePath": "scripts\\select_mapai.js"
+  },
+  "73034c13-49da-46bb-867c-d4c45236a571": {
+    "asset": 1503050213115,
+    "meta": 1503051429414,
+    "relativePath": "images\\join_room"
+  },
+  "d73d8675-e2cc-4cda-8c38-8f613956e7ea": {
+    "asset": 1503050213115,
+    "meta": 1503051440272,
+    "relativePath": "images\\join_room\\joinRoom.plist"
+  },
+  "f16ba3de-3666-408b-9c3f-1efd2ffc8511": {
+    "asset": 1503050213115,
+    "meta": 1503051429492,
+    "relativePath": "images\\join_room\\joinRoom.png"
+  },
+  "76335d6d-8330-4e3f-8d39-f947c462b629": {
+    "asset": 1503050221289,
+    "meta": 1503051433782,
+    "relativePath": "resources\\textures\\in_the_game\\liu_dui_ban.png"
+  },
+  "e9b30812-1bba-4a24-ab2e-dd986b95ce5a": {
+    "asset": 1503050221305,
+    "meta": 1503051433985,
+    "relativePath": "resources\\textures\\in_the_game\\yi_tiao_long.png"
+  },
+  "771a12a6-38dc-4192-a6b0-6829e03963f9": {
+    "asset": 1503050221305,
+    "meta": 1503051433860,
+    "relativePath": "resources\\textures\\in_the_game\\san_shun_zi.png"
+  },
+  "4bc0bd9b-6464-465e-801f-74edd8e92aae": {
+    "asset": 1503050222756,
+    "meta": 1503051439523,
+    "relativePath": "scripts\\select_ma.js"
+  },
+  "974a073a-8f36-4f44-8e40-79a01be14d33": {
+    "asset": 1503050222709,
+    "meta": 1503051436356,
+    "relativePath": "scripts\\checkSelect.js"
+  },
+  "9165aff1-51e2-4230-bf94-b18da5c39a28": {
+    "asset": 1503050219667,
+    "meta": 1503051432971,
+    "relativePath": "resources\\textures\\allCard"
+  },
+  "2b4d949e-2adc-4d2e-84b8-8988e00df7b8": {
+    "asset": 1503050219667,
+    "meta": 1503051440584,
+    "relativePath": "resources\\textures\\allCard\\allCard.plist"
+  },
+  "b4b22e92-7a90-47a1-acfe-394c8d0f53db": {
+    "asset": 1503050219667,
+    "meta": 1503051433033,
+    "relativePath": "resources\\textures\\allCard\\allCard.png"
+  },
+  "8b896c47-902b-44d4-8cc3-f010cae1c58b": {
+    "asset": 1503050222178,
+    "meta": 1503051439289,
+    "relativePath": "scripts\\Play\\maPai.js"
+  },
+  "bdc568b5-0d8b-40dc-8414-979b3f6ffe24": {
+    "asset": 1503050221040,
+    "meta": 1503051433626,
+    "relativePath": "resources\\textures\\icon\\offline.png"
+  },
+  "368a823c-cad6-438d-9d62-096aba265cc6": {
+    "asset": 1503050213364,
+    "meta": 1503051429570,
+    "relativePath": "images\\play\\cardTypeCombine\\hulu.png"
+  },
+  "4001ea95-ef88-4860-8451-beeb9b9b2d17": {
+    "asset": 1503050213380,
+    "meta": 1503051429617,
+    "relativePath": "images\\play\\cardTypeCombine\\shunzi.png"
+  },
+  "e3020ebd-d7d8-4314-bcfc-1ed1904d482c": {
+    "asset": 1503050213364,
+    "meta": 1503051429570,
+    "relativePath": "images\\play\\cardTypeCombine\\liangdui.png"
+  },
+  "eece6ceb-591b-42b8-ad86-3280354a8e91": {
+    "asset": 1503050213380,
+    "meta": 1503051429695,
+    "relativePath": "images\\play\\cardTypeCombine\\tonghua.png"
+  },
+  "c9aeb600-0fa7-4615-84d6-296ac918d9a9": {
+    "asset": 1503050213380,
+    "meta": 1503051429695,
+    "relativePath": "images\\play\\cardTypeCombine\\tiezhi.png"
+  },
+  "8f358c3c-3731-40c0-8f16-ef875e88c4a6": {
+    "asset": 1503050213364,
+    "meta": 1503051429539,
+    "relativePath": "images\\play\\cardTypeCombine\\duizi.png"
+  },
+  "b878fe4f-21b4-4c7b-94d4-4849fb4fe7fc": {
+    "asset": 1503050213380,
+    "meta": 1503051429601,
+    "relativePath": "images\\play\\cardTypeCombine\\santiao.png"
+  },
+  "23641a5b-5d24-4379-a6f6-8fa2acee5487": {
+    "asset": 1503050213380,
+    "meta": 1503051429726,
+    "relativePath": "images\\play\\cardTypeCombine\\tonghuashun1.png"
+  },
+  "1b597cf3-5742-4c84-ac45-c57e9de34a86": {
+    "asset": 1503050221305,
+    "meta": 1503051433923,
+    "relativePath": "resources\\textures\\in_the_game\\teShuPai_label.png"
+  },
+  "89a7a969-d631-48ae-8e6f-de9e053929f3": {
+    "asset": 1503050221320,
+    "meta": 1503051434001,
+    "relativePath": "resources\\textures\\in_the_game\\yincang.png"
+  },
+  "194a8878-bd71-4ef9-b5d7-f76cb3a9b7ea": {
+    "asset": 1503050222756,
+    "meta": 1503051439632,
+    "relativePath": "scripts\\singleSelect.js"
+  },
+  "e913a230-02d5-44a3-98cc-adfe340f9af0": {
+    "asset": 1503050222756,
+    "meta": 1503051439570,
+    "relativePath": "scripts\\select.js"
+  },
+  "0030e0eb-87bc-449b-a01e-477142839594": {
+    "asset": 1503050222756,
+    "meta": 1503051439570,
+    "relativePath": "scripts\\selectMoShi.js"
+  },
+  "4d298065-69e9-421e-a895-e5d4c38e1b98": {
+    "asset": 1503050222740,
+    "meta": 1503051439461,
+    "relativePath": "scripts\\randRoom.js"
+  },
+  "2090f598-b272-4c9e-b0e8-dd6e58b5212f": {
+    "asset": 1503050219199,
+    "meta": 1503050219199,
+    "relativePath": "resources\\sounds\\public\\click_public.mp3"
+  },
+  "6b68cdf1-111b-4240-9469-203ca70c9706": {
+    "asset": 1503050219199,
+    "meta": 1503050219199,
+    "relativePath": "resources\\sounds\\public\\click_cancel.mp3"
+  },
+  "cc599dfd-a0f3-4f21-ba77-a22777efb1f7": {
+    "asset": 1503050219199,
+    "meta": 1503050219199,
+    "relativePath": "resources\\sounds\\public\\click_createRoom.mp3"
+  },
+  "e575352b-dcbc-4672-ab86-f303be4733c8": {
+    "asset": 1503050219261,
+    "meta": 1503050219261,
+    "relativePath": "resources\\sounds\\public\\window.mp3"
+  },
+  "036346ed-b2ad-43c7-8900-109eae1e32ed": {
+    "asset": 1503050219214,
+    "meta": 1503050219214,
+    "relativePath": "resources\\sounds\\public\\click_wx_login.mp3"
+  },
+  "abcd91dd-50f0-44a8-a4d3-8c665bf3bfa2": {
+    "asset": 1503050219230,
+    "meta": 1503050219230,
+    "relativePath": "resources\\sounds\\public\\fangPai.mp3"
+  },
+  "f673d7eb-6abf-49bc-a397-19afee1559e8": {
+    "asset": 1503050221305,
+    "meta": 1503051433876,
+    "relativePath": "resources\\textures\\in_the_game\\san_tong_hua_shun.png"
+  },
+  "bad125de-34a3-4a64-bc52-e33021b50140": {
+    "asset": 1503050221289,
+    "meta": 1503051433798,
+    "relativePath": "resources\\textures\\in_the_game\\qing_long.png"
+  },
+  "9c0836fe-aa13-4e59-89eb-1c9a1b5439a5": {
+    "asset": 1503050221305,
+    "meta": 1503051433891,
+    "relativePath": "resources\\textures\\in_the_game\\si_tao_san_tiao.png"
+  },
+  "ca94722a-bc46-44e3-b3f2-241909277cd1": {
+    "asset": 1503050221305,
+    "meta": 1503051433954,
+    "relativePath": "resources\\textures\\in_the_game\\wu_dui_san_tiao.png"
+  },
+  "909b21fe-fd0a-41d9-b4e6-6a49f0a52304": {
+    "asset": 1503050221274,
+    "meta": 1503051433642,
+    "relativePath": "resources\\textures\\in_the_game\\cou_yi_se.png"
+  },
+  "548728b9-6bd9-49a2-868e-d0673446554a": {
+    "asset": 1503050221289,
+    "meta": 1503051433845,
+    "relativePath": "resources\\textures\\in_the_game\\san_fen_tian_xia.png"
+  },
+  "378058a5-949f-4326-916d-187031de0ae6": {
+    "asset": 1503050219963,
+    "meta": 1503051433189,
+    "relativePath": "resources\\textures\\create_room\\4times_5.png"
+  },
+  "0cfc03a5-4e3e-4c52-9ae5-d1fe775613d6": {
+    "asset": 1503050219963,
+    "meta": 1503051433174,
+    "relativePath": "resources\\textures\\create_room\\4_times40.png"
+  },
+  "900734b6-0541-4336-bbc5-606b25a72b9f": {
+    "asset": 1503050217966,
+    "meta": 1503050217966,
+    "relativePath": "resources\\sounds\\man\\18.wav"
+  },
+  "335eb545-92cd-4bfe-95a8-5c992d37b20f": {
+    "asset": 1503050217966,
+    "meta": 1503050217966,
+    "relativePath": "resources\\sounds\\man\\19.wav"
+  },
+  "852b9dba-d91d-4572-94cb-ccca905c9aa3": {
+    "asset": 1503050219511,
+    "meta": 1503050219511,
+    "relativePath": "resources\\sounds\\woman\\18.wav"
+  },
+  "9d8a8f83-d0e2-4e7b-b4bb-ae007169ce5e": {
+    "asset": 1503050219511,
+    "meta": 1503050219511,
+    "relativePath": "resources\\sounds\\woman\\19.wav"
+  },
+  "d4ee437d-ff40-4eb1-bce8-9723db55812b": {
+    "asset": 1503050218949,
+    "meta": 1503050218949,
+    "relativePath": "resources\\sounds\\public\\compare\\lose.mp3"
+  },
+  "58b2d10b-9862-4cb5-9080-3c3afc7a01a0": {
+    "asset": 1503050218965,
+    "meta": 1503050218965,
+    "relativePath": "resources\\sounds\\public\\compare\\win.mp3"
+  },
+  "7e33fb34-10cf-42c6-8b93-cd112551fb27": {
+    "asset": 1503050214690,
+    "meta": 1503051430959,
+    "relativePath": "prefabs\\Setting.prefab"
+  },
+  "9e148c84-39dc-4b0f-a8ad-a46f846f7250": {
+    "asset": 1503050218778,
+    "meta": 1503050218778,
+    "relativePath": "resources\\sounds\\openface\\lose.mp3"
+  },
+  "b7019541-9de2-486e-9717-37f113567a86": {
+    "asset": 1503050218793,
+    "meta": 1503050218793,
+    "relativePath": "resources\\sounds\\openface\\win.mp3"
+  },
+  "466d4e73-5b7a-482c-a36a-563f3123b196": {
+    "asset": 1503050219901,
+    "meta": 1503051433080,
+    "relativePath": "resources\\textures\\click_btn\\btn_ traveler.png"
+  },
+  "9b2be85c-a149-4b60-bd4c-20cb3ed38c08": {
+    "asset": 1503050222132,
+    "meta": 1503051439320,
+    "relativePath": "scripts\\Play\\ResultItem.js"
+  },
+  "ecf8f60b-e0ac-48dd-b0dd-2a1f4211110b": {
+    "asset": 1503050216672,
+    "meta": 1503051432363,
+    "relativePath": "resources\\images\\pokerList\\fapai"
+  },
+  "43a6bb06-1fa4-426f-858c-4075d8e9b07b": {
+    "asset": 1503050216640,
+    "meta": 1503051432659,
+    "relativePath": "resources\\images\\pokerList\\fapai\\3.png"
+  },
+  "c4c5de04-ff8a-4620-b75a-419cf7557971": {
+    "asset": 1503050216656,
+    "meta": 1503051432706,
+    "relativePath": "resources\\images\\pokerList\\fapai\\4.png"
+  },
+  "51d2df81-2204-43bc-a63b-6b970dc2e60c": {
+    "asset": 1503050216640,
+    "meta": 1503051432643,
+    "relativePath": "resources\\images\\pokerList\\fapai\\2.png"
+  },
+  "30ef6488-a635-442b-91d5-38c26cc31d77": {
+    "asset": 1503050216656,
+    "meta": 1503051432721,
+    "relativePath": "resources\\images\\pokerList\\fapai\\5.png"
+  },
+  "41ec273e-e74f-47b9-92e1-16bab3c85618": {
+    "asset": 1503050216656,
+    "meta": 1503051432768,
+    "relativePath": "resources\\images\\pokerList\\fapai\\6.png"
+  },
+  "1613a5f3-8268-4bf3-a3c6-47ce5a4d2672": {
+    "asset": 1503050216438,
+    "meta": 1503051432425,
+    "relativePath": "resources\\images\\pokerList\\fapai\\10.png"
+  },
+  "51dd2a06-5b9a-4026-a114-cbe9bc8e9f00": {
+    "asset": 1503050216500,
+    "meta": 1503051432534,
+    "relativePath": "resources\\images\\pokerList\\fapai\\14.png"
+  },
+  "10ef258d-92b4-4bb9-93df-e419ee29e359": {
+    "asset": 1503050216656,
+    "meta": 1503051432784,
+    "relativePath": "resources\\images\\pokerList\\fapai\\7.png"
+  },
+  "c9ff4db9-3e89-417a-97f6-f4549d7f74bf": {
+    "asset": 1503050216672,
+    "meta": 1503051432784,
+    "relativePath": "resources\\images\\pokerList\\fapai\\8.png"
+  },
+  "be8856ed-6600-4161-8dc8-9e6c74a7e99d": {
+    "asset": 1503050216469,
+    "meta": 1503051432487,
+    "relativePath": "resources\\images\\pokerList\\fapai\\12.png"
+  },
+  "8e027efd-3ba0-409b-91e1-9a74ff66b37c": {
+    "asset": 1503050216500,
+    "meta": 1503051432503,
+    "relativePath": "resources\\images\\pokerList\\fapai\\13.png"
+  },
+  "069eefa3-491b-42de-885f-3560a8fe9dc4": {
+    "asset": 1503050216672,
+    "meta": 1503051432831,
+    "relativePath": "resources\\images\\pokerList\\fapai\\9.png"
+  },
+  "18281a65-53e6-40e2-83c1-e201f51a50a1": {
+    "asset": 1503050216594,
+    "meta": 1503051432612,
+    "relativePath": "resources\\images\\pokerList\\fapai\\17.png"
+  },
+  "b7a17cfb-e08c-45c2-a3ca-0c9a3b0f2b3d": {
+    "asset": 1503050216469,
+    "meta": 1503051432472,
+    "relativePath": "resources\\images\\pokerList\\fapai\\11.png"
+  },
+  "c4caa054-a99b-41e9-92a2-e44720de45cc": {
+    "asset": 1503050216438,
+    "meta": 1503051432409,
+    "relativePath": "resources\\images\\pokerList\\fapai\\1.png"
+  },
+  "d0a67453-e45b-4468-b98d-13bd40c70f23": {
+    "asset": 1503050216547,
+    "meta": 1503051432565,
+    "relativePath": "resources\\images\\pokerList\\fapai\\15.png"
+  },
+  "13ea8963-a391-4d30-afa0-4298e2dac4fe": {
+    "asset": 1503050216594,
+    "meta": 1503051432612,
+    "relativePath": "resources\\images\\pokerList\\fapai\\18.png"
+  },
+  "dde9d79e-544f-4c4c-80f6-3ad64eb137be": {
+    "asset": 1503050216547,
+    "meta": 1503051432597,
+    "relativePath": "resources\\images\\pokerList\\fapai\\16.png"
+  },
+  "df6cf1bd-fbe0-470b-b742-c9014a0a5543": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\fapai.anim"
+  },
+  "7b49bd2f-a0dc-4389-b3dd-8f026cdac356": {
+    "asset": 1503050213068,
+    "meta": 1503051429399,
+    "relativePath": "animations\\pop.anim"
+  },
+  "6a3cd77e-dac8-4695-9fa3-788dedad2b01": {
+    "asset": 1503050222116,
+    "meta": 1503051439196,
+    "relativePath": "scripts\\Play\\GameResult.js"
+  },
+  "5bb6b9ec-57d6-4ec9-8b0b-ca4ebd3f5655": {
+    "asset": 1503050216890,
+    "meta": 1503050216890,
+    "relativePath": "resources\\sounds\\bg\\login_bg.mp3"
+  },
+  "8104154b-fbaa-47cc-a492-26833c3bfa7e": {
+    "asset": 1503050216890,
+    "meta": 1503050216890,
+    "relativePath": "resources\\sounds\\bg\\hall_bg1.mp3"
+  },
+  "4dc451db-1150-4491-b6fd-7aa03c4fa215": {
+    "asset": 1503050219199,
+    "meta": 1503050219199,
+    "relativePath": "resources\\sounds\\public\\click_ture.mp3"
+  },
+  "d3892a8d-41ab-4293-9768-063cff0d1e39": {
+    "asset": 1503050216890,
+    "meta": 1503050216890,
+    "relativePath": "resources\\sounds\\bg\\hall_bg1_1.mp3"
+  },
+  "6da6e5e2-196c-4955-b4b1-0d9acbce35ef": {
+    "asset": 1503050217966,
+    "meta": 1503050217966,
+    "relativePath": "resources\\sounds\\man\\333.wav"
+  },
+  "4b3e1ced-a464-4b85-9a21-97421c7b94f3": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\333.wav"
+  },
+  "646656ab-49b5-46b6-a4d5-65e212bff4c3": {
+    "asset": 1503050221882,
+    "meta": 1503051437651,
+    "relativePath": "scripts\\KQCard\\GetCardPointsSameCount.js"
+  },
+  "80eaf556-ad95-420f-98cf-0021719db3ba": {
+    "asset": 1503050217966,
+    "meta": 1503050217966,
+    "relativePath": "resources\\sounds\\man\\555.wav"
+  },
+  "ea2fd6ac-6441-4aa9-93aa-fe5992594b61": {
+    "asset": 1503050219526,
+    "meta": 1503050219526,
+    "relativePath": "resources\\sounds\\woman\\555.wav"
+  },
+  "42d3ef3a-e978-4775-b92c-a72dd0cad6a9": {
+    "asset": 1503050221898,
+    "meta": 1503051437994,
+    "relativePath": "scripts\\KQCard\\KQCardPointsHelper.js"
+  },
+  "3d3b560f-1d78-4de3-887f-0749a2645444": {
+    "asset": 1503050221898,
+    "meta": 1503051438197,
+    "relativePath": "scripts\\KQCard\\KQCardScoretsHelper.js"
+  },
+  "a71943a2-4801-491a-ba9c-4c90c831afe6": {
+    "asset": 1503050213084,
+    "meta": 1503051429414,
+    "relativePath": "animations\\topRightButtonsLayout.anim"
+  },
+  "75d135c4-ddf4-4ec2-88da-7f1bce830044": {
+    "asset": 1503050220540,
+    "meta": 1503051433283,
+    "relativePath": "resources\\textures\\game_pattern\\random.png"
+  },
+  "7313abff-1c01-4111-875a-904ef4333a9e": {
+    "asset": 1503050220587,
+    "meta": 1503051433283,
+    "relativePath": "resources\\textures\\game_pattern\\random5.png"
+  },
+  "64e4b98a-fe0a-439a-9f08-ce5ab1545e04": {
+    "asset": 1503050213396,
+    "meta": 1503051429757,
+    "relativePath": "images\\play\\cardTypeCombine\\wutong.png"
+  },
+  "f160efa0-727a-4e9f-9992-b745a46ef4e1": {
+    "asset": 1503050213364,
+    "meta": 1503051429555,
+    "relativePath": "images\\play\\cardTypeCombine\\huase.png"
+  },
+  "7cb6a7bd-2d46-4d19-80f8-4f0382d0d95f": {
+    "asset": 1503050213364,
+    "meta": 1503051429539,
+    "relativePath": "images\\play\\cardTypeCombine\\daxiao.png"
+  },
+  "569cd381-18e4-4b2c-ace6-2754bf3f8035": {
+    "asset": 1503050214191,
+    "meta": 1503051430647,
+    "relativePath": "images\\room\\share2.png"
+  },
+  "ebb52007-08ae-416c-8fce-ffb2af4983b5": {
+    "asset": 1503050213364,
+    "meta": 1503051429539,
+    "relativePath": "images\\play\\cardTypeCombine\\btnselect.png"
+  },
+  "9aa4a1ff-1dad-497d-a11e-6399c58f93f5": {
+    "asset": 1503050221944,
+    "meta": 1503051438478,
+    "relativePath": "scripts\\Pefabs\\CompareCards.js"
+  },
+  "36865db3-988f-4913-9d4e-89f0441e625c": {
+    "asset": 1503050222896,
+    "meta": 1503051440054,
+    "relativePath": "sences\\login.fire"
+  },
+  "d5dcbf42-26fa-4f26-99ec-090fead7def1": {
+    "asset": 1503050222724,
+    "meta": 1503051437105,
+    "relativePath": "scripts\\joinRoom.js"
+  },
+  "1b0df5ae-89c2-4b60-90e6-8e34f596641c": {
+    "asset": 1503050222771,
+    "meta": 1503051439929,
+    "relativePath": "scripts\\zhuanNumCtrl.js"
+  },
+  "16cd2aac-ef79-41c9-9687-84991000479e": {
+    "asset": 1503050222709,
+    "meta": 1503051435451,
+    "relativePath": "scripts\\alert.js"
+  },
+  "dd5de285-b926-400b-82b2-d33238fb3e8e": {
+    "asset": 1503050221742,
+    "meta": 1503051435514,
+    "relativePath": "scripts\\Audio\\AudioManager.js"
+  },
+  "777f9fde-07b4-4a2b-868e-ec598d60580e": {
+    "asset": 1503050222724,
+    "meta": 1503051437090,
+    "relativePath": "scripts\\inviteCode.js"
+  },
+  "37d96d9b-7f43-4fc5-a408-6147190f0477": {
+    "asset": 1503050222678,
+    "meta": 1503051437074,
+    "relativePath": "scripts\\Invit.js"
+  },
+  "319d2aaf-4496-4f69-b97e-45c948559024": {
+    "asset": 1503050220962,
+    "meta": 1503051433345,
+    "relativePath": "resources\\textures\\hall\\code.png"
+  },
+  "a6b6987c-e2a0-4156-a6e0-9fd3caaf137a": {
+    "asset": 1503050214363,
+    "meta": 1503051430756,
+    "relativePath": "images\\share\\share2_bg.png"
+  },
+  "5e40ca47-99d8-4bd5-95f0-53f7df114a22": {
+    "asset": 1503050220977,
+    "meta": 1503051433517,
+    "relativePath": "resources\\textures\\hall\\yaoqing.png"
+  },
+  "ce1de8b7-5a39-40ed-9337-c20c6a3f850c": {
+    "asset": 1503050222880,
+    "meta": 1503051440054,
+    "relativePath": "sences\\hall.fire"
+  },
+  "33eb4ad1-a2d6-4e82-ae2f-e628f4c517d8": {
+    "asset": 1503050220962,
+    "meta": 1503051433470,
+    "relativePath": "resources\\textures\\hall\\hallShare.jpg"
+  },
+  "a9ff2480-99fa-4be8-a0f6-f1641ac52478": {
+    "asset": 1503050215829,
+    "meta": 1503051432394,
+    "relativePath": "resources\\image_bg\\room_bg.jpg"
+  },
+  "cf58d9c4-3cc9-4228-9569-b9c2daae6ebd": {
+    "asset": 1503050220962,
+    "meta": 1503051433392,
+    "relativePath": "resources\\textures\\hall\\create_room.png"
+  },
+  "fcf51a1c-b1ac-433f-98d1-968e79fe0f4c": {
+    "asset": 1503050220977,
+    "meta": 1503051433501,
+    "relativePath": "resources\\textures\\hall\\join_room.png"
+  },
+  "b0f6de43-06ed-4535-b6f0-58bceb5d8cad": {
+    "asset": 1503050214176,
+    "meta": 1503051430615,
+    "relativePath": "images\\room\\play.png"
+  },
+  "99439435-0efb-4203-b9c5-94210d7be130": {
+    "asset": 1503050214191,
+    "meta": 1503051430631,
+    "relativePath": "images\\room\\set.png"
+  },
+  "8862f59a-5946-48c9-9cc8-50cd6753564c": {
+    "asset": 1503050214176,
+    "meta": 1503051430522,
+    "relativePath": "images\\room\\exit.png"
+  },
+  "fc3de769-6f72-40a8-82dc-66bca183a4da": {
+    "asset": 1503050214191,
+    "meta": 1503051430631,
+    "relativePath": "images\\room\\record.png"
+  },
+  "1d574dd1-3a5f-4962-8e47-4b49ee48f14a": {
+    "asset": 1503050214160,
+    "meta": 1503051430506,
+    "relativePath": "images\\room\\chongzhi.png"
+  },
+  "6a406344-bfd4-441e-a262-87c7356d8aa2": {
+    "asset": 1503050214144,
+    "meta": 1503051430459,
+    "relativePath": "images\\room\\2_btn.png"
+  },
+  "1b519003-0df4-46ee-ae26-36110bfc2232": {
+    "asset": 1503050214160,
+    "meta": 1503051430491,
+    "relativePath": "images\\room\\buttonBG.png"
+  },
+  "d9377277-cfdc-4749-a2e5-c96cae21eb62": {
+    "asset": 1503050214160,
+    "meta": 1503051430553,
+    "relativePath": "images\\room\\Notice_bg.png"
+  },
+  "22cf537c-b4ac-48c2-9f65-a74b1305a21d": {
+    "asset": 1503050214191,
+    "meta": 1503051430647,
+    "relativePath": "images\\room\\shop_bg.png"
+  },
+  "2812557b-899c-40ad-a11d-a53283dbf48e": {
+    "asset": 1503050214176,
+    "meta": 1503051430553,
+    "relativePath": "images\\room\\invitation.png"
+  },
+  "9c88c58b-8d8c-4d8d-9d2a-3f59ed40170e": {
+    "asset": 1503050215829,
+    "meta": 1503051432175,
+    "relativePath": "resources\\image_bg\\login.jpg"
+  },
+  "eb286503-b6f7-4330-931f-331fc40e9ea7": {
+    "asset": 1503050221586,
+    "meta": 1503051435124,
+    "relativePath": "resources\\textures\\wx_login\\mark.png"
+  },
+  "299f4b99-5759-4ad9-8f02-ff7384e55ed9": {
+    "asset": 1503050221586,
+    "meta": 1503051434453,
+    "relativePath": "resources\\textures\\wx_login\\choice.png"
+  },
+  "e8d10c51-1a72-409f-8db0-26cb82e9a062": {
+    "asset": 1503050222771,
+    "meta": 1503051439913,
+    "relativePath": "scripts\\userInfo.js"
+  },
+  "71fa47cb-9430-44e3-b0a5-6fa75a025ea7": {
+    "asset": 1503050221461,
+    "meta": 1503051434235,
+    "relativePath": "resources\\textures\\room_game_account\\fangzhu.png"
+  },
+  "3b378d83-485b-4525-a6be-6de91b8eaebe": {
+    "asset": 1503050221570,
+    "meta": 1503051434437,
+    "relativePath": "resources\\textures\\special_words\\zi_quanleida.png"
+  },
+  "3f5d8c03-03eb-4c3d-b3dd-fe4e21040011": {
+    "asset": 1503050221898,
+    "meta": 1503051438182,
+    "relativePath": "scripts\\KQCard\\KQCardScoreExtension.js"
+  },
+  "c548cd20-31fe-4118-81f8-df4f4c50bc3e": {
+    "asset": 1503050221882,
+    "meta": 1503051437667,
+    "relativePath": "scripts\\KQCard\\KQCard.js"
+  },
+  "1e674d50-d951-460c-bba9-57cf2683ad19": {
+    "asset": 1503050222724,
+    "meta": 1503051437012,
+    "relativePath": "scripts\\hall.js"
+  },
+  "7327d2c1-a965-4d68-9d78-7c94388eae98": {
+    "asset": 1503050222397,
+    "meta": 1503051439929,
+    "relativePath": "scripts\\Utils\\KQNativeInvoke.js"
+  },
+  "54a9524e-2d54-4008-83fd-d57105a1da85": {
+    "asset": 1503050221898,
+    "meta": 1503051437979,
+    "relativePath": "scripts\\KQCard\\KQCardFindTypeExtension.js"
+  },
+  "b0c1e09c-ff90-4303-963a-8a6c5a3ee0e8": {
+    "asset": 1503050215829,
+    "meta": 1503051432238,
+    "relativePath": "resources\\image_bg\\playCards.png"
+  },
+  "63763170-4980-423d-8f53-ef9838ac3f33": {
+    "asset": 1503050213380,
+    "meta": 1503051429726,
+    "relativePath": "images\\play\\cardTypeCombine\\tou.png"
+  },
+  "128f4de3-55c9-485d-b967-48ff60b07ee2": {
+    "asset": 1503050213396,
+    "meta": 1503051429773,
+    "relativePath": "images\\play\\cardTypeCombine\\zhong.png"
+  },
+  "9d149bac-94c3-4ea4-a4da-1e1f68dfb421": {
+    "asset": 1503050213240,
+    "meta": 1503051429601,
+    "relativePath": "images\\play\\cardTypeCombine\\text"
+  },
+  "f52d7935-2322-4983-bac2-51d1ed45a67d": {
+    "asset": 1503050213240,
+    "meta": 1503051429633,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\shunzi.png"
+  },
+  "79f8f18d-6e60-4aac-a77b-d0fb91ffab69": {
+    "asset": 1503050213240,
+    "meta": 1503051429633,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\santiao.png"
+  },
+  "554aa69d-a912-493b-bd41-ce104a26506e": {
+    "asset": 1503050213240,
+    "meta": 1503051429648,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\tonghua.png"
+  },
+  "937b1471-78c3-455a-ac2f-8b0cc6ebc21f": {
+    "asset": 1503050213240,
+    "meta": 1503051429648,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\tonghuashun.png"
+  },
+  "d8008a27-1823-4282-9656-7a024ecfd028": {
+    "asset": 1503050213240,
+    "meta": 1503051429664,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\zhadan.png"
+  },
+  "41e4f1fa-9067-4f8c-9406-72e60a423470": {
+    "asset": 1503050213224,
+    "meta": 1503051429617,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\duizi.png"
+  },
+  "e8538131-e7c3-4817-908c-506234053aa9": {
+    "asset": 1503050213240,
+    "meta": 1503051429633,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\hulu.png"
+  },
+  "2b580e29-09a7-456b-8377-e9a771dcfa14": {
+    "asset": 1503050213240,
+    "meta": 1503051429633,
+    "relativePath": "images\\play\\cardTypeCombine\\text\\liangdui.png"
+  },
+  "c3944c29-e615-4610-80fb-cc6b7d3b3e31": {
+    "asset": 1503050213396,
+    "meta": 1503051429757,
+    "relativePath": "images\\play\\cardTypeCombine\\wei.png"
+  },
+  "f7fb27bb-7e82-4534-9ce3-76d6c0b64ece": {
+    "asset": 1503050222147,
+    "meta": 1503051439336,
+    "relativePath": "scripts\\Play\\TotalGameResult.js"
+  },
+  "f3a5a875-75e6-4487-a1df-3dd821457c80": {
+    "asset": 1503050221898,
+    "meta": 1503051438228,
+    "relativePath": "scripts\\KQCard\\test.js"
+  },
+  "cf75c2cb-368d-444d-b245-af1ff6de2fc7": {
+    "asset": 1503050222771,
+    "meta": 1503051439788,
+    "relativePath": "scripts\\socket.js"
+  },
+  "45c41bf0-0211-4d61-8497-0ef68aa443f4": {
+    "asset": 1503050222662,
+    "meta": 1503051436169,
+    "relativePath": "scripts\\CardTypeCombine.js"
+  },
+  "6664260d-a455-48cd-bf89-3360a4c04812": {
+    "asset": 1503050221898,
+    "meta": 1503051438213,
+    "relativePath": "scripts\\KQCard\\KQCardSelectExtension.js"
+  },
+  "e3878a11-4187-46ff-b88d-dd72e3e846e9": {
+    "asset": 1503050216734,
+    "meta": 1503051432893,
+    "relativePath": "resources\\images\\pokerList\\pockList.png"
+  },
+  "a85f4a59-9fa9-4fd4-b38b-c6ffb409002c": {
+    "asset": 1503050216734,
+    "meta": 1503051440475,
+    "relativePath": "resources\\images\\pokerList\\pockList.plist"
+  },
+  "6ffa03b4-d8f1-4ea7-bf10-0034d6e7319f": {
+    "asset": 1503050222116,
+    "meta": 1503051439305,
+    "relativePath": "scripts\\Play\\Player.js"
+  },
+  "fbfff426-346b-406e-8e1f-baf12281d52c": {
+    "asset": 1503050222896,
+    "meta": 1503051440256,
+    "relativePath": "sences\\play.fire"
+  },
+  "6e4b819c-2061-48eb-8fbc-7eac99daad91": {
+    "asset": 1503050221586,
+    "meta": 1503051434437,
+    "relativePath": "resources\\textures\\wx_login\\agreement.png"
+  },
+  "9f988d54-fc09-46ac-a929-c763217c16f7": {
+    "asset": 1503050215829,
+    "meta": 1503051432347,
+    "relativePath": "resources\\image_bg\\pleybg.jpg"
+  },
+  "b36fe478-a625-4540-b1d8-67a91e494eb4": {
+    "asset": 1503050215829,
+    "meta": 1503051432363,
+    "relativePath": "resources\\image_bg\\result_bg.png"
+  },
+  "8145a20e-56b6-41b6-b2bf-4b4be4c39960": {
+    "asset": 1503050215798,
+    "meta": 1503051431707,
+    "relativePath": "resources\\image_bg\\36exit.png"
+  },
+  "a92af5dc-6a01-4c98-8441-a4271a6d3175": {
+    "asset": 1503050215767,
+    "meta": 1503051431536,
+    "relativePath": "resources\\image_bg\\28_about_to_us_bg.png"
+  },
+  "e2c0ee5c-d1e1-4a88-b729-23452ce48546": {
+    "asset": 1503050215751,
+    "meta": 1503051431302,
+    "relativePath": "resources\\image_bg\\18_room_game_account_bg.png"
+  },
+  "16c651f6-3f0f-4f05-a412-bf0ebd2c62d0": {
+    "asset": 1503050222740,
+    "meta": 1503051439196,
+    "relativePath": "scripts\\play.js"
+  },
+  "f8e6b000-5643-4b86-9080-aa680ce1f599": {
+    "asset": 1501316004628,
+    "meta": 1503051425421,
+    "relativePath": "image"
+  },
+  "71561142-4c83-4933-afca-cb7a17f67053": {
+    "asset": 1486726770000,
+    "meta": 1503051425826,
+    "relativePath": "image\\default_btn_disabled.png"
+  },
+  "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
+    "asset": 1486726770000,
+    "meta": 1503051425826,
+    "relativePath": "image\\default_btn_normal.png"
+  },
+  "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
+    "asset": 1486726770000,
+    "meta": 1503051425826,
+    "relativePath": "image\\default_btn_pressed.png"
+  },
+  "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
+    "asset": 1486726772000,
+    "meta": 1503051425826,
+    "relativePath": "image\\default_panel.png"
+  },
+  "99170b0b-d210-46f1-b213-7d9e3f23098a": {
+    "asset": 1486726772000,
+    "meta": 1503051425826,
+    "relativePath": "image\\default_progressbar_bg.png"
+  },
+  "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
+    "asset": 1486726772000,
+    "meta": 1503051425842,
+    "relativePath": "image\\default_progressbar.png"
+  },
+  "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
+    "asset": 1486726772000,
+    "meta": 1503051425842,
+    "relativePath": "image\\default_radio_button_off.png"
+  },
+  "4bab67cb-18e6-4099-b840-355f0473f890": {
+    "asset": 1486726772000,
+    "meta": 1503051425842,
+    "relativePath": "image\\default_scrollbar_bg.png"
+  },
+  "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
+    "asset": 1486726772000,
+    "meta": 1503051425842,
+    "relativePath": "image\\default_radio_button_on.png"
+  },
+  "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
+    "asset": 1486726772000,
+    "meta": 1503051425857,
+    "relativePath": "image\\default_scrollbar_vertical_bg.png"
+  },
+  "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
+    "asset": 1486726772000,
+    "meta": 1503051425857,
+    "relativePath": "image\\default_scrollbar_vertical.png"
+  },
+  "0291c134-b3da-4098-b7b5-e397edbe947f": {
+    "asset": 1486726772000,
+    "meta": 1503051425857,
+    "relativePath": "image\\default_scrollbar.png"
+  },
+  "6e056173-d285-473c-b206-40a7fff5386e": {
+    "asset": 1486726772000,
+    "meta": 1503051425857,
+    "relativePath": "image\\default_sprite.png"
+  },
+  "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
+    "asset": 1486726772000,
+    "meta": 1503051425873,
+    "relativePath": "image\\default_toggle_checkmark.png"
+  },
+  "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
+    "asset": 1486726772000,
+    "meta": 1503051425889,
+    "relativePath": "image\\default_sprite_splash.png"
+  },
+  "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
+    "asset": 1486726772000,
+    "meta": 1503051425889,
+    "relativePath": "image\\default_toggle_disabled.png"
+  },
+  "d29077ba-1627-4a72-9579-7b56a235340c": {
+    "asset": 1486726772000,
+    "meta": 1503051425904,
+    "relativePath": "image\\default_toggle_normal.png"
+  },
+  "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "image\\default_toggle_pressed.png"
+  },
+  "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
+    "asset": 1501315984657,
+    "meta": 1503051425904,
+    "relativePath": "misc"
+  },
+  "2be36297-9abb-4fee-8049-9ed5e271da8a": {
+    "asset": 1486726772000,
+    "meta": 1486726772000,
+    "relativePath": "misc\\default_video.mp4"
+  },
+  "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
+    "asset": 1501315989072,
+    "meta": 1503051425904,
+    "relativePath": "obsolete"
+  },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1486726772000,
+    "meta": 1486726772000,
+    "relativePath": "obsolete\\atom.plist"
+  },
+  "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
+    "asset": 1501315984657,
+    "meta": 1503051425904,
+    "relativePath": "particle"
+  },
+  "b2687ac4-099e-403c-a192-ff477686f4f5": {
+    "asset": 1486726772000,
+    "meta": 1486726772000,
+    "relativePath": "particle\\atom.plist"
+  },
+  "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
+    "asset": 1501316010072,
+    "meta": 1503051425904,
+    "relativePath": "prefab"
+  },
+  "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\button.prefab"
+  },
+  "2c937608-2562-40ea-b264-7395df6f0cea": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\canvas.prefab"
+  },
+  "61aeb05b-3b32-452b-8eed-2b76deeed554": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\editbox.prefab"
+  },
+  "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\label.prefab"
+  },
+  "785a442c-3ceb-45be-a46e-7317f625f3b9": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\layout.prefab"
+  },
+  "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
+    "asset": 1486726772000,
+    "meta": 1503051425920,
+    "relativePath": "prefab\\pageview.prefab"
+  },
+  "cd33edea-55f5-46c2-958d-357a01384a36": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\particlesystem.prefab"
+  },
+  "5965ffac-69da-4b55-bcde-9225d0613c28": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\progressBar.prefab"
+  },
+  "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\richtext.prefab"
+  },
+  "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\scrollview.prefab"
+  },
+  "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\slider.prefab"
+  },
+  "1f55e3be-b89b-4b79-88de-47fd31018044": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\sprite_splash.prefab"
+  },
+  "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\sprite.prefab"
+  },
+  "7de03a80-4457-438d-95a7-3e7cdffd6086": {
+    "asset": 1486726772000,
+    "meta": 1503051425935,
+    "relativePath": "prefab\\tiledmap.prefab"
+  },
+  "0d784963-d024-4ea6-a7db-03be0ad63010": {
+    "asset": 1486726772000,
+    "meta": 1503051425951,
+    "relativePath": "prefab\\toggle.prefab"
+  },
+  "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
+    "asset": 1486726772000,
+    "meta": 1503051425951,
+    "relativePath": "prefab\\toggleGroup.prefab"
+  },
+  "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
+    "asset": 1486726772000,
+    "meta": 1503051425951,
+    "relativePath": "prefab\\videoplayer.prefab"
+  },
+  "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
+    "asset": 1486726772000,
+    "meta": 1503051425951,
+    "relativePath": "prefab\\webview.prefab"
+  },
+  "8f601773-3676-4bb6-af8a-193d2ea83a85": {
+    "asset": 1503110231186,
+    "meta": 1503110282808,
+    "relativePath": "scripts\\agreement.js"
+  },
+  "4a47f8f4-27f5-47ba-9db8-393ee78e4928": {
+    "asset": 1503110239943,
+    "meta": 1503110282831,
+    "relativePath": "scripts\\manager.js"
+  },
+  "9c72d9fc-f32b-4fc5-95ab-6516b1b7972b": {
+    "asset": 1503115408586,
+    "meta": 1503115411594,
+    "relativePath": "scripts\\login.js"
+  }
+}

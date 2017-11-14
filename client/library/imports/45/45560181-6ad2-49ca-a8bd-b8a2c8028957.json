@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "delNum.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "0": {
+      "__uuid__": "def434ec-6cc5-4f00-baac-8b0e48fdd195"
+    },
+    "1": {
+      "__uuid__": "3a83a272-068d-4cc4-a870-0dfa717647b0"
+    },
+    "2": {
+      "__uuid__": "de498143-f8e9-4e05-bca1-1474dc6e8bc0"
+    },
+    "3": {
+      "__uuid__": "2a176c2d-10b9-4fcc-909e-58416f8a81e6"
+    },
+    "4": {
+      "__uuid__": "f0578c62-ad60-443a-8db9-30d7fa3d3b3c"
+    },
+    "5": {
+      "__uuid__": "589e1cd4-b160-4a1e-be79-ed04689ecf86"
+    },
+    "6": {
+      "__uuid__": "739f161c-d663-4fbe-b3bd-20e9f57f1f4e"
+    },
+    "7": {
+      "__uuid__": "0af42b0f-3bdd-439c-8ff6-531a62e78236"
+    },
+    "8": {
+      "__uuid__": "db4f3ca0-6b5d-4e5a-aa76-3436b2de4cf3"
+    },
+    "9": {
+      "__uuid__": "118a981d-94f4-4eaa-b412-a955588923c2"
+    },
+    "10": {
+      "__uuid__": "5f7e555c-1131-4d41-b1b2-651556aeff3d"
+    }
+  }
+}

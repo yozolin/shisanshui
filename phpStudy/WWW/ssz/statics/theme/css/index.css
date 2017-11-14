@@ -1,0 +1,137 @@
+﻿html,body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ol,ul,li,form,table,tr,th,td {margin:0;padding:0}
+body{overflow-y:scroll; *overflow-y:auto;background-color:#f5f5f5;}
+body,input,textarea,select{font-family:"Microsoft YaHei","simhei"; color:#444866; -webkit-font-size-adjust: none; }
+h1,h2,h3,h4,h5,h6 {font-size: 12px;}
+h6 {font-weight: normal;}
+input, textarea, select, button {font-size:12px;font-weight:normal;font-family:inherit}
+input[type="button"],input[type="submit"],select,button {cursor:pointer}
+table {border-collapse:collapse;border-spacing:0;width:100%;}
+em,i,b {font-style: normal;font-weight: normal}
+/*i {transition:background 0.5s linear 0s}*/
+ul{list-style:none;margin:0px;padding:0px;}
+ul li{list-style-type:none;margin:0px;padding:0px;}
+a {
+	text-decoration: none;
+	color: #333
+}
+img {
+	vertical-align: top;
+	border: none 0;
+	-ms-interpolation-mode: bicubic;
+	margin:0px;padding:0px;
+}
+input,textarea,select{resize:none;}
+
+
+.gamehall{padding:0 10px 10px 10px;background-color:#fff;height:100%;}
+.gamehall ul li{display:block;padding-bottom:10px;width:100%;padding-top:15px;clear:both;list-style-type:none;}
+.gamehall ul li .trecl{float:left;}
+.gamehall ul li .trecl .treimg{float:left;text-align:center;font-size:14px;}
+.gamehall ul li .trecl .treimg img{display:block;}
+.gamehall ul li .trecl .trezi{float:left;margin-left:10px;font-size:12px;color:#999;}
+.gamehall ul li .trecl .trezi .titico {background: url(../images/recico.png)/*tpa=http://k3k.3799game.net/mobile/images/recico.png*/ no-repeat 0 3px;background-size: 32px 14px;padding-left:35px;color:#333333;font-size:16px;}
+.gamehall ul li .trecl .trezi .juli{padding-top:3px;padding-bottom:5px;}
+
+.gjz a{float:left;font-size:12px;line-height:18px;padding-right:10px;}
+
+.news{width:96%;
+      background-color:#f0f0f0;
+	  padding:10px;
+	  margin:0 auto;
+	  margin-top:10px;}
+.news p {color:#666;}
+.news p font{font-size:16px;}
+.news p a{background:url(../images/xz.png)/*tpa=http://k3k.3799game.net/mobile/images/xz.png*/ no-repeat left;background-size: 16px 18px;padding-left:22px;color:#333;}
+.news p a:hover{ text-decoration:none;}
+.news dl{margin:0;padding:0}
+.news dl dd{float:left;
+            width:48%;
+			margin:0px;
+			padding:0px;
+			line-height:30px;}
+@media screen and (max-width:320px){
+.gamehall ul li .trecl .trezi .juli{width:160px;}
+}
+@media only screen and (min-width: 330px) and (max-width: 400px) { 
+.gamehall ul li .trecl .trezi .juli{width:200px;}
+}
+.gamehall ul li .trecr{float:right;width: 40px;height: 60px;top: 16px;border-left: 1px solid #EDEDED;background: url(../images/downbg.png)/*tpa=http://k3k.3799game.net/mobile/images/downbg.png*/ no-repeat top center;background-size: 32px 32px;font-size: 0;}
+.gamehall ul li .trecr a{width: 40px;height: 60px;display:block;padding-top:35px;color:#2c9fb7;font-size:14px; text-align:center;}
+.xin5 { background: url(../images/x5.png)/*tpa=http://k3k.3799game.net/mobile/images/x5.png*/ no-repeat center }
+.xin4 { background: url(../images/x4.png)/*tpa=http://k3k.3799game.net/mobile/images/x4.png*/ no-repeat center }
+.xin3 { background: url(../images/x3.png)/*tpa=http://k3k.3799game.net/mobile/images/x3.png*/ no-repeat center }
+.xin2 { background: url(../images/x2.png)/*tpa=http://k3k.3799game.net/mobile/images/x2.png*/ no-repeat center }
+.xin1 { background: url(../images/x1.png)/*tpa=http://k3k.3799game.net/mobile/images/x1.png*/ no-repeat center }
+.xin5, .xin4, .xin3, .xin2, .xin1 {
+	width: 63px;
+	height: 11px;
+	margin: 3px 0;
+	display:block;
+	background-size: 63px 11px
+}
+
+
+@media screen and (max-width: 768px) { /*当屏幕尺寸小于768px时，应用下面的CSS样式*/
+.footbot{display:none;}
+.footbotsj{display:block;background-color:#2c9fb7;color:#FFFFFF;line-height:25px;text-align:center;padding-top:25px;padding-bottom:25px;}
+.footbotsj a{color:#FFFFFF;}
+.banner{position:relative;padding-top:15px;color:#FFFFFF;height:200px;background:#44C6DA url(../images/p_banner_bg.png)/*tpa=http://k3k.3799game.net/mobile/images/p_banner_bg.png*/;text-align:center;font-family:"Open Sans","Helvetica Neue",Helvetica,"Microsoft YaHei",sans-serif}
+.banner .bg-cloud{position:absolute;top:0;left:0;right:0;bottom:0;background:url(../images/p_banner_cloud.png)/*tpa=http://k3k.3799game.net/mobile/images/p_banner_cloud.png*/ repeat-x;background-position:center 100%}
+.banner .count{border-radius:8px;display:inline-block;background-color:#fff;margin-top:15px;}
+.banner .count img{padding:10px;width:271px;height:86px}
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:30%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+}
+
+@media only screen and (min-width: 768px) { /*当屏幕尺寸大于768px时，应用下面的CSS样式*/
+.banner{position:relative;padding:120px 0 60px;height:360px;background:#44C6DA url(../images/p_banner_bg.png)/*tpa=http://k3k.3799game.net/mobile/images/p_banner_bg.png*/;text-align:center;font-family:"Open Sans","Helvetica Neue",Helvetica,"Microsoft YaHei",sans-serif}
+.banner .bg-cloud{position:absolute;top:0;left:0;right:0;bottom:0;background:url(../images/p_banner_cloud.png)/*tpa=http://k3k.3799game.net/mobile/images/p_banner_cloud.png*/ repeat-x;background-position:center 100%}
+.banner p{color:#fff;letter-spacing:2px;font-size:20px;line-height:40px}
+.banner .count{border-radius:8px;display:inline-block;background-color:#fff;}
+.banner .count img{padding:10px;width:271px;height:86px}
+.banner p{font-size:16px;line-height:22px;}
+.news{width:98%;padding:15px;margin-top:20px;}
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:40%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+.footbotsj{display:none;}
+}
+
+@media only screen and (min-width: 1100px){
+.group-title::after,.group-title::before{display:inline-block;margin:0 2% 0 -20%;margin-top:20px;width:50%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin:0 -20% 0 2%;margin-top:20px}
+}
+@media only screen and (min-width: 400px) and (max-width: 900px) { 
+.banner .count{font-size:30px;line-height:30px}
+.footzi{background-color:#dddddd; display:block;line-height:50px;width:100%;height:100%;text-align:center;}
+.content-container{max-width:100%; margin:0 auto;}
+.footbot{display:none;}
+.footbotsj{display:block;background-color:#2c9fb7;color:#FFFFFF;line-height:25px;text-align:center;padding-top:25px;padding-bottom:25px;}
+.footbotsj a{color:#FFFFFF;}
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:30%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+}
+@media only screen and (max-width: 400px){
+.footzi{background-color:#dddddd; display:block;line-height:50px;width:100%;height:100%;text-align:center;}
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:30%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+}
+@media only screen and (max-width: 320px){
+.footbotsj a{color:#FFFFFF;}
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:30%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+}
+.content-container{width:100%;max-width:960px;margin:0 auto;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+@media screen and (min-width:1200px){
+.group-title{color:#475a62;text-align:center;letter-spacing:1.6px;font-weight:100;font-size:24px;font-family:"Open Sans","Helvetica Neue",Helvetica,"Microsoft YaHei",sans-serif;line-height:40px}
+}
+@media screen and (max-width:480px){
+.group-title::after,.group-title::before{display:inline-block;margin-top:20px;width:30%;border-bottom:1px solid #dedcdf;content:"";vertical-align:top;font-size:0}
+.group-title:after{margin-top:20px}
+.footbot{display:none;}
+.footbotsj{display:block;background-color:#2c9fb7;color:#FFFFFF;line-height:25px;text-align:center;padding-top:25px;padding-bottom:25px;}
+.footbotsj a{color:#FFFFFF;}
+}
+.group-title{margin-top:30px;margin-bottom:20px;font-size:24px;line-height:30px;width:100%;}
+
+.footbot{background-color:#2c9fb7;color:#FFFFFF;line-height:25px;margin-top:25px;text-align:center;padding-top:25px;padding-bottom:25px;}
+.footbot a{color:#FFFFFF;}

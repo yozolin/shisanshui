@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "special_light",
+    "texture": "2ca037be-5ffb-4bc8-a26b-40f2c1b919de",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      291,
+      333
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      292,
+      334
+    ]
+  }
+}

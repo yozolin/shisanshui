@@ -1,0 +1,147 @@
+2017-11-14T09:24:54.518Z - normal: Load ~/.CocosCreator/settings.json
+2017-11-14T09:24:54.522Z - normal: checking language setting...
+2017-11-14T09:24:54.522Z - normal: Language: zh
+2017-11-14T09:24:55.962Z - success: protocol editor-framework registered
+2017-11-14T09:24:55.962Z - success: protocol app registered
+2017-11-14T09:24:55.962Z - success: protocol theme registered
+2017-11-14T09:24:55.962Z - success: protocol profile registered
+2017-11-14T09:24:55.972Z - success: protocol packages registered
+2017-11-14T09:24:55.972Z - success: protocol unpack registerred
+2017-11-14T09:24:55.972Z - success: protocol disable-commonjs registerred
+2017-11-14T09:24:56.229Z - normal: connected!
+2017-11-14T09:24:56.233Z - normal: Check project F:\GONGPA\client
+2017-11-14T09:24:56.235Z - normal: Initializing Cocos2d
+2017-11-14T09:24:56.507Z - normal: Initializing Asset Database
+2017-11-14T09:24:56.533Z - success: protocol uuid registerred
+2017-11-14T09:24:56.533Z - success: protocol db registerred
+2017-11-14T09:24:56.533Z - success: protocol thumbnail registerred
+2017-11-14T09:24:56.533Z - normal: Loading editor/builtin packages
+2017-11-14T09:24:56.661Z - success: assets loaded
+2017-11-14T09:24:56.664Z - success: builder loaded
+2017-11-14T09:24:56.667Z - success: hierarchy loaded
+2017-11-14T09:24:56.670Z - success: inspector loaded
+2017-11-14T09:24:56.671Z - success: keystore loaded
+2017-11-14T09:24:56.673Z - success: node-library loaded
+2017-11-14T09:24:56.675Z - success: preferences loaded
+2017-11-14T09:24:56.688Z - success: project-importer loaded
+2017-11-14T09:24:56.690Z - success: project-settings loaded
+2017-11-14T09:24:56.692Z - success: ui-kit loaded
+2017-11-14T09:24:56.694Z - success: ui-grid loaded
+2017-11-14T09:24:56.696Z - success: scene loaded
+2017-11-14T09:24:56.697Z - success: sprite-editor loaded
+2017-11-14T09:24:56.747Z - success: store loaded
+2017-11-14T09:24:56.751Z - success: timeline loaded
+2017-11-14T09:24:56.751Z - normal: Loading builtin packages
+2017-11-14T09:24:56.754Z - success: anysdk loaded
+2017-11-14T09:24:56.756Z - success: asset-db-debugger loaded
+2017-11-14T09:24:56.759Z - success: code-editor loaded
+2017-11-14T09:24:56.759Z - success: color-picker loaded
+2017-11-14T09:24:56.762Z - success: console loaded
+2017-11-14T09:24:56.765Z - success: package-manager loaded
+2017-11-14T09:24:56.767Z - success: tester loaded
+2017-11-14T09:24:56.768Z - success: ui-kit-preview-extra loaded
+2017-11-14T09:24:56.770Z - success: ui-kit-preview loaded
+2017-11-14T09:24:56.772Z - success: ui-tree loaded
+2017-11-14T09:24:56.819Z - normal: Initializing project F:\GONGPA\client
+2017-11-14T09:24:56.823Z - normal: Loading packages
+2017-11-14T09:24:56.827Z - normal: Watching packages
+2017-11-14T09:24:56.841Z - normal: Run Application
+2017-11-14T09:25:03.778Z - success: preview server running at http://localhost:7456
+2017-11-14T09:25:03.778Z - normal: Compiling scripts...
+2017-11-14T09:25:07.531Z - normal: Compiled project javascript file successfully
+2017-11-14T09:25:11.401Z - normal: 1.4.0
+2017-11-14T09:25:13.166Z - warn: The Asset used by component "cc.Sprite" in prefab "userInfo.prefab" is missing. Detailed information:
+Node path: "userInfoSelf/homerun"
+Asset url: "db://assets/prefabs/userInfo.prefab"
+Missing uuid: "569bd9ba-9db1-4e47-92c8-5f5c5c6f945d"
+
+2017-11-14T09:25:13.224Z - warn: The Asset used by component "cc.Sprite" in prefab "CardPrefab.prefab" is missing. Detailed information:
+Node path: "CardPrefab"
+Asset url: "db://assets/prefabs/CardPrefab.prefab"
+Missing uuid: "80a9218d-02e8-4fe2-91ba-e847f0c641a5"
+
+2017-11-14T09:25:30.487Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2017-11-14T09:25:30.488Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 1030.00
+2017-11-14T09:25:30.488Z - normal: Simulator: FRAME SCALE = 1.00
+2017-11-14T09:25:33.403Z - normal: Simulator: Ready for GLSL
+2017-11-14T09:25:33.403Z - normal: Simulator: Ready for OpenGL 2.0
+2017-11-14T09:25:33.404Z - normal: Simulator: 
+2017-11-14T09:25:33.404Z - normal: Simulator: {
+2017-11-14T09:25:33.404Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 361.43
+2017-11-14T09:25:33.404Z - normal: Simulator: 	gl.supports_NPOT: true
+2017-11-14T09:25:33.404Z - normal: Simulator: 	cocos2d.x.version: 1.4.0-lite
+2017-11-14T09:25:33.405Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2017-11-14T09:25:33.406Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2017-11-14T09:25:33.406Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2017-11-14T09:25:33.406Z - normal: Simulator: 	gl.max_texture_size: 16384
+2017-11-14T09:25:33.407Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2017-11-14T09:25:33.407Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2017-11-14T09:25:33.407Z - normal: Simulator: 	gl.renderer: GeForce GT 730/PCIe/SSE2
+2017-11-14T09:25:33.408Z - normal: Simulator: 	gl.max_texture_units: 192
+2017-11-14T09:25:33.408Z - normal: Simulator: 	gl.supports_ETC1: false
+2017-11-14T09:25:33.408Z - normal: Simulator: 	gl.supports_PVRTC: false
+2017-11-14T09:25:33.408Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2017-11-14T09:25:33.409Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2017-11-14T09:25:33.409Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2017-11-14T09:25:33.409Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2017-11-14T09:25:33.409Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2017-11-14T09:25:33.409Z - normal: Simulator: }
+2017-11-14T09:25:33.409Z - normal: Simulator: 
+2017-11-14T09:25:33.409Z - normal: Simulator: 
+2017-11-14T09:25:33.409Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2017-11-14T09:25:33.409Z - normal: Simulator: Project Config:
+2017-11-14T09:25:33.409Z - normal: Simulator:     project dir: F:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2017-11-14T09:25:33.410Z - normal: Simulator:     writable path: $(PROJDIR)\
+2017-11-14T09:25:33.410Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2017-11-14T09:25:33.410Z - normal: Simulator:     frame size: 960 x 640
+2017-11-14T09:25:33.410Z - normal: Simulator:     frame scale: 1.00
+2017-11-14T09:25:33.410Z - normal: Simulator:     show console: NO
+2017-11-14T09:25:33.410Z - normal: Simulator:     write debug log: NO ()
+2017-11-14T09:25:33.410Z - normal: Simulator:     listen: 
+2017-11-14T09:25:33.411Z - normal: Simulator:     debugger: none
+2017-11-14T09:25:33.411Z - normal: Simulator:     add searching path:
+2017-11-14T09:25:33.411Z - normal: Simulator: 
+2017-11-14T09:25:33.411Z - normal: Simulator: 
+2017-11-14T09:25:33.411Z - normal: Simulator: 
+2017-11-14T09:25:33.411Z - normal: Simulator: ------------------------------------------------
+2017-11-14T09:25:33.411Z - normal: Simulator: LOAD Js FILE: main.js
+2017-11-14T09:25:33.411Z - normal: Simulator: ------------------------------------------------
+2017-11-14T09:25:34.118Z - normal: Simulator: Cocos2d-JS v3.14
+2017-11-14T09:25:34.335Z - error: Simulator: 3629:mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+    at a (F:\GONGPA\client\library\bundle.project.js?009:NaN:0)
+2017-11-14T09:25:34.335Z - normal: Simulator: 
+2017-11-14T09:25:34.335Z - normal: Simulator: iShow!
+2017-11-14T09:25:34.577Z - normal: Simulator: 添加全局节点 Socket 成功
+2017-11-14T09:25:41.777Z - normal: Simulator: [WebSocket::init] _host: 123.56.20.164, _port: 5041, _path: /
+2017-11-14T09:25:41.777Z - normal: Simulator: WebSocket thread start, helper instance: 0A8DAE80
+2017-11-14T09:25:41.777Z - normal: Simulator: NOTICE: Initial logging level 967
+2017-11-14T09:25:41.777Z - normal: Simulator: 
+2017-11-14T09:25:41.777Z - normal: Simulator: NOTICE: Libwebsockets version: 1.6.0 unknown-build-hash
+2017-11-14T09:25:41.777Z - normal: Simulator: 
+2017-11-14T09:25:41.779Z - normal: Simulator: NOTICE: IPV6 not compiled in
+2017-11-14T09:25:41.779Z - normal: Simulator: 
+2017-11-14T09:25:41.779Z - normal: Simulator: NOTICE: libev support not compiled in
+2017-11-14T09:25:41.779Z - normal: Simulator: 
+2017-11-14T09:25:41.780Z - normal: Simulator: NOTICE:  mem: per-conn:          280 bytes + protocol rx buf
+2017-11-14T09:25:41.780Z - normal: Simulator: 
+2017-11-14T09:25:41.780Z - normal: Simulator: Receiving data:index:1, len=5763
+2017-11-14T09:25:41.780Z - normal: Simulator: Notify data len 5763 to Cocos thread.
+2017-11-14T09:25:41.781Z - normal: Simulator: Safely done, msg(1)!
+2017-11-14T09:25:41.781Z - normal: Simulator: msg(1) append: 0 + 45 = 45
+2017-11-14T09:25:41.781Z - normal: Simulator: msg(1) was totally sent!
+2017-11-14T09:25:41.782Z - normal: Simulator: -----------------------------------------------------------
+2017-11-14T09:25:41.782Z - normal: Simulator: Receiving data:index:2, len=63
+2017-11-14T09:25:41.782Z - normal: Simulator: Receiving data:index:3, len=48
+2017-11-14T09:25:41.783Z - normal: Simulator: Notify data len 63 to Cocos thread.
+2017-11-14T09:25:41.783Z - normal: Simulator: Notify data len 48 to Cocos thread.
+2017-11-14T09:25:41.783Z - normal: Simulator: Waiting WebSocket (085408D8) to exit!
+2017-11-14T09:25:41.783Z - normal: Simulator: NOTICE: lws_context_destroy
+2017-11-14T09:25:41.784Z - normal: Simulator: 
+2017-11-14T09:25:41.784Z - normal: Simulator: onConnectionClosed: WebSocket (085408D8) was closed, no need to close it again!
+2017-11-14T09:25:41.785Z - normal: Simulator: onConnectionClosed: WebSocket (085408D8) was closed, no need to close it again!
+2017-11-14T09:25:41.786Z - normal: Simulator: WebSocket thread exit, helper instance: 0A8DAE80
+2017-11-14T09:25:41.786Z - normal: Simulator: In the destructor of WebSocket (085408D8)
+2017-11-14T09:25:41.786Z - normal: Simulator: basic_object_finalize 06B31600 ...
+2017-11-14T09:25:41.787Z - normal: Simulator: jsbindings: finalizing JS object 06B31620 (WebSocket)
+2017-11-14T09:25:41.787Z - normal: Simulator: jsbindings: finalizing JS object 06B31640 (SocketIO)
+2017-11-14T09:25:41.787Z - normal: Simulator: jsbindings: finalizing JS object 0BB447E0 (WebSocket)

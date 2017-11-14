@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_xinjianfangjian",
+    "texture": "0bc141b8-af12-4ffc-a1eb-0c281986c1c5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      118,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      118,
+      28
+    ]
+  }
+}

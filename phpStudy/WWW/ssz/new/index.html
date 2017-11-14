@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>新江华-十三张</title>
+<style>
+    html{
+        height: 100%;
+        min-height: 100%;
+    }
+    body{
+        height: 100%;
+        min-height: 100%;
+        background:url(./newjianghua/bg.jpg);
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+    }
+    .logo{width: 144px; margin:0 auto; display: block;}
+    .gzh{width: 33%; float: right; text-align: right; margin-right: 2%; margin-top: 2%}
+    .gzh img{width: 90%}
+    .gzh span{font-size: 10px; color: white }
+    .download{position: fixed; bottom: -10%;width: 100%; text-align: center}
+    .download .btn{width: 60%; height: 40px; border: none; border-radius: 15px; color: #ffffff;background: #EA4137; background-image: none;; font-size: 16px; font-weight: 700; letter-spacing: 2px; cursor: pointer; -webkit-appearance: none;}
+    .tuijian{ width: 100%; text-align: center; position: fixed; bottom: 8%; color: #5C54D0;font-size: 10px; font-weight: 600}
+    .game{width: 90%; margin: 0 5%; position: fixed;top: 32%; left: -100%}
+    .game img{width: 80%;margin-left: 40px}
+</style>
+</head>
+<script type="text/javascript" src="./newjianghua/jquery-2.0.3.min.js"></script>
+<body style="">
+<img src="./newjianghua/icon.png" class="logo">
+<div class="gzh">
+    <!-- <img src="./newjianghua/gzh.png"> -->
+    <!-- <span>关注佛手十三道<br>更多玩家活动等着你!</span> -->
+</div>
+<div class="game" style="left: 0px;">
+    <img src="./newjianghua/game1.png">
+    <img src="./newjianghua/game2.png" style="margin-top: -65px;margin-left: 60px">
+</div>
+<div class="download" style="bottom: 4%;">
+    <input class="btn" type="button" onclick="download('android')" value="游戏下载">
+    <p></p>
+    <!-- <input class="btn" type="button" onclick="https://fir.im/kumg" value="苹果下载"> -->
+</div>
+<script>
+    //console.log(navigator);
+    // console.log(navigator.appVersion.indexOf("Android"));
+    // console.log(navigator.appVersion.indexOf("OS"));
+ 
+    function download(phoneType){
+        var mobile = checkMobile();
+        console.log(mobile);
+        if(mobile){  // 1 代表安卓
+            window.location.href = "https://fir.im/kumg";
+        }else{
+            window.location.href = "https://fir.im/cpsj";
+        }
+        
+    }
+    function loading(){
+        $(".game").animate({left:"0"},1000,"swing",function(){
+            $(".download").animate({bottom:'4%'},800,"swing");
+        });
+    }
+
+    $(document).ready(function(){
+        setTimeout("loading()",1000);   //延时3秒
+
+    })
+
+    function checkMobile(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+        if(app.indexOf("Android") >-1){
+            return 1;
+        }else if(app.indexOf("OS") >-1){
+            return 0;
+        }
+    
+    };
+</script>
+
+</body></html>

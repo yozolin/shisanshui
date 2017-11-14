@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "理牌中资源-理牌中_2",
+    "texture": "66f007e6-a34f-4003-93a3-b4a4f6408338",
+    "atlas": "398f66ff-2744-4c55-b0b8-2aa302d2d5ac",
+    "rect": [
+      1732,
+      1002,
+      85,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      85,
+      29
+    ]
+  }
+}

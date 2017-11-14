@@ -1,0 +1,1 @@
+[{"__type__":"cc.SpriteFrame","content":{"name":"13_circle","texture":"c2d668d8-2826-4c4b-b6f1-fc9e4ac7e0a4","rect":[0,0,31,30],"offset":[0,0],"originalSize":[31,30]}},{"__type__":"cc.SpriteAtlas","_name":"game_record.plist","_spriteFrames":{"13_circle":{"__uuid__":"8bf12d89-079e-4e5e-b0ca-7dd64dcae1a7"},"13_return_btn":{"__uuid__":"e3e4c0fc-3d7e-46f9-aae5-2d96e6034779"}}}]

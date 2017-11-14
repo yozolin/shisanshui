@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_kuaijieyuliang",
+    "texture": "5f0457b4-e92f-416b-8dd4-570e2d285352",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      59,
+      169
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      59,
+      169
+    ]
+  }
+}

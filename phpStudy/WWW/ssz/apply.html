@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>江华十三张代理申请中心</title>
+    <meta name="keywords" content="申请管理系统"/>
+    <meta name="description" content="申请管理系统">
+    <meta charset=utf-8"UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<link rel="alternate icon" type="image/png" href="/themes/system/Public/assets/images/favicon.ico">
+<link rel="icon" href="/themes/system/Public/assets/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/themes/system/Public/assets/images/favicon.ico" type="image/x-icon">
+<link href="statics/theme/css/amazeui.css"  rel="stylesheet">
+<link href="statics/theme/css/style.css"  rel="stylesheet">
+    <style>
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 150%;
+            color: #333;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .am-form input[type="text"]:after,
+        .am-form input[type="password"]:after {
+            clear: both;
+            margin-bottom: 1rem;
+        }
+        .am-nav {
+            padding-left: 0.5em;
+        }
+        .am-tabs-bd {
+            border: none;
+        }
+
+        .am-tabs-bd .am-tab-panel {
+            padding-bottom: 0;
+        }
+    </style>
+
+    <script type="text/javascript" src="statics/theme/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+
+        var code; //在全局 定义验证码
+        var validateResult;
+        function createCode() {
+            code = "";
+            var codeLength = 6;//验证码的长度
+            var checkCode = document.getElementById("checkCode");
+            var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');// 所有候选组成验证码的字符，当然也可以用中文的
+            for (var i = 0; i < codeLength; i++) {
+                var charIndex = Math.floor(Math.random() * 36);
+                code += selectChar[charIndex];
+            }
+            //       alert(code);
+            if (checkCode) {
+                checkCode.className = "code";
+                checkCode.value = code;
+            }
+        }
+        function validate() {
+            var AgencyName = document.getElementById("AgencyName").value;
+            var phone = document.getElementById("phone").value;
+            var isChecked = document.getElementById("cb1").checked;
+            //alert(isChecked);
+            if (AgencyName != "" && phone != "" && isChecked == true) {
+                //validateResult = 1;
+            }
+            else {
+                validateResult = 0;
+                document.getElementById("hint").value = "代理商名称和电话号码必填，协议必需同意!";
+                document.getElementById("hint").style.display = "block";
+                //alert("代理商名称和电话号码必填，协议必需同意,验证码必须填正确!");
+                return;
+            }
+            var inputCode = document.getElementById("input1").value;
+            if (inputCode.length <= 0) {
+                document.getElementById("hint").value = "请输入验证码!";
+                document.getElementById("hint").style.display = "block";
+                //alert("请输入验证码！");
+                validateResult = 0;
+            }
+            else if (inputCode != code) {
+                document.getElementById("hint").value = "验证码输入错误!";
+                document.getElementById("hint").style.display = "block";
+                //alert("验证码输入错误！");
+                validateResult = 0;
+                createCode();//刷新验证码
+            }
+            else {
+                validateResult = 1;
+                //alert("^-^ OK");
+            }
+
+        }
+        function popupAgreement() {
+            document.getElementById("my-alert").style.display = "block";
+        }
+
+        function closeAgreement() {
+            document.getElementById("my-alert").style.display = "none";
+        }
+        
+    </script>
+
+</head>
+<body>
+
+<div class="header">
+    <div class="am-g">
+        <h1>江华十三张代理申请中心</h1>
+    </div>
+    <hr/>
+</div>
+<div class="am-g">
+    <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+        <form name="_ctl0" method="post" action="applyed.php" id="_ctl0" class="am-form js-ajax-form">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="17985D63" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="" />
+
+            <label for="input_realname">真实姓名:</label>
+            <input name="nickname" type="text" id="AgencyName" class="am-margin-bottom-sm" placeholder="请输入真实姓名" />
+
+            <label for="input_realname">登录名:</label>
+            <input name="username" type="text" id="username" class="am-margin-bottom-sm" placeholder="请输入登录名" />
+
+            <label for="input_password">登录密码:</label>
+            <input name="password" type="password" id="Password" class="am-margin-bottom-sm" placeholder="请输入登录密码" />
+
+            <label for="input_repassword">确认密码:</label>
+            <input name="Password2" type="password" id="Password2" class="am-margin-bottom-sm" placeholder="请输入确认密码" />
+
+            <label for="input_weixin">联系微信:</label>
+            <input name="weixin" type="text" id="weixin" class="am-margin-bottom-sm" placeholder="请输入联系微信号" />
+
+            <label for="input_weixin">联系qq:</label>
+            <input name="qq" type="text" id="qq" class="am-margin-bottom-sm" placeholder="请输入联系QQ号" />
+
+            <label for="input_phone">联系电话:</label>
+            <input name="phone" type="text" id="phone" class="am-margin-bottom-sm" placeholder="请输入联系电话" />
+
+            <label for="input_address">所属地区:</label>
+            <input name="area" type="text" id="area" class="am-margin-bottom-sm" placeholder="请输入所属地区" />
+
+            <label for="input_shangji">介绍人邀请码:</label>
+            <input name="inviteCode" type="text" id="InvitationCode" class="am-margin-bottom-sm" placeholder="请填写6位介绍人邀请码,如没有介绍人邀请码留空即可" />
+
+            <label for="input_describe">简单描述您将如何推广:</label>
+            <textarea name="introMethod" id="IntroMethod" class="am-margin-bottom-sm" rows="8"></textarea>
+            <input type="hidden" name="action" value="1">
+            <!-- 
+            <div class="am-cf am-margin-top">
+                <label class="am-checkbox"> -->
+                    
+                    <!-- <input name="agreement" type="checkbox" id="agreement" value="agree" /> -->
+                   <!--  <a data-am-modal="{target: '#my-alert'}" onclick="popupAgreement()"><同意冠赢科技推广协议></a> -->
+               <!--      <label id="labelResult" ></label>
+                </label>
+            </div> -->
+            
+            <div  id="my-alert" style="position: absolute; top: 0px; z-index: 2; background-color: #C0C0C0;display:none">
+                <div >
+                    <div align="center"><!-- <h3>冠赢科技代理推广协议</h3> --></div>
+                    <div>
+                    </div>
+                    <div  style="clear:both;text-align:center">
+                        <input type="button" onclick="closeAgreement()" value="确定"></input>
+                    </div>
+                </div>
+            </div>
+            <div class="am-cf am-margin-top">
+                <p  name="confirm" type="submit" id="confirm" data-wait="1500" style="background-color: #0E90D2;text-align:center;height:50px;line-height:50px;border-radius:15px; width: 100%;" >申请代理</p>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- Footer ================================================== -->
+<footer style="margin-top: 1.6rem; border-top: 1px #eee solid;" data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{}">
+	<div class="am-footer-miscs ">
+		<p>江华十三张代理申请中心</p>
+		<p></p>
+	</div>
+</footer>
+<script type="text/javascript">
+    //全局变量
+    var GV = {
+        ROOT: "/",
+        WEB_ROOT: "/",
+        JS_ROOT: "public/js/"
+    };
+    closeAgreement();
+    $('#confirm').click(function(){
+        var password = $("input[name=password]").val();     // 
+        var Password2 = $("input[name=Password2]").val();   // 
+        var username = $("input[name=username]").val();   // 
+        //console.log(username);
+        if (!(/(^[0-9a-zA-Z]\d*$)/.test(username))){
+            alert("您输入的登录名有误，请重新输入（支持数字+字母）");
+            return false;
+        }
+        if (password == "" || Password2 ==''){
+            alert("您还没输入密码，请输入密码！");
+            return false;
+        }
+        if(password.length<6){
+             alert("您输入的密码少于6位，重新输入");
+             return false;
+        }
+        if(password.length>18){
+            alert("您输入的密码超过18位，重新输入");
+            return false;
+        }
+        if(password!=Password2){
+             alert("两次密码不相同，请重新输入");
+             return false;
+        }
+        var username = $("input[name=username ]").val();
+        var nickname = $("input[name=nickname]").val();
+        var wechat = $("input[name=weixin]").val();
+        var phone = $("input[name=phone]").val();
+        var qq = $("input[name=qq]").val();
+        var area = $("input[name=area]").val();
+        var inviteCode = $("input[name=inviteCode]").val();
+        var introMethod = $("input[name=introMethod]").val();
+
+        if( !(/(^[1-9]\d*$)/.test(qq)) ||qq.length<5){
+            alert('请输入正确的QQ号');
+            return false;
+        }
+        if(!(/(^[1-9]\d*$)/.test(phone)) || phone.length!=11){
+            alert('请输入正确的手机号');
+            return false;
+        }
+        var date = {};
+        date.nickname = nickname;
+        date.nickname = nickname;
+        date.password = password;
+        date.wechat = wechat;
+        date.phone = phone;
+        date.qq = qq;
+        date.area = area;
+        date.inviteCode = inviteCode;
+        date.introMethod = introMethod;
+
+        $.ajax({
+            type:"post",
+            url:"applyed.php",
+            data:{agentapply:date},
+            success:function(data){
+                //var data = eval(data);
+                var date = JSON.parse(data);
+                if(data.result){
+                    alert("提交成功，请等待！");
+                }else{
+                    alert("网络出错咯！");
+                }
+                //console.log(date);
+            }
+        });
+
+    })
+</script>
+<!-- Le javascript
+    ================================================== -->
+</body>
+</html>

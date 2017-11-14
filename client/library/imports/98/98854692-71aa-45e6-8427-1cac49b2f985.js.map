@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,eAAe,GAAG;;AAEtB,eAAa,EAAE,uBAAU,IAAI,EAAE;AAC7B,MAAE,CAAC,MAAM,CAAC,IAAI,CAAC,CAAC;;AAEhB,QAAI,IAAI,IAAI,IAAI,CAAC,QAAQ,IAAI,IAAI,CAAC,QAAQ,CAAC,MAAM,GAAG,CAAC,EAAE;AACrD,aAAO,IAAI,CAAC;KACb;;AAED,WAAO,KAAK,CAAC;GACd;;;AAGD,aAAW,EAAE,qBAAU,IAAI,EAAE;AAC3B,WAAO,IAAI,CAAC,WAAW,IAAI,IAAI,CAAC;GACjC;CACF,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,eAAe,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const UserModelHelper = {\n  // 用户是否已出牌\n  isPlayedCards: function (user) {\n    cc.assert(user);\n\n    if (user && user.cardInfo && user.cardInfo.length > 0) {\n      return true;\n    }\n\n    return false;\n  },\n\n  // 用户是否已准备\n  isUserReady: function (user) {\n    return user.readyStatus == true;\n  },\n};\n\nmodule.exports = UserModelHelper;\n"
+  ]
+}

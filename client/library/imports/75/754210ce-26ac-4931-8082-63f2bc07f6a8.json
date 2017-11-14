@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_qiehuan",
+    "texture": "b5f11984-b9af-46cc-8648-1e391f78a2e9",
+    "atlas": "",
+    "rect": [
+      2,
+      4,
+      69,
+      68
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      73,
+      74
+    ]
+  }
+}

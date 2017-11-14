@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEA,IAAI,mBAAmB,GAAG,SAAtB,mBAAmB,CAAa,KAAK,EAAE;AACvC,QAAI,CAAC,YAAY,GAAG,EAAE,CAAC;AACvB,SAAK,CAAC,OAAO,CAAC,CAAA,UAAU,IAAI,EAAE;AAC1B,YAAI,KAAK,GAAG,IAAI,CAAC,MAAM,CAAC;AACxB,YAAI,MAAM,GAAG,IAAI,CAAC,YAAY,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;AAC3C,YAAI,CAAC,YAAY,CAAC,KAAK,CAAC,GAAG,MAAM,GAAG,CAAC,CAAC;KACzC,CAAA,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;CACjB,CAAC;;;AAGF,mBAAmB,CAAC,SAAS,CAAC,SAAS,GAAG,YAAY;AACpD,QAAI,MAAM,GAAG,CAAC,CAAC;AACf,SAAK,IAAI,IAAI,IAAI,IAAI,CAAC,YAAY,EAAE;AAClC,YAAI,MAAM,GAAG,IAAI,CAAC,YAAY,CAAC,IAAI,CAAC,CAAC;;AAE/B,cAAM,GAAG,IAAI,CAAC,GAAG,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;;KAEzC;;AAED,WAAO,MAAM,CAAC;CACf,CAAC;;AAIF,MAAM,CAAC,OAAO,GAAG,mBAAmB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "// 牌点数帮助类\r\n// 用来计算一个牌数组内的相同点数的牌的张数\r\nvar KQCardScoretsHelper = function (cards) {\r\n    this.pointNumbers = {};\r\n    cards.forEach(function (card) {\r\n        let point = card.scores;\r\n        var number = this.pointNumbers[point] || 0;\r\n        this.pointNumbers[point] = number + 1;\r\n    }.bind(this));\r\n};\r\n\r\n// 相同点数牌的最大数量\r\nKQCardScoretsHelper.prototype.maxNumber = function () {\r\n  var result = 0;\r\n  for (let prop in this.pointNumbers) {\r\n    let number = this.pointNumbers[prop];\r\n      //if(number < 20){\r\n          result = Math.max(number, result);\r\n      //}\r\n  }\r\n\r\n  return result;\r\n};\r\n\r\n\r\n\r\nmodule.exports = KQCardScoretsHelper;\r\n\r\n/*var cards = [\r\n    {'suit':'s',number:2},\r\n    {'suit':'s',number:2},\r\n    {'suit':'s',number:4},\r\n    {'suit':'s',number:4},\r\n    {'suit':'s',number:6},\r\n    {'suit':'s',number:6},\r\n    {'suit':'s',number:8},\r\n    {'suit':'s',number:8},\r\n    {'suit':'s',number:10},\r\n    {'suit':'s',number:10},\r\n    {'suit':'s',number:12},\r\n    {'suit':'s',number:12},\r\n    {'suit':'s',number:14}\r\n];\r\nvar test = new KQCardPointsSame(cards);\r\nconsole.log(test);*/\r\n"
+  ]
+}

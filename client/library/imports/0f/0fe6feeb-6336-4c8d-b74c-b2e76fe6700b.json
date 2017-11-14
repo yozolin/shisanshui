@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_continue",
+    "texture": "e4a0d1a6-fb35-417c-bef4-9b742534cc07",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      85,
+      34
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      88,
+      37
+    ]
+  }
+}

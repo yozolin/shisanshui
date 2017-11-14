@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "autoCard",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.95,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 450
+        },
+        {
+          "frame": 0.9166666666666666,
+          "value": 300
+        },
+        {
+          "frame": 1.3833333333333333,
+          "value": 300
+        },
+        {
+          "frame": 2.95,
+          "value": 453
+        }
+      ]
+    }
+  },
+  "events": []
+}

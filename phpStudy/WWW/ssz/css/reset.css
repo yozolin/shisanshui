@@ -1,0 +1,32 @@
+/*自定义的用于重置的默认样式*/
+
+/*清除内边距与外边距*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { 
+	margin:0; 
+	padding:0;
+}
+
+/*清除超链接的默认的下划线*/
+a { 
+	text-decoration:none;
+}
+/*鼠标滑过超链接时，加上下划线*/
+a:hover { 
+	text-decoration:underline
+}
+/*清除图片边框*/
+img {
+	border:none
+}
+/*清除列表的项目符号*/
+ol,ul,li { 
+	list-style:none;
+}
+/*设置表格边框与单元格边框合并为一条边框*/
+table { 
+	border-collapse:collapse;
+}
+/*预先定义了一个类，用于清除浮动*/
+.clear { 
+	clear:both;
+}

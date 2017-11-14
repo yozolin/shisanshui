@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,MAAM,CAAC,OAAO,GAAG;AACb,WAAO,EAAC,QAAQ;;AAEhB,eAAW,EAAC,qBAAS,GAAG,EAAE;AACtB,UAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,UAAU,EAAE,GAAG,CAAC,CAAC;KAChD;;AAED,eAAW,EAAC,uBAAW;AACnB,YAAI,KAAK,GAAG,EAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,UAAU,CAAC,CAAC;AACpD,YAAI,CAAC,KAAK,EAAE;AACR,mBAAO,EAAE,CAAC;SACb;AACD,eAAO,KAAK,CAAC;KAChB;;AAED,iBAAa,EAAC,uBAAS,KAAK,EAAE;AAC1B,UAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,aAAa,EAAC,KAAK,CAAC,CAAC;KACpD;;AAED,iBAAa,EAAC,yBAAW;AACrB,YAAI,KAAK,GAAG,EAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,aAAa,CAAC,CAAC;AACvD,YAAI,CAAC,KAAK,EAAE;AACR,mBAAO,CAAC,CAAC;SACZ;AACD,eAAO,KAAK,CAAC;KAChB;;AAED,uBAAmB,EAAC,6BAAS,KAAK,EAAE;AAChC,UAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,mBAAmB,EAAC,KAAK,CAAC,CAAC;KAC1D;;AAED,uBAAmB,EAAC,+BAAW;AAC3B,YAAI,KAAK,GAAG,EAAE,CAAC,GAAG,CAAC,YAAY,CAAC,OAAO,CAAC,mBAAmB,CAAC,CAAC;AAC7D,YAAI,CAAC,KAAK,EAAE;AACR,mBAAO,CAAC,CAAC;SACZ;AACD,eAAO,KAAK,CAAC;KAChB;CACJ,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "module.exports = {\n    version:'v1.0.0',\n\n    setUserInfo:function(str) {\n        cc.sys.localStorage.setItem('userinfo', str);\n    },\n\n    getUserInfo:function() {\n        var value = cc.sys.localStorage.getItem('userinfo');\n        if (!value) {\n            return \"\";\n        }\n        return value;\n    },\n\n    setMusicValue:function(value) {\n        cc.sys.localStorage.setItem('musicVolumn',value);\n    },\n\n    getMusicValue:function() {\n        var value = cc.sys.localStorage.getItem('musicVolumn');\n        if (!value) {\n            return 1;\n        }\n        return value;\n    },\n\n    setMusicEffectValue:function(value) {\n        cc.sys.localStorage.setItem('musicEffectVolumn',value);\n    },\n\n    getMusicEffectValue:function() {\n        var value = cc.sys.localStorage.getItem('musicEffectVolumn');\n        if (!value) {\n            return 1;\n        }\n        return value;\n    },\n};\n"
+  ]
+}

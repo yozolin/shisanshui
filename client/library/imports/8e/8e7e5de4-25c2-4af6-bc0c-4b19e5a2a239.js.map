@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;;;;;;;;;;AAWR,WAAG,EAAC,EAAE,CAAC,IAAI;AACX,aAAK,EAAC;AACF,uBAAQ,EAAE;AACV,gBAAI,EAAC,EAAE,CAAC,WAAW;SACtB;KACJ;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,QAAQ,GAAG,IAAI,CAAC,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,CAAC;AACpD,YAAI,CAAC,QAAQ,CAAC,MAAM,EAAE,CAAC;AACvB,YAAI,CAAC,GAAG,GAAG,IAAI,CAAC,GAAG,CAAC,YAAY,CAAC,EAAE,CAAC,MAAM,CAAC,CAAC;KAC/C;;AAED,mBAAe,EAAC,2BAAW;AACvB,YAAI,CAAC,GAAG,CAAC,WAAW,GAAG,IAAI,CAAC,KAAK,CAAC,EAAE,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;;KAEjD;;CAOJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        // foo: {\r\n        //    default: null,      // The default value will be used only when the component attaching\r\n        //                           to a node for the first time\r\n        //    url: cc.Texture2D,  // optional, default is typeof default\r\n        //    serializable: true, // optional, default is true\r\n        //    visible: true,      // optional, default is true\r\n        //    displayName: 'Foo', // optional\r\n        //    readonly: false,    // optional, default is false\r\n        // },\r\n        // ...\r\n        pai:cc.Node,\r\n        mapai:{\r\n            default:[],\r\n            type:cc.SpriteFrame,\r\n        },\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.selectMa = this.node.getComponent(\"select_ma\");\r\n        this.selectMa.onLoad();\r\n        this.com = this.pai.getComponent(cc.Sprite);\r\n    },\r\n    \r\n    clickBtnComfirm:function() {\r\n        this.com.spriteFrame = this.mapai[cc.from.ma];\r\n        //console.log(this.com.spriteFrame);\r\n    },\r\n    \r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_zhushou",
+    "texture": "7366d43d-877c-485c-9eff-bb534b1fc1e2",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      80,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      86,
+      87
+    ]
+  }
+}

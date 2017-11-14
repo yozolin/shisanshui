@@ -1,0 +1,26 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
+    "upsideDown": true
+  },
+  "packageName": "com.gongpa.ssz",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "36865db3-988f-4913-9d4e-89f0441e625c",
+  "title": "SSZ",
+  "webOrientation": "portrait",
+  "includeSDKBox": false,
+  "jailbreakPlatform": false,
+  "inlineSpriteFrames_native": true,
+  "optimizeHotUpdate": false,
+  "md5Cache": false
+}

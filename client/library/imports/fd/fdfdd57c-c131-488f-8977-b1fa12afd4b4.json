@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_wanfajieshao",
+    "texture": "44744bf9-70ea-4664-b72f-2fe5c907d95e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      118,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      118,
+      28
+    ]
+  }
+}

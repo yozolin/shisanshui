@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,qBAAa,EAAG,CAAC;AACjB,oBAAY,EAAG,EAAE,CAAC,IAAI;KACzB;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,QAAQ,GAAG,IAAI,CAAC;AACrB,YAAI,CAAC,aAAa,GAAG,CAAC,CAAC;AACvB,YAAI,CAAC,YAAY,CAAC,MAAM,GAAG,IAAI,CAAC;KACnC;AACD,eAAW,EAAC,qBAAS,CAAC,EAAC,IAAI,EAAE;AACzB,YAAI,CAAC,QAAQ,GAAG,CAAC,IAAI,CAAC,QAAQ,CAAC;AAC/B,YAAI,CAAC,YAAY,CAAC,MAAM,GAAG,IAAI,CAAC,QAAQ,CAAC;AACzC,YAAI,CAAC,aAAa,GAAG,IAAI,CAAC,QAAQ,GAAC,CAAC,GAAC,IAAI,CAAC;KAC7C;;;;;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        selectedIndex : 0,\r\n        selectedNode : cc.Node  \r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n        this.selected = true;\r\n        this.selectedIndex = 0;\r\n        this.selectedNode.active = true;\r\n    },\r\n    clickAction:function(e,data) {\r\n        this.selected = !this.selected;\r\n        this.selectedNode.active = this.selected;\r\n        this.selectedIndex = this.selected?0:null;\r\n    }\r\n\r\n    // called every frame, uncomment this function to activate update callback\r\n    // update: function (dt) {\r\n\r\n    // },\r\n});\r\n"
+  ]
+}

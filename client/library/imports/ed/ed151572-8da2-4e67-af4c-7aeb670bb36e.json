@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_fenxiangdaoweixin",
+    "texture": "2e82d2f5-fb00-43a7-b30a-fba6553f585a",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      204,
+      50
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      205,
+      51
+    ]
+  }
+}

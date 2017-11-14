@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_ok",
+    "texture": "165b838b-8897-4d1e-bccf-d4442ddafd33",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      269,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      269,
+      102
+    ]
+  }
+}

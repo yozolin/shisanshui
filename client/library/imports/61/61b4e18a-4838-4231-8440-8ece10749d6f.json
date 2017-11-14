@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "poker_ready_tip",
+    "texture": "1ddec7a8-e5c0-42fc-9bb9-465eb87b632e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      481,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      481,
+      32
+    ]
+  }
+}

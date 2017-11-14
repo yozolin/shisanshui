@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "all_effect_ttw_main",
+    "texture": "d672aa65-9870-4c7f-aab4-07bfc5622e00",
+    "atlas": "",
+    "rect": [
+      0,
+      19,
+      2044,
+      590
+    ],
+    "offset": [
+      -2,
+      198
+    ],
+    "originalSize": [
+      2048,
+      1024
+    ]
+  }
+}

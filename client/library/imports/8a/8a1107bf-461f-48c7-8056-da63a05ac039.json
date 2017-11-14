@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_biaoqing liang",
+    "texture": "6af6bd84-c11d-4742-9852-f7a4742cc414",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      59,
+      169
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      59,
+      169
+    ]
+  }
+}

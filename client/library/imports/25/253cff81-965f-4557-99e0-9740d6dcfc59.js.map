@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,aAAa,GAAG,OAAO,CAAC,eAAe,CAAC,CAAC;AAC/C,IAAM,MAAM,GAAG,OAAO,CAAC,QAAQ,CAAC,CAAC;AACjC,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,eAAO,EAAG,CAAC;KACd;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;AACD,cAAU,EAAC,oBAAS,KAAK,EAAC,GAAG,EAAC;AAC1B,YAAI,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;AACzB,cAAM,CAAC,SAAS,CAAC,GAAG,EAAC,IAAI,CAAC,OAAO,CAAC,CAAC;KACtC;;CAEJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const KQGlobalEvent = require('KQGlobalEvent');\r\nconst Socket = require('socket');\r\ncc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        _userid : 0,\r\n    },\r\n\r\n    // use this for initialization\r\n    onLoad: function () {\r\n\r\n    },\r\n    clickBeiLv:function(event,num){\r\n        this.node.active = false;\r\n        Socket.sendBeiLv(num,this._userid);\r\n    },\r\n   \r\n});\r\n"
+  ]
+}

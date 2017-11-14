@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<head id="Head1">
+<title>江华十三张</title>
+	
+<link rel="shortcut icon" href="favicon.ico" />
+    <script src="Scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+    <style type="text/css">
+       
+       body,div,img{ margin:0; padding:0; }
+      
+    *{margin:0; padding:0;}
+    img{max-width: 100%; height: auto;}
+    
+    </style>
+
+    <script type="text/javascript">
+
+        function dow_android() {
+
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") { 
+                window.location.href = 'https://fir.im/rzma';
+            //    $("#tipDiv").css("display", "block"); 
+             //   return;
+
+            } else {
+                $("#tipDiv").css("display", "none");
+				window.location.href = 'https://fir.im/rzma';
+            }
+        }
+
+        function dow_ios() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") { 
+                  window.location.href = 'https://fir.im/wxl3';
+            //    $("#tipDiv").css("display", "block"); 
+             //   return;
+
+            } else {
+                $("#tipDiv").css("display", "none");
+				window.location.href = 'https://fir.im/wxl3';
+            }
+		}
+
+    </script>
+
+</head>
+<body>
+<div class="test">
+        <a href="http://mp.weixin.qq.com/mp/redirect?url=http://mobile.xinlianwang.com/android/distributor/DistributorApp.apk#weixin.qq.com#wechat_redirect "></a>
+    </div>
+    <script type="text/javascript">
+        function is_weixin() {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        var isWeixin = is_weixin();
+        var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+        function loadHtml(){
+            var div = document.createElement('div');
+            div.id = 'weixin-tip';
+            div.innerHTML = '<p><img src="Picture/wx.jpg" style="width:100%;height:100%;"; alt="微信打开"/></p>';
+            document.body.appendChild(div);
+        }
+        
+        function loadStyleText(cssText) {
+            var style = document.createElement('style');
+            style.rel = 'stylesheet';
+            style.type = 'text/css';
+            try {
+                style.appendChild(document.createTextNode(cssText));
+            } catch (e) {
+                style.styleSheet.cssText = cssText; //ie9以下
+            }
+            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            head.appendChild(style); 
+        }
+        var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
+        if(isWeixin){
+            loadHtml();
+            loadStyleText(cssText);
+        }
+    </script>
+    <form method="post" action="./Download?winzoom=1" id="frmUserPerfect">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0MDkxNzYwNDNkZKv8hJ8ZyomrSuBMg8rxDZTdQuDmWMyWVT6ymJyc+p82" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AB0D55CA" />
+</div>
+    <div style=" width:100%; height:auto;">
+        <div style=" width:100%; position:absolute;">
+
+          <img src="Picture/img.jpg"  style=" width:100%;"/>
+          <div style="width: 52%; position: absolute; top: 38%; left: 47%;">
+                <!-- 安卓 -->
+                <a href="https://dafuvip.com/IbUbaq"><img id="imgand" src="Picture/android.png" style="width: 100%;"/></a>
+          </div>
+          <div style="width: 52%; position: absolute; top: 48%; left: 47%;">
+                <!-- ios -->
+                <a href="https://dafuvip.com/I73I7j"><img id="imgios" src="Picture/ios.png"  style="width: 100%;" /></a>
+          </div>
+          <div id="tipDiv" style="z-index: 1000; position: absolute; top: 0; width: 100%; height:100%; display:none;">
+                <img src="Picture/alter.png" style="width: 100%; height:100%;  " />
+          </div>    
+
+        </div>
+            
+    </div>
+    <!--<div class="img">
+    <img src="http://xyqp.tech.img.800cdn.com/Picture/1.png" width="100%" height="100%"  alt=""> 
+</div>-->
+    </form>
+
+
+
+</body>
+
+</html>
+

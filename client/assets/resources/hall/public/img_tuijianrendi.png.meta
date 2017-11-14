@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "bc568c7f-ddc3-4dc8-9251-4b76a43c5b5e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "img_tuijianrendi": {
+      "ver": "1.0.3",
+      "uuid": "b7b678cb-1343-41c9-9413-7c0607036956",
+      "rawTextureUuid": "bc568c7f-ddc3-4dc8-9251-4b76a43c5b5e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 349,
+      "height": 52,
+      "rawWidth": 349,
+      "rawHeight": 52,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

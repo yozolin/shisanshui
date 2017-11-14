@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loading_circle",
+    "texture": "d9e4715b-b7e0-42cf-b78c-af52605894f9",
+    "atlas": "",
+    "rect": [
+      6,
+      7,
+      110,
+      110
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      122,
+      122
+    ]
+  }
+}

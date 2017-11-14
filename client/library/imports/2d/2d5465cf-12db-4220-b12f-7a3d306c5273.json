@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_queding",
+    "texture": "895f459b-880f-440b-882b-cbfe98605cbd",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      89,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      89,
+      38
+    ]
+  }
+}

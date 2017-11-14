@@ -1,0 +1,21 @@
+{
+  "androidStudio": false,
+  "apiLevel": "android-19",
+  "appABIs": [
+    "armeabi-v7a"
+  ],
+  "buildPath": "./build",
+  "debug": false,
+  "keystoreAlias": "android.keystore",
+  "keystoreAliasPassword": "honggefeng8899",
+  "keystorePassword": "honggefeng8899",
+  "keystorePath": "D:\\dazhong\\client\\android.keystore",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": false,
+  "vsVersion": "auto",
+  "includeEruda": false
+}

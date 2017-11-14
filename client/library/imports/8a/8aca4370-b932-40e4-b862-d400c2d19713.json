@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_xinwen",
+    "texture": "cbe1ba67-ae63-4467-aee7-d2ee385fbacc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      65,
+      27
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      66,
+      27
+    ]
+  }
+}

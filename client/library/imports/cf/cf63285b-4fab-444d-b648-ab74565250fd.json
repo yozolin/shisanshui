@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_paijutongji",
+    "texture": "773938f1-3d8f-4339-a2d2-edad8fa291a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      37
+    ]
+  }
+}

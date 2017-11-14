@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "txt_xitongtishi",
+    "texture": "6c1cb3d7-791c-4056-8d43-116b70b194c1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      119,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      119,
+      26
+    ]
+  }
+}

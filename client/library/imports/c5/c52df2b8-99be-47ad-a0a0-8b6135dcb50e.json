@@ -1,0 +1,79 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rollAnim3",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "scaleX": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 1
+        },
+        {
+          "frame": 2,
+          "value": 0
+        },
+        {
+          "frame": 3,
+          "value": 0
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 1
+        },
+        {
+          "frame": 2,
+          "value": 0
+        },
+        {
+          "frame": 3,
+          "value": 0
+        }
+      ],
+      "x": [
+        {
+          "frame": 1,
+          "value": -47.7
+        },
+        {
+          "frame": 2,
+          "value": 80
+        },
+        {
+          "frame": 3,
+          "value": 80
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 1,
+          "value": 0
+        },
+        {
+          "frame": 2,
+          "value": 360
+        },
+        {
+          "frame": 3,
+          "value": 360
+        }
+      ]
+    }
+  },
+  "events": []
+}

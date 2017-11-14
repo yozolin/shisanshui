@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEA,IAAI,kBAAkB,GAAG,SAArB,kBAAkB,CAAa,KAAK,EAAE;AACxC,MAAI,CAAC,WAAW,GAAG,EAAE,CAAC;;AAEtB,OAAK,CAAC,OAAO,CAAC,CAAA,UAAU,IAAI,EAAE;AAC5B,QAAI,KAAK,GAAG,IAAI,CAAC,KAAK,CAAC;AACvB,QAAI,MAAM,GAAG,IAAI,CAAC,WAAW,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;AAC1C,QAAI,CAAC,WAAW,CAAC,KAAK,CAAC,GAAG,MAAM,GAAG,CAAC,CAAC;GACtC,CAAA,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;CACf,CAAC;;;AAGF,kBAAkB,CAAC,SAAS,CAAC,SAAS,GAAG,YAAY;AACnD,MAAI,MAAM,GAAG,CAAC,CAAC;AACf,OAAK,IAAI,IAAI,IAAI,IAAI,CAAC,WAAW,EAAE;AACjC,QAAI,MAAM,GAAG,IAAI,CAAC,WAAW,CAAC,IAAI,CAAC,CAAC;AACpC,UAAM,GAAG,IAAI,CAAC,GAAG,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;GACnC;;AAED,SAAO,MAAM,CAAC;CACf,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,kBAAkB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "// 牌花色帮助类\n// 用于计算一个牌数组的花色相同的牌的张数\nvar KQCardColorsHelper = function (cards) {\n  this.colorNumber = {};\n\n  cards.forEach(function (card) {\n    let color = card.color;\n    var number = this.colorNumber[color] || 0;\n    this.colorNumber[color] = number + 1;\n  }.bind(this));\n};\n\n// 相同花色的牌的最大数量\nKQCardColorsHelper.prototype.maxNumber = function () {\n  var result = 0;\n  for (let prop in this.colorNumber) {\n    let number = this.colorNumber[prop];\n    result = Math.max(number, result);\n  }\n\n  return result;\n};\n\nmodule.exports = KQCardColorsHelper;\n"
+  ]
+}

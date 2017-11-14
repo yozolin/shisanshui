@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game_right_specia15",
+    "texture": "dff09c23-a638-41a8-b620-4213dbc5fdba",
+    "atlas": "3f188cd0-553f-42db-8b62-8366dae270f1",
+    "rect": [
+      1466,
+      86,
+      240,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      240,
+      76
+    ]
+  }
+}

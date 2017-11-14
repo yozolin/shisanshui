@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAGA,IAAI,CAAC,MAAM,CAAC,SAAS,CAAC,QAAQ,EAAE;;;;;;;;AAQ5B,UAAM,CAAC,SAAS,CAAC,QAAQ,GAAG,UAAS,CAAC,EAAE,OAAO,EAAE;AAC7C,YAAI,CAAC,CAAC,EAAE;AACJ,mBAAO;SACV;;AAED,aAAK,IAAI,CAAC,GAAG,CAAC,EAAE,CAAC,GAAG,IAAI,EAAE,EAAE,CAAC,EAAE;AAC3B,gBAAI,OAAO,EAAE;AACT,iBAAC,CAAC,KAAK,CAAC,OAAO,EAAE,CAAC,CAAC,CAAC;aACvB,MAAM;AACH,iBAAC,CAAC,CAAC,CAAC,CAAC;aACR;SACJ;KACJ,CAAC;CACL",
+  "file": "unknown",
+  "sourcesContent": [
+    "// number.kq_times(f)   调用多次\n\n\nif (!Number.prototype.kq_times) {\n    \n    /**\n     * 调用一个方法 this 次\n     * \n     * @param  {Function} f 要调用的方法\n     * @param  {Object}   thisArg   可选； f 的 this值\n     */\n    Number.prototype.kq_times = function(f, thisArg) {\n        if (!f) {\n            return;\n        }\n\n        for (var i = 0; i < this; ++i) {\n            if (thisArg) {\n                f.apply(thisArg, i);\n            } else {\n                f(i);\n            }\n        }\n    };\n}\n"
+  ]
+}

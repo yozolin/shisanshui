@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_zuokouhao",
+    "texture": "51c0040a-b12d-4462-9ee3-2773269f04c3",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      14,
+      30
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      16,
+      33
+    ]
+  }
+}

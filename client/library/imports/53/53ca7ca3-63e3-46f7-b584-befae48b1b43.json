@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "zi_quanleida",
+    "texture": "2036e303-0f26-4af7-b2f0-602e8da54ba1",
+    "atlas": "fb264c5e-2913-41bc-a7ee-7a011023c17d",
+    "rect": [
+      64,
+      0,
+      262,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      262,
+      90
+    ]
+  }
+}

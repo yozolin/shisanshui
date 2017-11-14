@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "useCard",
+    "texture": "37fc4564-79a9-4b99-b57b-0ea33a75db10",
+    "atlas": "b8017101-3f2d-4481-b1c8-6f134094110c",
+    "rect": [
+      61,
+      809,
+      45,
+      24
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      45,
+      24
+    ]
+  }
+}

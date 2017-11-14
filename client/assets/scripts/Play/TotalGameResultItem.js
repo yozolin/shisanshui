@@ -1,0 +1,38 @@
+const SpriteHelper = require('SpriteHelper');
+cc.Class({
+    extends: cc.Component,
+
+    properties: {
+        avatarSprite: cc.Sprite,
+        labelUserId: cc.Label,
+        labelScore: cc.Label,
+        labelNickname: cc.Label,
+
+        _deskInfo: null,
+    },
+
+    // use this for initialization
+    onLoad: function () {
+
+    },
+
+    setUserInfo: function (user, deskInfo) {
+      if (!user) {
+        return;
+      }
+
+      var totalScore = user.totalScore;
+      if (deskInfo && ((deskInfo.setting1 == 0) || (deskInfo.setting1 == 1))) {
+        let baseScore = (deskInfo.setting1 == 0) ? 100 : 200;
+        totalScore = totalScore - baseScore;
+      }
+
+      SpriteHelper.setImageUrl(this.avatarSprite, user.avatarUrl);
+      this.labelUserId.string = "" + user.id;
+      this.labelScore.string = (totalScore > 0) ? ("+ " + totalScore) : ("- " + totalScore * -1);
+      if (totalScore == 0) {
+        this.labelScore.string = "0";
+      }
+      this.labelNickname.string = user.nickname;
+    },
+});

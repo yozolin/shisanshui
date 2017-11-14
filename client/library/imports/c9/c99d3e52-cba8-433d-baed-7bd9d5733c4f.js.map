@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAI,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACjC,IAAM,cAAc,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;;AAEjD,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;;;;;;;;;;KAWX;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;AAED,cAAU,EAAC,sBAAW;AAClB,UAAE,CAAC,QAAQ,CAAC,GAAG,EAAE,CAAC;AAClB,YAAI,cAAc,CAAC,WAAW,EAAE,EAAE;AAC9B,eAAG,CAAC,UAAU,CAAC,gBAAgB,CAAC,cAAc,CAAC,YAAY,EAAC,SAAS,CAAC,CAAC;SAC1E,MACI;;AACD,eAAG,CAAC,UAAU,CAAC,gBAAgB,CAAC,cAAc,CAAC,gBAAgB,EAAE,SAAS,EAAE,KAAK,CAAC,CAAC;SACtF;KACJ;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "var manager = require('manager');\nconst KQNativeInvoke = require('KQNativeInvoke');\n\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        // foo: {\n        //    default: null,      // The default value will be used only when the component attaching\n        //                           to a node for the first time\n        //    url: cc.Texture2D,  // optional, default is typeof default\n        //    serializable: true, // optional, default is true\n        //    visible: true,      // optional, default is true\n        //    displayName: 'Foo', // optional\n        //    readonly: false,    // optional, default is false\n        // },\n        // ...\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    exitAction:function() {\n        cc.director.end();\n        if (KQNativeInvoke.isNativeIOS()) {\n            jsb.reflection.callStaticMethod(KQNativeInvoke.IOSClassName,\"exitApp\");\n        }\n        else {//Android\n            jsb.reflection.callStaticMethod(KQNativeInvoke.ANDRIODClassName, \"exitApp\", \"()V\");\n        }\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

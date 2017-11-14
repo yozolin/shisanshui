@@ -1,0 +1,1 @@
+[{"__type__":"cc.SpriteFrame","content":{"name":"wait_bg","texture":"fc4ff4bd-a9f9-4d5c-86f5-9ea9b7bae173","rect":[0,0,612,373],"offset":[0,0],"originalSize":[612,373],"capInsets":[164,110,252,126]}},{"__type__":"cc.SpriteFrame","content":{"name":"rand_logo","texture":"f9eb30b4-ecb1-4c80-a608-227d72a6e98d","rect":[0,0,95,98],"offset":[0,0],"originalSize":[95,98]}}]

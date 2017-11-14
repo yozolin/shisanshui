@@ -1,0 +1,2 @@
+
+可通过菜单[phpStudy设置] - [安装 php pear] 进行安装。

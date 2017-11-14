@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,eAAO,EAAC,EAAE,CAAC,IAAI;KAClB;;AAED,UAAM,EAAE,kBAAY;AAChB,YAAI,WAAW,GAAG,EAAE,CAAC,QAAQ,CAAC,cAAc,EAAE,CAAC;AAC/C,YAAI,WAAW,GAAG,EAAE,CAAC;AACrB,mBAAW,CAAC,KAAK,GAAG,IAAI,CAAC,IAAI,CAAC,KAAK,CAAC;AACpC,mBAAW,CAAC,MAAM,GAAG,IAAI,CAAC,IAAI,CAAC,MAAM,CAAC;AACtC,YAAI,MAAM,GAAG,WAAW,CAAC,KAAK,GAAC,WAAW,CAAC,KAAK,CAAC;AACjD,YAAI,MAAM,GAAG,WAAW,CAAC,MAAM,GAAC,WAAW,CAAC,MAAM,CAAC;AACnD,YAAI,KAAK,GAAG,IAAI,CAAC,GAAG,CAAC,MAAM,EAAC,MAAM,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC,CAAC;AAC/C,YAAI,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;AACzB,YAAI,CAAC,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC;KAC5B;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n    properties: {\r\n        content:cc.Node\r\n    },\r\n\r\n    onLoad: function () {\r\n        var visibleSize = cc.director.getVisibleSize();\r\n        var contentSize = {};\r\n        contentSize.width = this.node.width;\r\n        contentSize.height = this.node.height;\r\n        var scaleX = visibleSize.width/contentSize.width;\r\n        var scaleY = visibleSize.height/contentSize.height;\r\n        var scale = Math.min(scaleX,scaleY).toFixed(2);\r\n        this.node.scaleX = scale;\r\n        this.node.scaleY = scale;\r\n    }\r\n});\r\n"
+  ]
+}

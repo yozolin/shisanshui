@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "flash_anim2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.5166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 1.5,
+          "value": 0
+        },
+        {
+          "frame": 2.5166666666666666,
+          "value": 90
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 0
+        },
+        {
+          "frame": 2,
+          "value": 1
+        },
+        {
+          "frame": 2.5166666666666666,
+          "value": 0
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 1.5,
+          "value": 0
+        },
+        {
+          "frame": 2,
+          "value": 1
+        },
+        {
+          "frame": 2.5166666666666666,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

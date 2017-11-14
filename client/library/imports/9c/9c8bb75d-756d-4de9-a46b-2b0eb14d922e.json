@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_zongfen",
+    "texture": "a64d19e0-ed1d-4a7c-94c1-1cfaf5af7246",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      80,
+      81
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      86,
+      87
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,MAAM,GAAG,OAAO,CAAC,QAAQ,CAAC,CAAC;AACjC,IAAM,aAAa,GAAG,OAAO,CAAC,eAAe,CAAC,CAAC;AAC/C,IAAM,cAAc,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;;AAEjD,IAAI,yBAAyB,GAAG;AAC5B,SAAK,EAAE,iBAAW;AACd,YAAI,IAAI,CAAC,SAAS,EAAE;AAChB,mBAAO;SACV;AACD,YAAI,CAAC,SAAS,GAAG,IAAI,CAAC;;AAEtB,qBAAa,CAAC,EAAE,CAAC,MAAM,CAAC,KAAK,CAAC,gBAAgB,EAAE,IAAI,CAAC,aAAa,EAAE,IAAI,CAAC,CAAC;KAC7E;;AAED,iBAAa,EAAE,uBAAS,QAAQ,EAAE;AAC9B,sBAAc,CAAC,YAAY,EAAE,CAAC;KACjC;CACJ,CAAC;;AAEF,MAAM,CAAC,OAAO,GAAG,yBAAyB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const Socket = require('socket');\nconst KQGlobalEvent = require('KQGlobalEvent');\nconst KQNativeInvoke = require('KQNativeInvoke');\n\nlet KQGlabolSocketEventHander = {\n    start: function() {\n        if (this._didStart) {\n            return;\n        }\n        this._didStart = true;\n\n        KQGlobalEvent.on(Socket.Event.ReceiveForceExit, this._forceExitApp, this);\n    },\n\n    _forceExitApp: function(response) {\n        KQNativeInvoke.forceExitApp();\n    },\n};\n\nmodule.exports = KQGlabolSocketEventHander;"
+  ]
+}

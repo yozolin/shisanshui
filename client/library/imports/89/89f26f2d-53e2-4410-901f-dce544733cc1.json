@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_yuyin",
+    "texture": "8f53d9d9-bd21-43e8-ad97-33c203da8c61",
+    "atlas": "",
+    "rect": [
+      4,
+      4,
+      232,
+      64
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      239,
+      72
+    ]
+  }
+}
