@@ -1,0 +1,1 @@
+call node.exe start.js
